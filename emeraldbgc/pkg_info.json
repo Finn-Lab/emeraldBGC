@@ -1,0 +1,9 @@
+{
+    "name": "emeraldbgc",
+    "version": "0.9.0",
+    "description": "SMBGC detection tool",
+    "author": "Santiago Sanchez Fragoso",
+    "author_email": "fragoso@ebi.ac.uk",
+    "url": "https://gitlab.ebi.ac.uk/fragoso/emerald",
+    "license": "Apache License, Version 2.0"
+}

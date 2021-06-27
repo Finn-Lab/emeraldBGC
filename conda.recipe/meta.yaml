@@ -1,0 +1,57 @@
+{% set data = load_setup_py_data() %}
+
+package:
+  
+  name: emeraldbgc
+  version: {{ data['version'] }}
+
+source:
+  #git_url: https://gitlab.ebi.ac.uk/fragoso/emeraldbgc.git
+  path: ..
+
+build:
+    #script: {{ PYTHON }} -m pip install --no-deps --ignore-installed -vv . 
+  noarch: python
+
+  entry_points:
+    {% for entry in data['entry_points']['console_scripts'] %}
+      - {{ entry.split('=')[0].strip() }} = {{ entry.split('=')[1].strip() }}
+    {% endfor %}
+requirements:
+  build:
+    - python >=3.7
+    - requests
+  host:
+    - python >=3.7
+    - perl >=5
+      #    - numpy >=1.8
+      #    - openjdk >=11.0
+      #    - tensorflow >=2.4.1
+      #    - hmmer
+      #    - joblib >=1.0.1
+      #    - scikit-learn >=0.24.1
+      #    - pip
+  run:
+    - python >=3.7
+    - perl >=5
+    - numpy >=1.8
+    - openjdk >=11.0
+    - tensorflow =2.4
+    - hmmer
+    - joblib >=1.0.1
+    - scikit-learn >=0.24.1
+
+test:
+  #source_files:
+    #  - tests/files/DS.fna
+  commands:
+    - echo $PWD >> ~/res.txt
+      #- ls >> ~/res.txt
+      #- cat DS.fna >> ~/res.txt
+      #    - emeraldbgc -h
+
+about:
+  home: data['url']
+  summary: data['description']
+  license: {{ data.get('license') }}
+  license_file: LICENSE

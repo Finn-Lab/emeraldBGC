@@ -1,0 +1,656 @@
+DS999642_18	04fac36ed5e6bb4e17c1244f46ad571b	473	Gene3D	G3DSA:3.20.20.140	-	64	382	1.3E-122	T	29-03-2021	-	-
+DS999642_18	04fac36ed5e6bb4e17c1244f46ad571b	473	TIGRFAM	TIGR00857	pyrC_multi: dihydroorotase, multifunctional complex type	30	441	3.3E-85	T	29-03-2021	-	-
+DS999642_18	04fac36ed5e6bb4e17c1244f46ad571b	473	ProSitePatterns	PS00483	Dihydroorotase signature 2.	316	327	-	T	29-03-2021	IPR002195	Dihydroorotase, conserved site
+DS999642_18	04fac36ed5e6bb4e17c1244f46ad571b	473	ProSitePatterns	PS00482	Dihydroorotase signature 1.	67	75	-	T	29-03-2021	IPR002195	Dihydroorotase, conserved site
+DS999642_18	04fac36ed5e6bb4e17c1244f46ad571b	473	Pfam	PF01979	Amidohydrolase family	60	440	1.0E-28	T	29-03-2021	IPR006680	Amidohydrolase-related
+DS999642_18	04fac36ed5e6bb4e17c1244f46ad571b	473	Gene3D	G3DSA:2.30.40.10	Urease	14	444	1.3E-122	T	29-03-2021	IPR011059	Metal-dependent hydrolase, composite domain superfamily
+DS999642_182	0b7ee47ffe8b58a8a90b3d61f198c3f0	317	Gene3D	G3DSA:1.10.10.10	""winged helix"" repressor DNA binding domain	1	100	3.3E-27	T	29-03-2021	IPR036388	Winged helix-like DNA-binding domain superfamily
+DS999642_182	0b7ee47ffe8b58a8a90b3d61f198c3f0	317	Gene3D	G3DSA:1.25.40.10	-	103	269	2.9E-48	T	29-03-2021	IPR011990	Tetratricopeptide-like helical domain superfamily
+DS999642_182	0b7ee47ffe8b58a8a90b3d61f198c3f0	317	Pfam	PF03704	Bacterial transcriptional activator domain	105	248	4.1E-46	T	29-03-2021	IPR005158	Bacterial transcriptional activator domain
+DS999642_182	0b7ee47ffe8b58a8a90b3d61f198c3f0	317	Pfam	PF00486	Transcriptional regulatory protein, C terminal	26	98	8.4E-11	T	29-03-2021	IPR001867	OmpR/PhoB-type DNA-binding domain
+DS999642_19	28d3d16350dc6d87fcdb9616e268471d	609	Pfam	PF01494	FAD binding domain	6	343	3.6E-24	T	29-03-2021	IPR002938	FAD-binding domain
+DS999642_19	28d3d16350dc6d87fcdb9616e268471d	609	Gene3D	G3DSA:3.50.50.60	-	8	347	3.7E-84	T	29-03-2021	IPR036188	FAD/NAD(P)-binding domain superfamily
+DS999642_19	28d3d16350dc6d87fcdb9616e268471d	609	Pfam	PF03358	NADPH-dependent FMN reductase	420	560	8.6E-26	T	29-03-2021	IPR005025	NADPH-dependent FMN reductase-like
+DS999642_19	28d3d16350dc6d87fcdb9616e268471d	609	PRINTS	PR00420	Aromatic-ring hydroxylase (flavoprotein monooxygenase) signature	154	169	2.6E-20	T	29-03-2021	-	-
+DS999642_19	28d3d16350dc6d87fcdb9616e268471d	609	PRINTS	PR00420	Aromatic-ring hydroxylase (flavoprotein monooxygenase) signature	283	298	2.6E-20	T	29-03-2021	-	-
+DS999642_19	28d3d16350dc6d87fcdb9616e268471d	609	PRINTS	PR00420	Aromatic-ring hydroxylase (flavoprotein monooxygenase) signature	298	314	2.6E-20	T	29-03-2021	-	-
+DS999642_19	28d3d16350dc6d87fcdb9616e268471d	609	PRINTS	PR00420	Aromatic-ring hydroxylase (flavoprotein monooxygenase) signature	6	28	2.6E-20	T	29-03-2021	-	-
+DS999642_19	28d3d16350dc6d87fcdb9616e268471d	609	Gene3D	G3DSA:3.30.9.30	-	39	275	3.7E-84	T	29-03-2021	-	-
+DS999642_19	28d3d16350dc6d87fcdb9616e268471d	609	Gene3D	G3DSA:3.40.50.360	-	394	605	5.5E-43	T	29-03-2021	IPR029039	Flavoprotein-like superfamily
+DS999642_166	34db7e6cd9ba8f0bc1d286e08754866f	330	Gene3D	G3DSA:1.10.620.20	Ribonucleotide Reductase	73	281	4.6E-19	T	29-03-2021	IPR012348	Ribonucleotide reductase-like
+DS999642_151	f41ed1163d78749b377595463c7e3970	325	Gene3D	G3DSA:3.40.50.970	-	2	195	2.3E-78	T	29-03-2021	-	-
+DS999642_151	f41ed1163d78749b377595463c7e3970	325	Pfam	PF02779	Transketolase, pyrimidine binding domain	4	178	1.1E-47	T	29-03-2021	IPR005475	Transketolase-like, pyrimidine-binding domain
+DS999642_151	f41ed1163d78749b377595463c7e3970	325	Gene3D	G3DSA:3.40.50.920	-	196	324	8.2E-44	T	29-03-2021	IPR009014	Transketolase C-terminal/Pyruvate-ferredoxin oxidoreductase domain II
+DS999642_151	f41ed1163d78749b377595463c7e3970	325	Pfam	PF02780	Transketolase, C-terminal domain	195	315	1.2E-36	T	29-03-2021	IPR033248	Transketolase, C-terminal domain
+DS999642_22	155b2c84829bfb9f183997e276d1851d	416	Pfam	PF13535	ATP-grasp domain	150	289	9.6E-18	T	29-03-2021	-	-
+DS999642_22	155b2c84829bfb9f183997e276d1851d	416	Pfam	PF18603	L-amino acid ligase C-terminal domain 2	329	403	4.1E-19	T	29-03-2021	IPR040570	L-amino acid ligase, C-terminal domain 2
+DS999642_22	155b2c84829bfb9f183997e276d1851d	416	Gene3D	G3DSA:3.30.470.20	-	106	413	1.4E-76	T	29-03-2021	-	-
+DS999642_155	496b0da155c64c30b0619144826942a2	467	Pfam	PF00083	Sugar (and other) transporter	68	459	2.3E-39	T	29-03-2021	IPR005828	Major facilitator,  sugar transporter-like
+DS999642_155	496b0da155c64c30b0619144826942a2	467	Gene3D	G3DSA:1.20.1250.20	MFS general substrate transporter like domains	31	461	2.3E-78	T	29-03-2021	-	-
+DS999642_154	7705ee30de60e6e502806f826953a9fe	91	Pfam	PF00550	Phosphopantetheine attachment site	16	81	5.1E-12	T	29-03-2021	IPR009081	Phosphopantetheine binding ACP domain
+DS999642_154	7705ee30de60e6e502806f826953a9fe	91	Gene3D	G3DSA:1.10.1200.10	-	1	88	7.2E-18	T	29-03-2021	IPR036736	ACP-like superfamily
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	Pfam	PF00107	Zinc-binding dehydrogenase	592	713	1.5E-14	T	29-03-2021	IPR013149	Alcohol dehydrogenase, C-terminal
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	Pfam	PF00067	Cytochrome P450	209	376	1.1E-17	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	Gene3D	G3DSA:1.10.630.10	Cytochrome p450	3	408	1.7E-125	T	29-03-2021	IPR036396	Cytochrome P450 superfamily
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	Gene3D	G3DSA:3.40.50.720	-	565	698	1.9E-94	T	29-03-2021	-	-
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	Pfam	PF08240	Alcohol dehydrogenase GroES-like domain	436	546	8.6E-22	T	29-03-2021	IPR013154	Alcohol dehydrogenase, N-terminal
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	Gene3D	G3DSA:3.90.180.10	-	426	744	1.9E-94	T	29-03-2021	-	-
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	PRINTS	PR00359	B-class P450 signature	354	365	3.3E-28	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	PRINTS	PR00359	B-class P450 signature	277	288	3.3E-28	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	PRINTS	PR00359	B-class P450 signature	195	217	3.3E-28	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	PRINTS	PR00359	B-class P450 signature	345	354	3.3E-28	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	PRINTS	PR00359	B-class P450 signature	141	157	3.3E-28	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	PRINTS	PR00359	B-class P450 signature	295	322	3.3E-28	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	PRINTS	PR00359	B-class P450 signature	158	173	3.3E-28	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_31	958efbf52451a7307401e5cf8526fc9c	749	ProSitePatterns	PS00059	Zinc-containing alcohol dehydrogenases signature.	471	485	-	T	29-03-2021	IPR002328	Alcohol dehydrogenase, zinc-type, conserved site
+DS999642_114	5bcdcec60ac0e9e0929aae4d0f468230	221	Gene3D	G3DSA:1.20.120.450	dinb family like domain	7	74	7.1E-12	T	29-03-2021	IPR034660	DinB/YfiT-like putative metalloenzymes
+DS999642_114	5bcdcec60ac0e9e0929aae4d0f468230	221	Pfam	PF11716	Mycothiol maleylpyruvate isomerase N-terminal domain	21	62	3.5E-10	T	29-03-2021	IPR024344	Mycothiol-dependent maleylpyruvate isomerase, metal-binding domain
+DS999642_114	5bcdcec60ac0e9e0929aae4d0f468230	221	TIGRFAM	TIGR03083	TIGR03083: uncharacterized Actinobacterial protein TIGR03083	20	199	2.0E-31	T	29-03-2021	IPR017517	Conserved hypothetical protein CHP03083, actinobacterial-type
+DS999642_116	f513433f987979705f57141f280b1582	406	Gene3D	G3DSA:3.30.565.10	-	275	401	4.4E-27	T	29-03-2021	IPR036890	Histidine kinase/HSP90-like ATPase superfamily
+DS999642_116	f513433f987979705f57141f280b1582	406	Pfam	PF07730	Histidine kinase	194	258	2.9E-17	T	29-03-2021	IPR011712	Signal transduction histidine kinase, subgroup 3, dimerisation and phosphoacceptor domain
+DS999642_139	33629338d497b51935c808a71db638e3	192	Pfam	PF00440	Bacterial regulatory proteins, tetR family	18	64	4.7E-13	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_139	33629338d497b51935c808a71db638e3	192	Gene3D	G3DSA:1.10.357.10	Tetracycline Repressor	63	191	3.5E-26	T	29-03-2021	-	-
+DS999642_139	33629338d497b51935c808a71db638e3	192	Gene3D	G3DSA:1.10.10.60	-	11	62	6.3E-18	T	29-03-2021	-	-
+DS999642_139	33629338d497b51935c808a71db638e3	192	Pfam	PF13305	Tetracyclin repressor-like, C-terminal domain	90	188	3.9E-14	T	29-03-2021	IPR025996	Tetracyclin repressor-like, C-terminal domain (WHG)
+DS999642_109	90b0cc969acae799ec0fc77bee618424	249	Pfam	PF09339	IclR helix-turn-helix domain	8	56	3.7E-12	T	29-03-2021	IPR005471	Transcription regulator IclR, N-terminal
+DS999642_109	90b0cc969acae799ec0fc77bee618424	249	Pfam	PF01614	Bacterial transcriptional regulator	121	239	7.2E-27	T	29-03-2021	IPR014757	Transcription regulator IclR, C-terminal
+DS999642_109	90b0cc969acae799ec0fc77bee618424	249	Gene3D	G3DSA:3.30.450.40	-	79	249	5.2E-52	T	29-03-2021	IPR029016	GAF-like domain superfamily
+DS999642_109	90b0cc969acae799ec0fc77bee618424	249	Gene3D	G3DSA:1.10.10.10	""winged helix"" repressor DNA binding domain	2	71	1.3E-14	T	29-03-2021	IPR036388	Winged helix-like DNA-binding domain superfamily
+DS999642_161	c206de4e90404bf36197c6d2cc479e4d	535	Pfam	PF00171	Aldehyde dehydrogenase family	60	501	4.0E-60	T	29-03-2021	IPR015590	Aldehyde dehydrogenase domain
+DS999642_161	c206de4e90404bf36197c6d2cc479e4d	535	Gene3D	G3DSA:3.40.605.10	Aldehyde Dehydrogenase; Chain A	60	501	1.7E-76	T	29-03-2021	IPR016162	Aldehyde dehydrogenase, N-terminal
+DS999642_161	c206de4e90404bf36197c6d2cc479e4d	535	Gene3D	G3DSA:3.40.309.10	Aldehyde Dehydrogenase; Chain A	282	488	1.7E-76	T	29-03-2021	IPR016163	Aldehyde dehydrogenase, C-terminal
+DS999642_153	6080225b52d653fabdb509dc1146848b	176	Pfam	PF01613	Flavin reductase like domain	21	168	1.4E-35	T	29-03-2021	IPR002563	Flavin reductase like domain
+DS999642_153	6080225b52d653fabdb509dc1146848b	176	Gene3D	G3DSA:2.30.110.10	Electron Transport	2	171	2.4E-46	T	29-03-2021	IPR012349	FMN-binding split barrel
+DS999642_96	dcb460b31a1f3b62f0fa8ae03284f29e	248	Pfam	PF13649	Methyltransferase domain	41	134	3.6E-10	T	29-03-2021	IPR041698	Methyltransferase domain 25
+DS999642_96	dcb460b31a1f3b62f0fa8ae03284f29e	248	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	1	248	1.9E-97	T	29-03-2021	-	-
+DS999642_53	5ecbcc512d8fd4ed94e0324e0e5570a0	386	Pfam	PF06441	Epoxide hydrolase N terminus	1	107	2.6E-39	T	29-03-2021	IPR010497	Epoxide hydrolase, N-terminal
+DS999642_53	5ecbcc512d8fd4ed94e0324e0e5570a0	386	Gene3D	G3DSA:3.40.50.1820	-	1	386	1.3E-150	T	29-03-2021	IPR029058	Alpha/Beta hydrolase fold
+DS999642_53	5ecbcc512d8fd4ed94e0324e0e5570a0	386	PRINTS	PR00412	Epoxide hydrolase signature	127	142	8.6E-17	T	29-03-2021	IPR000639	Epoxide hydrolase-like
+DS999642_53	5ecbcc512d8fd4ed94e0324e0e5570a0	386	PRINTS	PR00412	Epoxide hydrolase signature	359	381	8.6E-17	T	29-03-2021	IPR000639	Epoxide hydrolase-like
+DS999642_53	5ecbcc512d8fd4ed94e0324e0e5570a0	386	PRINTS	PR00412	Epoxide hydrolase signature	172	185	8.6E-17	T	29-03-2021	IPR000639	Epoxide hydrolase-like
+DS999642_53	5ecbcc512d8fd4ed94e0324e0e5570a0	386	PRINTS	PR00412	Epoxide hydrolase signature	186	199	8.6E-17	T	29-03-2021	IPR000639	Epoxide hydrolase-like
+DS999642_53	5ecbcc512d8fd4ed94e0324e0e5570a0	386	PRINTS	PR00412	Epoxide hydrolase signature	98	116	8.6E-17	T	29-03-2021	IPR000639	Epoxide hydrolase-like
+DS999642_53	5ecbcc512d8fd4ed94e0324e0e5570a0	386	PRINTS	PR00412	Epoxide hydrolase signature	327	343	8.6E-17	T	29-03-2021	IPR000639	Epoxide hydrolase-like
+DS999642_54	7d6fdc654c26fd6886255a0e1c7a1b56	463	Pfam	PF00890	FAD binding domain	103	198	7.1E-5	T	29-03-2021	IPR003953	FAD-dependent oxidoreductase 2, FAD binding domain
+DS999642_54	7d6fdc654c26fd6886255a0e1c7a1b56	463	Gene3D	G3DSA:3.50.50.60	-	7	385	1.0E-20	T	29-03-2021	IPR036188	FAD/NAD(P)-binding domain superfamily
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	Pfam	PF00067	Cytochrome P450	75	382	7.4E-32	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	Gene3D	G3DSA:1.10.630.10	Cytochrome p450	6	416	2.2E-121	T	29-03-2021	IPR036396	Cytochrome P450 superfamily
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00359	B-class P450 signature	204	226	2.5E-49	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00359	B-class P450 signature	331	346	2.5E-49	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00359	B-class P450 signature	144	160	2.5E-49	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00359	B-class P450 signature	352	361	2.5E-49	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00359	B-class P450 signature	161	176	2.5E-49	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00359	B-class P450 signature	286	297	2.5E-49	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00359	B-class P450 signature	94	105	2.5E-49	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00359	B-class P450 signature	303	330	2.5E-49	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00359	B-class P450 signature	361	372	2.5E-49	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	ProSitePatterns	PS00086	Cytochrome P450 cysteine heme-iron ligand signature.	354	363	-	T	29-03-2021	IPR017972	Cytochrome P450, conserved site
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00385	P450 superfamily signature	286	297	3.7E-6	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00385	P450 superfamily signature	361	372	3.7E-6	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00385	P450 superfamily signature	352	361	3.7E-6	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_11	2158e94b84932b1ab95f2ea424266ecf	446	PRINTS	PR00385	P450 superfamily signature	251	268	3.7E-6	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_82	3e3c9dad9c974c77d22bfcd5df220052	748	Pfam	PF01381	Helix-turn-helix	25	59	6.3E-6	T	29-03-2021	IPR001387	Cro/C1-type helix-turn-helix domain
+DS999642_82	3e3c9dad9c974c77d22bfcd5df220052	748	Gene3D	G3DSA:1.10.260.40	-	25	83	1.2E-8	T	29-03-2021	IPR010982	Lambda repressor-like, DNA-binding domain superfamily
+DS999642_9	cb690fad88f792bf0ce433ed71bcce53	306	Pfam	PF00583	Acetyltransferase (GNAT) family	201	273	8.5E-6	T	29-03-2021	IPR000182	GNAT domain
+DS999642_9	cb690fad88f792bf0ce433ed71bcce53	306	Gene3D	G3DSA:3.40.630.30	-	1	286	7.4E-34	T	29-03-2021	-	-
+DS999642_59	8227c893ff1d61daeb018268bf05f082	346	Gene3D	G3DSA:1.20.1290.10	-	245	337	1.2E-7	T	29-03-2021	IPR029032	AhpD-like
+DS999642_59	8227c893ff1d61daeb018268bf05f082	346	Gene3D	G3DSA:1.20.1290.10	-	16	115	6.5E-14	T	29-03-2021	IPR029032	AhpD-like
+DS999642_59	8227c893ff1d61daeb018268bf05f082	346	Pfam	PF02627	Carboxymuconolactone decarboxylase family	59	104	1.1E-7	T	29-03-2021	IPR003779	Carboxymuconolactone decarboxylase-like
+DS999642_59	8227c893ff1d61daeb018268bf05f082	346	TIGRFAM	TIGR00778	ahpD_dom: alkylhydroperoxidase AhpD family core domain	75	106	1.0E-8	T	29-03-2021	IPR004675	Alkylhydroperoxidase AhpD core
+DS999642_152	5ae6072cf997dc2abcd18908bbddb83c	358	Gene3D	G3DSA:3.40.50.970	-	1	344	8.6E-116	T	29-03-2021	-	-
+DS999642_152	5ae6072cf997dc2abcd18908bbddb83c	358	TIGRFAM	TIGR03181	PDH_E1_alph_x: pyruvate dehydrogenase (acetyl-transferring) E1 component, alpha subunit	6	343	6.3E-133	T	29-03-2021	IPR017596	Pyruvate dehydrogenase E1 component subunit alpha/BCKADH E1-alpha
+DS999642_152	5ae6072cf997dc2abcd18908bbddb83c	358	Pfam	PF00676	Dehydrogenase E1 component	35	306	4.3E-74	T	29-03-2021	IPR001017	Dehydrogenase, E1 component
+DS999642_176	304626c7149b459f427901d14b02505c	263	Gene3D	G3DSA:3.40.50.1820	-	24	253	6.6E-47	T	29-03-2021	IPR029058	Alpha/Beta hydrolase fold
+DS999642_176	304626c7149b459f427901d14b02505c	263	Pfam	PF00975	Thioesterase domain	27	244	2.0E-31	T	29-03-2021	IPR001031	Thioesterase
+DS999642_85	b83ae40fc8c030fce54d76465f7577d1	544	Gene3D	G3DSA:3.40.50.300	-	308	541	5.0E-44	T	29-03-2021	-	-
+DS999642_85	b83ae40fc8c030fce54d76465f7577d1	544	Pfam	PF00005	ABC transporter	360	489	3.7E-20	T	29-03-2021	IPR003439	ABC transporter-like
+DS999642_85	b83ae40fc8c030fce54d76465f7577d1	544	Pfam	PF00005	ABC transporter	23	171	6.6E-19	T	29-03-2021	IPR003439	ABC transporter-like
+DS999642_85	b83ae40fc8c030fce54d76465f7577d1	544	Gene3D	G3DSA:3.40.50.300	-	3	267	1.5E-53	T	29-03-2021	-	-
+DS999642_184	b65b489742bc1db9eed054ddafb12029	339	Pfam	PF03364	Polyketide cyclase / dehydrase and lipid transport	36	139	1.1E-9	T	29-03-2021	IPR005031	Coenzyme Q-binding protein COQ10, START domain
+DS999642_184	b65b489742bc1db9eed054ddafb12029	339	Gene3D	G3DSA:3.30.530.20	-	177	336	4.7E-52	T	29-03-2021	IPR023393	START-like domain superfamily
+DS999642_184	b65b489742bc1db9eed054ddafb12029	339	Pfam	PF10604	Polyketide cyclase / dehydrase and lipid transport	181	318	3.1E-7	T	29-03-2021	IPR019587	Polyketide cyclase/dehydrase
+DS999642_184	b65b489742bc1db9eed054ddafb12029	339	Gene3D	G3DSA:3.30.530.20	-	15	176	6.8E-33	T	29-03-2021	IPR023393	START-like domain superfamily
+DS999642_146	c0cc41e258b79471397ad6dd73413f2e	150	Pfam	PF07045	Domain of unknown function (DUF1330)	30	122	4.1E-24	T	29-03-2021	IPR010753	Domain of unknown function DUF1330
+DS999642_146	c0cc41e258b79471397ad6dd73413f2e	150	Gene3D	G3DSA:3.30.70.100	-	27	123	2.3E-26	T	29-03-2021	-	-
+DS999642_172	d868be580f06fc8d73141e622b720977	107	Gene3D	G3DSA:1.10.1200.10	-	7	99	3.7E-12	T	29-03-2021	IPR036736	ACP-like superfamily
+DS999642_172	d868be580f06fc8d73141e622b720977	107	Pfam	PF00550	Phosphopantetheine attachment site	33	91	6.9E-9	T	29-03-2021	IPR009081	Phosphopantetheine binding ACP domain
+DS999642_128	fe7272129fafd5b51fcf4b6a3554c752	223	Pfam	PF00753	Metallo-beta-lactamase superfamily	18	203	2.2E-27	T	29-03-2021	IPR001279	Metallo-beta-lactamase
+DS999642_128	fe7272129fafd5b51fcf4b6a3554c752	223	Gene3D	G3DSA:3.60.15.10	-	1	222	1.4E-47	T	29-03-2021	IPR036866	Ribonuclease Z/Hydroxyacylglutathione hydrolase-like
+DS999642_72	1eeefcf64ebbd00ea97367c616de7c5e	147	Pfam	PF01638	HxlR-like helix-turn-helix	19	106	8.4E-24	T	29-03-2021	IPR002577	Helix-turn-helix, HxlR type
+DS999642_72	1eeefcf64ebbd00ea97367c616de7c5e	147	Gene3D	G3DSA:1.10.10.10	""winged helix"" repressor DNA binding domain	2	147	4.2E-46	T	29-03-2021	IPR036388	Winged helix-like DNA-binding domain superfamily
+DS999642_121	bca0effdd10843eda729c27653b75407	375	Pfam	PF07730	Histidine kinase	177	242	1.4E-14	T	29-03-2021	IPR011712	Signal transduction histidine kinase, subgroup 3, dimerisation and phosphoacceptor domain
+DS999642_121	bca0effdd10843eda729c27653b75407	375	Gene3D	G3DSA:3.30.565.10	-	248	372	9.0E-33	T	29-03-2021	IPR036890	Histidine kinase/HSP90-like ATPase superfamily
+NESXT_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	86	97	8.9E-7	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+NESXT_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	171	190	8.9E-7	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+NESXT_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	137	145	8.9E-7	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+NESXT_5	67b092ffa78ca033a5055c371a69e256	320	Gene3D	G3DSA:3.40.50.720	-	1	300	9.5E-82	T	29-03-2021	-	-
+NESXT_5	67b092ffa78ca033a5055c371a69e256	320	Pfam	PF00106	short chain dehydrogenase	15	209	9.0E-30	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+NESXT_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	131	147	8.8E-16	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+NESXT_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	171	190	8.8E-16	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+NESXT_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	15	32	8.8E-16	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+NESXT_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	86	97	8.8E-16	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	86	97	8.9E-7	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	171	190	8.9E-7	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	137	145	8.9E-7	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_5	67b092ffa78ca033a5055c371a69e256	320	Gene3D	G3DSA:3.40.50.720	-	1	300	9.5E-82	T	29-03-2021	-	-
+DS999642_5	67b092ffa78ca033a5055c371a69e256	320	Pfam	PF00106	short chain dehydrogenase	15	209	9.0E-30	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	131	147	8.8E-16	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	171	190	8.8E-16	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	15	32	8.8E-16	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_5	67b092ffa78ca033a5055c371a69e256	320	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	86	97	8.8E-16	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_87	aca7957028bdbe700733f43742c746ff	298	Pfam	PF00005	ABC transporter	20	158	9.8E-25	T	29-03-2021	IPR003439	ABC transporter-like
+DS999642_87	aca7957028bdbe700733f43742c746ff	298	Gene3D	G3DSA:3.40.50.300	-	1	226	2.2E-54	T	29-03-2021	-	-
+DS999642_12	d3d534800ae65ad8703c8c2f70865d0d	335	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	107	333	1.3E-63	T	29-03-2021	-	-
+DS999642_12	d3d534800ae65ad8703c8c2f70865d0d	335	Gene3D	G3DSA:1.10.10.10	""winged helix"" repressor DNA binding domain	2	100	3.5E-27	T	29-03-2021	IPR036388	Winged helix-like DNA-binding domain superfamily
+DS999642_12	d3d534800ae65ad8703c8c2f70865d0d	335	Pfam	PF00891	O-methyltransferase domain	111	315	4.9E-37	T	29-03-2021	IPR001077	O-methyltransferase domain
+DS999642_51	174cfa86f789f0437addb0cd16aa9090	446	Pfam	PF01757	Acyltransferase family	22	378	1.2E-17	T	29-03-2021	IPR002656	Acyltransferase 3
+DS999642_118	1e6c2ad46340338527e4600d3399d0eb	214	Pfam	PF04972	BON domain	143	209	2.4E-10	T	29-03-2021	IPR007055	BON domain
+DS999642_118	1e6c2ad46340338527e4600d3399d0eb	214	Gene3D	G3DSA:3.10.580.10	-	1	149	1.2E-35	T	29-03-2021	-	-
+DS999642_118	1e6c2ad46340338527e4600d3399d0eb	214	Pfam	PF00571	CBS domain	86	139	4.9E-13	T	29-03-2021	IPR000644	CBS domain
+DS999642_118	1e6c2ad46340338527e4600d3399d0eb	214	Pfam	PF00571	CBS domain	7	60	3.1E-15	T	29-03-2021	IPR000644	CBS domain
+DS999642_14	15baa4b1de838d748c7adad89b8fdeab	68	Gene3D	G3DSA:3.30.429.10	Macrophage Migration Inhibitory Factor	1	61	5.5E-18	T	29-03-2021	IPR014347	Tautomerase/MIF superfamily
+DS999642_14	15baa4b1de838d748c7adad89b8fdeab	68	Pfam	PF01361	Tautomerase enzyme	2	57	2.3E-13	T	29-03-2021	IPR004370	4-oxalocrotonate tautomerase
+DS999642_198	6413798ed230947ac4e062c2e32875be	165	Pfam	PF00929	Exonuclease	29	152	2.4E-5	T	29-03-2021	IPR013520	Exonuclease, RNase T/DNA polymerase III
+DS999642_198	6413798ed230947ac4e062c2e32875be	165	Gene3D	G3DSA:3.30.420.10	-	12	162	1.4E-26	T	29-03-2021	IPR036397	Ribonuclease H superfamily
+DS999642_45	14c6a82a389f70f76c259c56fd3d1016	222	Pfam	PF03358	NADPH-dependent FMN reductase	5	154	1.1E-23	T	29-03-2021	IPR005025	NADPH-dependent FMN reductase-like
+DS999642_45	14c6a82a389f70f76c259c56fd3d1016	222	Gene3D	G3DSA:3.40.50.360	-	5	198	3.3E-27	T	29-03-2021	IPR029039	Flavoprotein-like superfamily
+DS999642_181	4c69f389391a9bf1129749bb627370e5	240	Gene3D	G3DSA:3.40.50.1820	-	2	233	8.2E-56	T	29-03-2021	IPR029058	Alpha/Beta hydrolase fold
+DS999642_181	4c69f389391a9bf1129749bb627370e5	240	Pfam	PF00975	Thioesterase domain	9	231	8.6E-32	T	29-03-2021	IPR001031	Thioesterase
+DS999642_191	90a6d55ea3209fab26a22a47b477b6f1	227	Pfam	PF00440	Bacterial regulatory proteins, tetR family	14	60	2.4E-17	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_191	90a6d55ea3209fab26a22a47b477b6f1	227	Gene3D	G3DSA:1.10.357.10	Tetracycline Repressor	1	213	4.1E-44	T	29-03-2021	-	-
+DS999642_191	90a6d55ea3209fab26a22a47b477b6f1	227	ProSitePatterns	PS01081	TetR-type HTH domain signature.	26	56	-	T	29-03-2021	IPR023772	DNA-binding HTH domain, TetR-type, conserved site
+DS999642_191	90a6d55ea3209fab26a22a47b477b6f1	227	PRINTS	PR00455	TetR bacterial regulatory protein HTH signature	14	27	4.5E-12	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_191	90a6d55ea3209fab26a22a47b477b6f1	227	PRINTS	PR00455	TetR bacterial regulatory protein HTH signature	35	58	4.5E-12	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_78	842d60fcde08d96cab1e436202b05bc4	305	Pfam	PF03756	A-factor biosynthesis hotdog domain	10	141	1.9E-22	T	29-03-2021	IPR005509	A-factor biosynthesis hotdog domain
+DS999642_78	842d60fcde08d96cab1e436202b05bc4	305	Pfam	PF03756	A-factor biosynthesis hotdog domain	179	296	3.0E-18	T	29-03-2021	IPR005509	A-factor biosynthesis hotdog domain
+DS999642_67	a525f022fbfa1b17535e3dcd4ab7ed99	1956	Pfam	PF00698	Acyl transferase domain	618	835	6.5E-24	T	29-03-2021	IPR014043	Acyl transferase
+DS999642_67	a525f022fbfa1b17535e3dcd4ab7ed99	1956	Pfam	PF14765	Polyketide synthase dehydratase	1470	1744	3.0E-40	T	29-03-2021	IPR020807	Polyketide synthase, dehydratase domain
+DS999642_67	a525f022fbfa1b17535e3dcd4ab7ed99	1956	Gene3D	G3DSA:3.10.129.110	-	1485	1745	8.7E-27	T	29-03-2021	IPR042104	Polyketide synthase, dehydratase domain superfamily
+DS999642_67	a525f022fbfa1b17535e3dcd4ab7ed99	1956	Gene3D	G3DSA:1.10.1200.10	-	943	1037	2.7E-17	T	29-03-2021	IPR036736	ACP-like superfamily
+DS999642_67	a525f022fbfa1b17535e3dcd4ab7ed99	1956	Pfam	PF00109	Beta-ketoacyl synthase, N-terminal domain	2	289	2.1E-53	T	29-03-2021	IPR014030	Beta-ketoacyl synthase, N-terminal
+DS999642_67	a525f022fbfa1b17535e3dcd4ab7ed99	1956	Pfam	PF16197	Ketoacyl-synthetase C-terminal extension	424	538	3.9E-12	T	29-03-2021	IPR032821	Polyketide synthase, C-terminal extension
+DS999642_67	a525f022fbfa1b17535e3dcd4ab7ed99	1956	Gene3D	G3DSA:3.40.366.20	-	487	884	2.4E-87	T	29-03-2021	-	-
+DS999642_67	a525f022fbfa1b17535e3dcd4ab7ed99	1956	Gene3D	G3DSA:3.40.50.720	-	1063	1454	1.1E-68	T	29-03-2021	-	-
+DS999642_67	a525f022fbfa1b17535e3dcd4ab7ed99	1956	Pfam	PF08659	KR domain	1220	1399	1.2E-30	T	29-03-2021	IPR013968	Polyketide synthase, ketoreductase domain
+DS999642_67	a525f022fbfa1b17535e3dcd4ab7ed99	1956	Pfam	PF02801	Beta-ketoacyl synthase, C-terminal domain	297	412	1.8E-30	T	29-03-2021	IPR014031	Beta-ketoacyl synthase, C-terminal
+DS999642_26	c7962895610fbe6006e7399f4326cb71	410	Gene3D	G3DSA:3.30.470.20	-	107	404	4.8E-38	T	29-03-2021	-	-
+DS999642_115	071d3c251d55f544ab19a26dd7d3a8ac	230	Pfam	PF00072	Response regulator receiver domain	10	123	1.6E-25	T	29-03-2021	IPR001789	Signal transduction response regulator, receiver domain
+DS999642_115	071d3c251d55f544ab19a26dd7d3a8ac	230	Gene3D	G3DSA:3.40.50.12740	-	8	226	1.7E-68	T	29-03-2021	-	-
+DS999642_115	071d3c251d55f544ab19a26dd7d3a8ac	230	Pfam	PF00196	Bacterial regulatory proteins, luxR family	166	220	7.2E-20	T	29-03-2021	IPR000792	Transcription regulator LuxR, C-terminal
+DS999642_115	071d3c251d55f544ab19a26dd7d3a8ac	230	ProSitePatterns	PS00622	LuxR-type HTH domain signature.	180	207	-	T	29-03-2021	IPR000792	Transcription regulator LuxR, C-terminal
+DS999642_115	071d3c251d55f544ab19a26dd7d3a8ac	230	PRINTS	PR00038	LuxR bacterial regulatory protein HTH signature	180	196	2.1E-13	T	29-03-2021	IPR000792	Transcription regulator LuxR, C-terminal
+DS999642_115	071d3c251d55f544ab19a26dd7d3a8ac	230	PRINTS	PR00038	LuxR bacterial regulatory protein HTH signature	166	180	2.1E-13	T	29-03-2021	IPR000792	Transcription regulator LuxR, C-terminal
+DS999642_115	071d3c251d55f544ab19a26dd7d3a8ac	230	PRINTS	PR00038	LuxR bacterial regulatory protein HTH signature	196	208	2.1E-13	T	29-03-2021	IPR000792	Transcription regulator LuxR, C-terminal
+DS999642_46	3e001f1232a7863151ef11a2ac30bc7a	491	Pfam	PF00425	chorismate binding enzyme	227	477	8.9E-86	T	29-03-2021	IPR015890	Chorismate-utilising enzyme, C-terminal
+DS999642_46	3e001f1232a7863151ef11a2ac30bc7a	491	PRINTS	PR00095	Anthranilate synthase component I signature	339	352	3.2E-16	T	29-03-2021	IPR019999	Anthranilate synthase component I-like
+DS999642_46	3e001f1232a7863151ef11a2ac30bc7a	491	PRINTS	PR00095	Anthranilate synthase component I signature	419	433	3.2E-16	T	29-03-2021	IPR019999	Anthranilate synthase component I-like
+DS999642_46	3e001f1232a7863151ef11a2ac30bc7a	491	PRINTS	PR00095	Anthranilate synthase component I signature	434	448	3.2E-16	T	29-03-2021	IPR019999	Anthranilate synthase component I-like
+DS999642_46	3e001f1232a7863151ef11a2ac30bc7a	491	PRINTS	PR00095	Anthranilate synthase component I signature	325	338	3.2E-16	T	29-03-2021	IPR019999	Anthranilate synthase component I-like
+DS999642_46	3e001f1232a7863151ef11a2ac30bc7a	491	Pfam	PF04715	Anthranilate synthase component I, N terminal region	27	175	2.4E-14	T	29-03-2021	IPR006805	Anthranilate synthase component I, N-terminal
+DS999642_46	3e001f1232a7863151ef11a2ac30bc7a	491	Gene3D	G3DSA:3.60.120.10	Anthranilate synthase	8	490	6.0E-134	T	29-03-2021	IPR005801	ADC synthase
+DS999642_106	66b80c147ced6073ac9f5e05414aa1ae	514	Pfam	PF01494	FAD binding domain	7	341	4.1E-69	T	29-03-2021	IPR002938	FAD-binding domain
+DS999642_106	66b80c147ced6073ac9f5e05414aa1ae	514	PRINTS	PR00420	Aromatic-ring hydroxylase (flavoprotein monooxygenase) signature	8	30	1.2E-37	T	29-03-2021	-	-
+DS999642_106	66b80c147ced6073ac9f5e05414aa1ae	514	PRINTS	PR00420	Aromatic-ring hydroxylase (flavoprotein monooxygenase) signature	297	313	1.2E-37	T	29-03-2021	-	-
+DS999642_106	66b80c147ced6073ac9f5e05414aa1ae	514	PRINTS	PR00420	Aromatic-ring hydroxylase (flavoprotein monooxygenase) signature	333	349	1.2E-37	T	29-03-2021	-	-
+DS999642_106	66b80c147ced6073ac9f5e05414aa1ae	514	PRINTS	PR00420	Aromatic-ring hydroxylase (flavoprotein monooxygenase) signature	159	174	1.2E-37	T	29-03-2021	-	-
+DS999642_106	66b80c147ced6073ac9f5e05414aa1ae	514	PRINTS	PR00420	Aromatic-ring hydroxylase (flavoprotein monooxygenase) signature	282	297	1.2E-37	T	29-03-2021	-	-
+DS999642_106	66b80c147ced6073ac9f5e05414aa1ae	514	PRINTS	PR00420	Aromatic-ring hydroxylase (flavoprotein monooxygenase) signature	315	333	1.2E-37	T	29-03-2021	-	-
+DS999642_106	66b80c147ced6073ac9f5e05414aa1ae	514	Gene3D	G3DSA:3.50.50.60	-	8	341	5.4E-88	T	29-03-2021	IPR036188	FAD/NAD(P)-binding domain superfamily
+DS999642_106	66b80c147ced6073ac9f5e05414aa1ae	514	Gene3D	G3DSA:3.30.9.50	-	74	279	5.4E-88	T	29-03-2021	-	-
+DS999642_104	e99dfa3c718b4d4d7fe351cc83a00200	409	Pfam	PF14025	Protein of unknown function (DUF4241)	234	404	1.5E-24	T	29-03-2021	IPR025335	Protein of unknown function DUF4241
+DS999642_149	95bf18879dc170eaabe27a1a560b7321	625	Gene3D	G3DSA:3.40.50.1220	-	221	392	3.8E-64	T	29-03-2021	-	-
+DS999642_149	95bf18879dc170eaabe27a1a560b7321	625	Pfam	PF02776	Thiamine pyrophosphate enzyme, N-terminal TPP binding domain	38	202	3.3E-57	T	29-03-2021	IPR012001	Thiamine pyrophosphate enzyme, N-terminal TPP-binding domain
+DS999642_149	95bf18879dc170eaabe27a1a560b7321	625	TIGRFAM	TIGR00118	acolac_lg: acetolactate synthase, large subunit, biosynthetic type	37	612	2.5E-223	T	29-03-2021	IPR012846	Acetolactate synthase, large subunit, biosynthetic
+DS999642_149	95bf18879dc170eaabe27a1a560b7321	625	Pfam	PF00205	Thiamine pyrophosphate enzyme, central domain	227	362	4.2E-49	T	29-03-2021	IPR012000	Thiamine pyrophosphate enzyme, central domain
+DS999642_149	95bf18879dc170eaabe27a1a560b7321	625	Gene3D	G3DSA:3.40.50.970	-	398	618	4.4E-69	T	29-03-2021	-	-
+DS999642_149	95bf18879dc170eaabe27a1a560b7321	625	Gene3D	G3DSA:3.40.50.970	-	31	208	1.9E-70	T	29-03-2021	-	-
+DS999642_149	95bf18879dc170eaabe27a1a560b7321	625	Pfam	PF02775	Thiamine pyrophosphate enzyme, C-terminal TPP binding domain	426	588	2.6E-47	T	29-03-2021	IPR011766	Thiamine pyrophosphate enzyme, C-terminal TPP-binding
+DS999642_149	95bf18879dc170eaabe27a1a560b7321	625	ProSitePatterns	PS00187	Thiamine pyrophosphate enzymes signature.	463	482	-	T	29-03-2021	IPR000399	TPP-binding enzyme, conserved site
+DS999642_36	db942cf084a4bd7ff61045f75f4b081b	517	Pfam	PF03241	4-hydroxyphenylacetate 3-hydroxylase C terminal	284	484	1.8E-70	T	29-03-2021	IPR024719	HpaB/PvcC/4-BUDH C-terminal
+DS999642_36	db942cf084a4bd7ff61045f75f4b081b	517	Gene3D	G3DSA:1.20.140.10	-	282	473	1.3E-77	T	29-03-2021	-	-
+DS999642_36	db942cf084a4bd7ff61045f75f4b081b	517	Pfam	PF11794	4-hydroxyphenylacetate 3-hydroxylase N terminal	12	276	1.3E-95	T	29-03-2021	IPR024674	HpaB/PvcC/4-BUDH N-terminal
+DS999642_36	db942cf084a4bd7ff61045f75f4b081b	517	Gene3D	G3DSA:2.40.110.10	-	150	278	2.5E-39	T	29-03-2021	-	-
+DS999642_36	db942cf084a4bd7ff61045f75f4b081b	517	Gene3D	G3DSA:1.10.3140.10	-	11	148	1.4E-44	T	29-03-2021	-	-
+DS999642_107	a2208e4d8e20f8dbf4be3a8a3197b7d7	310	ProSitePatterns	PS00082	Extradiol ring-cleavage dioxygenases signature.	242	263	-	T	29-03-2021	IPR000486	Extradiol ring-cleavage dioxygenase, class I /II
+DS999642_107	a2208e4d8e20f8dbf4be3a8a3197b7d7	310	Gene3D	G3DSA:3.10.180.10	2	2	127	1.3E-35	T	29-03-2021	IPR029068	Glyoxalase/Bleomycin resistance protein/Dihydroxybiphenyl dioxygenase
+DS999642_107	a2208e4d8e20f8dbf4be3a8a3197b7d7	310	Pfam	PF00903	Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily	160	264	2.6E-17	T	29-03-2021	IPR004360	Glyoxalase/fosfomycin resistance/dioxygenase domain
+DS999642_107	a2208e4d8e20f8dbf4be3a8a3197b7d7	310	Gene3D	G3DSA:3.10.180.10	2	133	296	1.1E-47	T	29-03-2021	IPR029068	Glyoxalase/Bleomycin resistance protein/Dihydroxybiphenyl dioxygenase
+DS999642_74	818a28409338f75395c4473181e8ca95	229	Gene3D	G3DSA:1.10.357.10	Tetracycline Repressor	1	201	4.8E-41	T	29-03-2021	-	-
+DS999642_74	818a28409338f75395c4473181e8ca95	229	ProSitePatterns	PS01081	TetR-type HTH domain signature.	26	56	-	T	29-03-2021	IPR023772	DNA-binding HTH domain, TetR-type, conserved site
+DS999642_74	818a28409338f75395c4473181e8ca95	229	Pfam	PF00440	Bacterial regulatory proteins, tetR family	14	60	7.8E-13	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_74	818a28409338f75395c4473181e8ca95	229	PRINTS	PR00455	TetR bacterial regulatory protein HTH signature	35	58	2.2E-5	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_74	818a28409338f75395c4473181e8ca95	229	PRINTS	PR00455	TetR bacterial regulatory protein HTH signature	14	27	2.2E-5	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_38	542698a32175dea80480b89a89cbde2c	238	Pfam	PF10067	Predicted membrane protein (DUF2306)	80	225	7.7E-23	T	29-03-2021	IPR018750	Protein of unknown function DUF2306, membrane
+DS999642_58	3284f62aba58e640abb9c223fd044c9e	269	Gene3D	G3DSA:1.20.120.450	dinb family like domain	5	151	4.5E-13	T	29-03-2021	IPR034660	DinB/YfiT-like putative metalloenzymes
+DS999642_58	3284f62aba58e640abb9c223fd044c9e	269	TIGRFAM	TIGR03083	TIGR03083: uncharacterized Actinobacterial protein TIGR03083	15	224	2.7E-40	T	29-03-2021	IPR017517	Conserved hypothetical protein CHP03083, actinobacterial-type
+DS999642_58	3284f62aba58e640abb9c223fd044c9e	269	Pfam	PF11716	Mycothiol maleylpyruvate isomerase N-terminal domain	16	147	1.6E-25	T	29-03-2021	IPR024344	Mycothiol-dependent maleylpyruvate isomerase, metal-binding domain
+DS999642_58	3284f62aba58e640abb9c223fd044c9e	269	Pfam	PF08608	Wyosine base formation	183	234	2.2E-8	T	29-03-2021	IPR013917	tRNA wybutosine-synthesis
+DS999642_58	3284f62aba58e640abb9c223fd044c9e	269	TIGRFAM	TIGR03084	TIGR03084: TIGR03084 family protein	6	257	5.9E-98	T	29-03-2021	IPR017518	Conserved hypothetical protein CHP03084
+DS999642_108	4621e25fe08af38265a71c6de61693da	281	Gene3D	G3DSA:3.40.50.1820	-	5	281	2.7E-75	T	29-03-2021	IPR029058	Alpha/Beta hydrolase fold
+DS999642_108	4621e25fe08af38265a71c6de61693da	281	Pfam	PF12697	Alpha/beta hydrolase family	30	272	2.4E-25	T	29-03-2021	IPR000073	Alpha/beta hydrolase fold-1
+DS999642_108	4621e25fe08af38265a71c6de61693da	281	PRINTS	PR00412	Epoxide hydrolase signature	222	238	1.2E-8	T	29-03-2021	IPR000639	Epoxide hydrolase-like
+DS999642_108	4621e25fe08af38265a71c6de61693da	281	PRINTS	PR00412	Epoxide hydrolase signature	56	71	1.2E-8	T	29-03-2021	IPR000639	Epoxide hydrolase-like
+DS999642_108	4621e25fe08af38265a71c6de61693da	281	PRINTS	PR00412	Epoxide hydrolase signature	112	125	1.2E-8	T	29-03-2021	IPR000639	Epoxide hydrolase-like
+DS999642_108	4621e25fe08af38265a71c6de61693da	281	PRINTS	PR00412	Epoxide hydrolase signature	255	277	1.2E-8	T	29-03-2021	IPR000639	Epoxide hydrolase-like
+DS999642_108	4621e25fe08af38265a71c6de61693da	281	PRINTS	PR00111	Alpha/beta hydrolase fold signature	56	71	2.8E-19	T	29-03-2021	IPR000073	Alpha/beta hydrolase fold-1
+DS999642_108	4621e25fe08af38265a71c6de61693da	281	PRINTS	PR00111	Alpha/beta hydrolase fold signature	224	238	2.8E-19	T	29-03-2021	IPR000073	Alpha/beta hydrolase fold-1
+DS999642_108	4621e25fe08af38265a71c6de61693da	281	PRINTS	PR00111	Alpha/beta hydrolase fold signature	98	111	2.8E-19	T	29-03-2021	IPR000073	Alpha/beta hydrolase fold-1
+DS999642_108	4621e25fe08af38265a71c6de61693da	281	PRINTS	PR00111	Alpha/beta hydrolase fold signature	112	125	2.8E-19	T	29-03-2021	IPR000073	Alpha/beta hydrolase fold-1
+DS999642_3	3d95fe0e33630f4c52ed80953a12f480	179	Gene3D	G3DSA:1.20.1290.10	-	41	166	1.8E-29	T	29-03-2021	IPR029032	AhpD-like
+DS999642_3	3d95fe0e33630f4c52ed80953a12f480	179	Pfam	PF02627	Carboxymuconolactone decarboxylase family	21	106	9.2E-7	T	29-03-2021	IPR003779	Carboxymuconolactone decarboxylase-like
+NESXT_3	3d95fe0e33630f4c52ed80953a12f480	179	Gene3D	G3DSA:1.20.1290.10	-	41	166	1.8E-29	T	29-03-2021	IPR029032	AhpD-like
+NESXT_3	3d95fe0e33630f4c52ed80953a12f480	179	Pfam	PF02627	Carboxymuconolactone decarboxylase family	21	106	9.2E-7	T	29-03-2021	IPR003779	Carboxymuconolactone decarboxylase-like
+DS999642_17	cae5549f46a5d452099be231d594519a	365	Gene3D	G3DSA:1.20.140.10	-	229	365	1.4E-22	T	29-03-2021	-	-
+DS999642_17	cae5549f46a5d452099be231d594519a	365	Gene3D	G3DSA:1.10.540.10	-	5	108	6.0E-24	T	29-03-2021	IPR037069	Acyl-CoA dehydrogenase/oxidase, N-terminal domain superfamily
+DS999642_17	cae5549f46a5d452099be231d594519a	365	Pfam	PF00441	Acyl-CoA dehydrogenase, C-terminal domain	231	362	8.5E-16	T	29-03-2021	IPR009075	Acyl-CoA dehydrogenase/oxidase C-terminal
+DS999642_17	cae5549f46a5d452099be231d594519a	365	Pfam	PF02771	Acyl-CoA dehydrogenase, N-terminal domain	25	105	2.2E-16	T	29-03-2021	IPR013786	Acyl-CoA dehydrogenase/oxidase, N-terminal
+DS999642_17	cae5549f46a5d452099be231d594519a	365	Pfam	PF02770	Acyl-CoA dehydrogenase, middle domain	111	212	4.1E-14	T	29-03-2021	IPR006091	Acyl-CoA oxidase/dehydrogenase, central domain
+DS999642_17	cae5549f46a5d452099be231d594519a	365	Gene3D	G3DSA:2.40.110.10	-	119	227	3.4E-19	T	29-03-2021	-	-
+DS999642_35	24efe06efd3193125f6d50f5559bfc8d	84	Gene3D	G3DSA:1.10.1200.10	-	2	82	5.0E-15	T	29-03-2021	IPR036736	ACP-like superfamily
+DS999642_35	24efe06efd3193125f6d50f5559bfc8d	84	Pfam	PF00550	Phosphopantetheine attachment site	11	67	1.8E-9	T	29-03-2021	IPR009081	Phosphopantetheine binding ACP domain
+DS999642_86	ae729a39f219af2ab42f162f00721241	130	Gene3D	G3DSA:1.10.10.10	""winged helix"" repressor DNA binding domain	11	126	2.2E-23	T	29-03-2021	IPR036388	Winged helix-like DNA-binding domain superfamily
+DS999642_86	ae729a39f219af2ab42f162f00721241	130	Pfam	PF00392	Bacterial regulatory proteins, gntR family	14	77	3.3E-17	T	29-03-2021	IPR000524	Transcription regulator HTH, GntR
+DS999642_137	a459715d4943019af17d44e648819d16	106	Gene3D	G3DSA:2.30.110.10	Electron Transport	1	96	5.5E-23	T	29-03-2021	IPR012349	FMN-binding split barrel
+DS999642_126	7ada5a552aa468fd37a32dc4725d0429	409	Gene3D	G3DSA:3.40.50.300	-	138	409	1.0E-48	T	29-03-2021	-	-
+DS999642_126	7ada5a552aa468fd37a32dc4725d0429	409	Pfam	PF13614	AAA domain	142	328	1.3E-26	T	29-03-2021	IPR025669	AAA domain
+DS999642_180	1e098ad376793591200a5b3f68500e69	595	Gene3D	G3DSA:1.20.140.10	-	258	393	5.5E-28	T	29-03-2021	-	-
+DS999642_180	1e098ad376793591200a5b3f68500e69	595	Gene3D	G3DSA:1.10.540.10	-	58	146	5.5E-28	T	29-03-2021	IPR037069	Acyl-CoA dehydrogenase/oxidase, N-terminal domain superfamily
+DS999642_180	1e098ad376793591200a5b3f68500e69	595	Pfam	PF00441	Acyl-CoA dehydrogenase, C-terminal domain	258	395	1.9E-5	T	29-03-2021	IPR009075	Acyl-CoA dehydrogenase/oxidase C-terminal
+DS999642_180	1e098ad376793591200a5b3f68500e69	595	Gene3D	G3DSA:2.40.110.10	-	147	257	5.5E-28	T	29-03-2021	-	-
+DS999642_64	ca9baaeafe41fe9ced0f6981409cbc13	449	Pfam	PF00067	Cytochrome P450	5	424	4.4E-81	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_64	ca9baaeafe41fe9ced0f6981409cbc13	449	PRINTS	PR00463	E-class P450 group I signature	248	265	1.1E-18	T	29-03-2021	IPR002401	Cytochrome P450, E-class, group I
+DS999642_64	ca9baaeafe41fe9ced0f6981409cbc13	449	PRINTS	PR00463	E-class P450 group I signature	396	419	1.1E-18	T	29-03-2021	IPR002401	Cytochrome P450, E-class, group I
+DS999642_64	ca9baaeafe41fe9ced0f6981409cbc13	449	PRINTS	PR00463	E-class P450 group I signature	386	396	1.1E-18	T	29-03-2021	IPR002401	Cytochrome P450, E-class, group I
+DS999642_64	ca9baaeafe41fe9ced0f6981409cbc13	449	PRINTS	PR00463	E-class P450 group I signature	268	294	1.1E-18	T	29-03-2021	IPR002401	Cytochrome P450, E-class, group I
+DS999642_64	ca9baaeafe41fe9ced0f6981409cbc13	449	PRINTS	PR00463	E-class P450 group I signature	351	375	1.1E-18	T	29-03-2021	IPR002401	Cytochrome P450, E-class, group I
+DS999642_64	ca9baaeafe41fe9ced0f6981409cbc13	449	PRINTS	PR00385	P450 superfamily signature	396	407	7.3E-15	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_64	ca9baaeafe41fe9ced0f6981409cbc13	449	PRINTS	PR00385	P450 superfamily signature	312	323	7.3E-15	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_64	ca9baaeafe41fe9ced0f6981409cbc13	449	PRINTS	PR00385	P450 superfamily signature	259	276	7.3E-15	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_64	ca9baaeafe41fe9ced0f6981409cbc13	449	PRINTS	PR00385	P450 superfamily signature	387	396	7.3E-15	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_64	ca9baaeafe41fe9ced0f6981409cbc13	449	Gene3D	G3DSA:1.10.630.10	Cytochrome p450	4	448	6.3E-114	T	29-03-2021	IPR036396	Cytochrome P450 superfamily
+DS999642_64	ca9baaeafe41fe9ced0f6981409cbc13	449	ProSitePatterns	PS00086	Cytochrome P450 cysteine heme-iron ligand signature.	389	398	-	T	29-03-2021	IPR017972	Cytochrome P450, conserved site
+DS999642_66	7c5067f8aba4354ed9fbb79dd929fe45	152	Pfam	PF13279	Thioesterase-like superfamily	12	134	6.0E-6	T	29-03-2021	-	-
+DS999642_66	7c5067f8aba4354ed9fbb79dd929fe45	152	Gene3D	G3DSA:3.10.129.10	Hotdog Thioesterase 	1	152	1.3E-38	T	29-03-2021	-	-
+DS999642_120	26488460b1e2daa3a96c2b29a0e4a898	220	Pfam	PF00196	Bacterial regulatory proteins, luxR family	155	209	7.5E-16	T	29-03-2021	IPR000792	Transcription regulator LuxR, C-terminal
+DS999642_120	26488460b1e2daa3a96c2b29a0e4a898	220	Gene3D	G3DSA:3.40.50.12740	-	2	215	3.0E-67	T	29-03-2021	-	-
+DS999642_120	26488460b1e2daa3a96c2b29a0e4a898	220	PRINTS	PR00038	LuxR bacterial regulatory protein HTH signature	155	169	3.7E-11	T	29-03-2021	IPR000792	Transcription regulator LuxR, C-terminal
+DS999642_120	26488460b1e2daa3a96c2b29a0e4a898	220	PRINTS	PR00038	LuxR bacterial regulatory protein HTH signature	185	197	3.7E-11	T	29-03-2021	IPR000792	Transcription regulator LuxR, C-terminal
+DS999642_120	26488460b1e2daa3a96c2b29a0e4a898	220	PRINTS	PR00038	LuxR bacterial regulatory protein HTH signature	169	185	3.7E-11	T	29-03-2021	IPR000792	Transcription regulator LuxR, C-terminal
+DS999642_120	26488460b1e2daa3a96c2b29a0e4a898	220	Pfam	PF00072	Response regulator receiver domain	4	117	6.6E-26	T	29-03-2021	IPR001789	Signal transduction response regulator, receiver domain
+DS999642_110	a6db743811b43f82586ebb09d698beea	290	Gene3D	G3DSA:3.90.850.10	Fumarylacetoacetate hydrolase	25	288	2.9E-85	T	29-03-2021	IPR036663	Fumarylacetoacetase-like, C-terminal domain superfamily
+DS999642_110	a6db743811b43f82586ebb09d698beea	290	Pfam	PF01557	Fumarylacetoacetate (FAA) hydrolase family	121	282	1.9E-14	T	29-03-2021	IPR011234	Fumarylacetoacetase-like, C-terminal
+DS999642_169	21c3c35b992508afd048626ffb0ff2b4	424	Gene3D	G3DSA:1.10.287.40	-	1	99	7.3E-7	T	29-03-2021	IPR042103	Serine-tRNA synthetase, type1, N-terminal domain superfamily
+DS999642_169	21c3c35b992508afd048626ffb0ff2b4	424	Gene3D	G3DSA:3.30.930.10	Bira Bifunctional Protein; Domain 2	100	422	5.7E-100	T	29-03-2021	-	-
+DS999642_169	21c3c35b992508afd048626ffb0ff2b4	424	PRINTS	PR00981	Seryl-tRNA synthetase signature	347	363	1.1E-26	T	29-03-2021	IPR002317	Serine-tRNA ligase, type1
+DS999642_169	21c3c35b992508afd048626ffb0ff2b4	424	PRINTS	PR00981	Seryl-tRNA synthetase signature	260	272	1.1E-26	T	29-03-2021	IPR002317	Serine-tRNA ligase, type1
+DS999642_169	21c3c35b992508afd048626ffb0ff2b4	424	PRINTS	PR00981	Seryl-tRNA synthetase signature	312	325	1.1E-26	T	29-03-2021	IPR002317	Serine-tRNA ligase, type1
+DS999642_169	21c3c35b992508afd048626ffb0ff2b4	424	PRINTS	PR00981	Seryl-tRNA synthetase signature	272	285	1.1E-26	T	29-03-2021	IPR002317	Serine-tRNA ligase, type1
+DS999642_169	21c3c35b992508afd048626ffb0ff2b4	424	PRINTS	PR00981	Seryl-tRNA synthetase signature	329	345	1.1E-26	T	29-03-2021	IPR002317	Serine-tRNA ligase, type1
+DS999642_169	21c3c35b992508afd048626ffb0ff2b4	424	Pfam	PF00587	tRNA synthetase class II core domain (G, H, P, S and T)	218	394	7.5E-27	T	29-03-2021	IPR002314	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T)
+DS999642_169	21c3c35b992508afd048626ffb0ff2b4	424	TIGRFAM	TIGR00414	serS: serine--tRNA ligase	33	411	3.7E-118	T	29-03-2021	IPR002317	Serine-tRNA ligase, type1
+DS999642_13	47189766c306dc047608442c4d621cda	421	Gene3D	G3DSA:1.20.1250.20	MFS general substrate transporter like domains	10	401	5.3E-33	T	29-03-2021	-	-
+DS999642_13	47189766c306dc047608442c4d621cda	421	Pfam	PF07690	Major Facilitator Superfamily	16	318	1.1E-20	T	29-03-2021	IPR011701	Major facilitator superfamily
+DS999642_73	cd7d2cfa6919891093be23970c49ce86	398	Pfam	PF13546	DDE superfamily endonuclease	19	272	4.3E-45	T	29-03-2021	IPR038721	Transposase IS701-like, DDE domain
+DS999642_48	fb4122855aab5ebee4994757e0c50438	332	Gene3D	G3DSA:3.40.50.720	-	139	279	1.6E-100	T	29-03-2021	-	-
+DS999642_48	fb4122855aab5ebee4994757e0c50438	332	Gene3D	G3DSA:3.90.180.10	-	18	321	1.6E-100	T	29-03-2021	-	-
+DS999642_48	fb4122855aab5ebee4994757e0c50438	332	Pfam	PF08240	Alcohol dehydrogenase GroES-like domain	28	124	1.9E-7	T	29-03-2021	IPR013154	Alcohol dehydrogenase, N-terminal
+DS999642_48	fb4122855aab5ebee4994757e0c50438	332	Pfam	PF00107	Zinc-binding dehydrogenase	168	292	8.3E-24	T	29-03-2021	IPR013149	Alcohol dehydrogenase, C-terminal
+DS999642_33	61f0dcde74c1b9788122b4db1890223f	119	Pfam	PF03795	YCII-related domain	1	113	2.1E-10	T	29-03-2021	IPR005545	YCII-related
+DS999642_33	61f0dcde74c1b9788122b4db1890223f	119	Gene3D	G3DSA:3.30.70.1060	Dimeric alpha+beta barrel	1	117	2.0E-32	T	29-03-2021	-	-
+DS999642_177	38020b4228cd6608eaedada9ceeef9e3	276	Pfam	PF00561	alpha/beta hydrolase fold	22	261	2.2E-25	T	29-03-2021	IPR000073	Alpha/beta hydrolase fold-1
+DS999642_177	38020b4228cd6608eaedada9ceeef9e3	276	PRINTS	PR00111	Alpha/beta hydrolase fold signature	91	104	4.8E-11	T	29-03-2021	IPR000073	Alpha/beta hydrolase fold-1
+DS999642_177	38020b4228cd6608eaedada9ceeef9e3	276	PRINTS	PR00111	Alpha/beta hydrolase fold signature	47	62	4.8E-11	T	29-03-2021	IPR000073	Alpha/beta hydrolase fold-1
+DS999642_177	38020b4228cd6608eaedada9ceeef9e3	276	PRINTS	PR00111	Alpha/beta hydrolase fold signature	219	233	4.8E-11	T	29-03-2021	IPR000073	Alpha/beta hydrolase fold-1
+DS999642_177	38020b4228cd6608eaedada9ceeef9e3	276	Gene3D	G3DSA:3.40.50.1820	-	3	274	4.3E-74	T	29-03-2021	IPR029058	Alpha/Beta hydrolase fold
+DS999642_49	3ef59d9353d81eef9951ad43c234b53c	436	Pfam	PF00501	AMP-binding enzyme	91	283	5.5E-10	T	29-03-2021	IPR000873	AMP-dependent synthetase/ligase
+DS999642_49	3ef59d9353d81eef9951ad43c234b53c	436	Pfam	PF14535	AMP-binding enzyme C-terminal domain	339	430	5.1E-14	T	29-03-2021	IPR028154	AMP-dependent ligase, C-terminal
+DS999642_49	3ef59d9353d81eef9951ad43c234b53c	436	Gene3D	G3DSA:3.30.300.30	-	329	432	4.5E-21	T	29-03-2021	-	-
+DS999642_49	3ef59d9353d81eef9951ad43c234b53c	436	Gene3D	G3DSA:3.40.50.12780	-	2	326	5.1E-85	T	29-03-2021	IPR042099	AMP-dependent synthetase-like superfamily
+DS999642_34	bc94a02713409d2f6cf152e28d5ebf03	471	Gene3D	G3DSA:3.30.559.10	Chloramphenicol Acetyltransferase	17	397	6.9E-90	T	29-03-2021	IPR023213	Chloramphenicol acetyltransferase-like domain superfamily
+DS999642_34	bc94a02713409d2f6cf152e28d5ebf03	471	Pfam	PF00668	Condensation domain	48	458	8.5E-60	T	29-03-2021	IPR001242	Condensation domain
+DS999642_34	bc94a02713409d2f6cf152e28d5ebf03	471	Gene3D	G3DSA:3.30.559.30	-	204	457	6.9E-90	T	29-03-2021	-	-
+DS999642_63	bd42fc3f68fa82cce2dc8e0b02e5b8d6	266	ProSitePatterns	PS00041	Bacterial regulatory proteins, araC family signature.	69	111	-	T	29-03-2021	IPR018062	HTH domain AraC-type, conserved site
+DS999642_63	bd42fc3f68fa82cce2dc8e0b02e5b8d6	266	Pfam	PF12833	Helix-turn-helix domain	39	116	1.4E-21	T	29-03-2021	IPR018060	DNA binding HTH domain, AraC-type
+DS999642_63	bd42fc3f68fa82cce2dc8e0b02e5b8d6	266	Gene3D	G3DSA:1.10.10.60	-	65	119	7.5E-15	T	29-03-2021	-	-
+DS999642_63	bd42fc3f68fa82cce2dc8e0b02e5b8d6	266	PRINTS	PR00032	AraC bacterial regulatory protein HTH signature	84	99	1.7E-5	T	29-03-2021	IPR020449	Transcription regulator HTH, AraC- type
+DS999642_63	bd42fc3f68fa82cce2dc8e0b02e5b8d6	266	PRINTS	PR00032	AraC bacterial regulatory protein HTH signature	99	115	1.7E-5	T	29-03-2021	IPR020449	Transcription regulator HTH, AraC- type
+DS999642_63	bd42fc3f68fa82cce2dc8e0b02e5b8d6	266	Gene3D	G3DSA:1.10.10.60	-	16	64	2.0E-11	T	29-03-2021	-	-
+DS999642_43	53f61c5e06186b6493c1595e9640351a	371	Gene3D	G3DSA:3.40.710.30	-	5	371	1.9E-105	T	29-03-2021	-	-
+DS999642_43	53f61c5e06186b6493c1595e9640351a	371	Pfam	PF00144	Beta-lactamase	10	356	1.3E-60	T	29-03-2021	IPR001466	Beta-lactamase-related
+DS999642_105	6fca09959784a11a6ea741d5ddbabc13	216	Gene3D	G3DSA:1.10.357.10	Tetracycline Repressor	5	214	1.4E-35	T	29-03-2021	-	-
+DS999642_105	6fca09959784a11a6ea741d5ddbabc13	216	Pfam	PF00440	Bacterial regulatory proteins, tetR family	22	68	3.7E-15	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_105	6fca09959784a11a6ea741d5ddbabc13	216	PRINTS	PR00455	TetR bacterial regulatory protein HTH signature	22	35	3.2E-9	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_105	6fca09959784a11a6ea741d5ddbabc13	216	PRINTS	PR00455	TetR bacterial regulatory protein HTH signature	43	66	3.2E-9	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_103	05fb9085e160bd92bc4a2321a4edc591	150	Pfam	PF10901	Protein of unknown function (DUF2690)	41	126	2.2E-11	T	29-03-2021	IPR021224	Protein of unknown function DUF2690
+DS999642_16	65578758346791c6d54210f43ba339c0	353	Pfam	PF04303	PrpF protein	45	300	4.3E-16	T	29-03-2021	IPR007400	PrpF protein
+DS999642_16	65578758346791c6d54210f43ba339c0	353	Gene3D	G3DSA:3.10.310.10	Diaminopimelate Epimerase; Chain A	5	150	3.3E-6	T	29-03-2021	-	-
+DS999642_16	65578758346791c6d54210f43ba339c0	353	Gene3D	G3DSA:3.10.310.10	Diaminopimelate Epimerase; Chain A	151	306	1.4E-27	T	29-03-2021	-	-
+DS999642_37	b40c511ede937339859efc785520e5ce	453	Gene3D	G3DSA:3.40.190.10	-	136	423	7.3E-72	T	29-03-2021	-	-
+DS999642_37	b40c511ede937339859efc785520e5ce	453	Pfam	PF13416	Bacterial extracellular solute-binding protein	26	369	4.8E-27	T	29-03-2021	IPR006059	Bacterial extracellular solute-binding protein
+DS999642_37	b40c511ede937339859efc785520e5ce	453	Gene3D	G3DSA:3.40.190.10	-	24	384	7.3E-72	T	29-03-2021	-	-
+DS999642_111	652bab6282c7cb08890f29f0bba5594c	329	Pfam	PF09290	Prokaryotic acetaldehyde dehydrogenase, dimerisation	138	301	4.6E-59	T	29-03-2021	IPR015426	Acetaldehyde dehydrogenase, C-terminal
+DS999642_111	652bab6282c7cb08890f29f0bba5594c	329	TIGRFAM	TIGR03215	ac_ald_DH_ac: acetaldehyde dehydrogenase (acetylating)	12	324	3.9E-135	T	29-03-2021	IPR003361	Acetaldehyde dehydrogenase
+DS999642_111	652bab6282c7cb08890f29f0bba5594c	329	Gene3D	G3DSA:3.40.50.720	-	14	322	3.0E-122	T	29-03-2021	-	-
+DS999642_111	652bab6282c7cb08890f29f0bba5594c	329	Pfam	PF01118	Semialdehyde dehydrogenase, NAD binding domain	14	127	4.0E-14	T	29-03-2021	IPR000534	Semialdehyde dehydrogenase, NAD-binding
+DS999642_111	652bab6282c7cb08890f29f0bba5594c	329	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	138	315	3.0E-122	T	29-03-2021	-	-
+DS999642_160	297447cc1a60f53ac25eb9000afae23c	489	Pfam	PF03972	MmgE/PrpD family	5	373	5.8E-41	T	29-03-2021	IPR005656	MmgE/PrpD
+DS999642_160	297447cc1a60f53ac25eb9000afae23c	489	Gene3D	G3DSA:1.10.4100.10	-	1	292	9.4E-42	T	29-03-2021	IPR042183	MmgE/PrpD superfamily, domain 1
+DS999642_164	2d67b67765fb38fe9fd3ce91d26a0262	161	Gene3D	G3DSA:3.30.530.20	-	7	146	3.9E-26	T	29-03-2021	IPR023393	START-like domain superfamily
+DS999642_164	2d67b67765fb38fe9fd3ce91d26a0262	161	Pfam	PF03364	Polyketide cyclase / dehydrase and lipid transport	15	134	1.2E-16	T	29-03-2021	IPR005031	Coenzyme Q-binding protein COQ10, START domain
+DS999642_65	90ba13215b1ba84155b3e1bbc7e6a5b0	181	Pfam	PF01613	Flavin reductase like domain	25	171	6.2E-34	T	29-03-2021	IPR002563	Flavin reductase like domain
+DS999642_65	90ba13215b1ba84155b3e1bbc7e6a5b0	181	Gene3D	G3DSA:2.30.110.10	Electron Transport	2	179	2.4E-53	T	29-03-2021	IPR012349	FMN-binding split barrel
+DS999642_194	00272255cd468874fbcbf960b89ec1ab	346	Pfam	PF03457	Helicase associated domain	2	66	1.9E-10	T	29-03-2021	IPR005114	Helicase-associated
+DS999642_133	3a76e5d741a8414fb86d643fb71ca582	422	Pfam	PF07690	Major Facilitator Superfamily	22	325	8.9E-18	T	29-03-2021	IPR011701	Major facilitator superfamily
+DS999642_133	3a76e5d741a8414fb86d643fb71ca582	422	Gene3D	G3DSA:1.20.1250.20	MFS general substrate transporter like domains	14	405	1.1E-25	T	29-03-2021	-	-
+DS999642_92	91e2a70aadf2d24278cab7eba1948f6a	1558	Gene3D	G3DSA:3.40.50.300	-	244	328	1.0E-5	T	29-03-2021	-	-
+DS999642_92	91e2a70aadf2d24278cab7eba1948f6a	1558	Gene3D	G3DSA:1.25.40.10	-	673	832	2.0E-6	T	29-03-2021	IPR011990	Tetratricopeptide-like helical domain superfamily
+DS999642_92	91e2a70aadf2d24278cab7eba1948f6a	1558	Gene3D	G3DSA:1.25.40.10	-	833	970	1.3E-12	T	29-03-2021	IPR011990	Tetratricopeptide-like helical domain superfamily
+DS999642_92	91e2a70aadf2d24278cab7eba1948f6a	1558	Gene3D	G3DSA:1.25.40.10	-	1208	1544	8.1E-10	T	29-03-2021	IPR011990	Tetratricopeptide-like helical domain superfamily
+DS999642_92	91e2a70aadf2d24278cab7eba1948f6a	1558	Gene3D	G3DSA:1.25.40.10	-	971	1197	1.0E-12	T	29-03-2021	IPR011990	Tetratricopeptide-like helical domain superfamily
+DS999642_192	371565504a3c3f163d8ddf6d61c09faa	645	Gene3D	G3DSA:1.20.140.10	-	494	611	8.0E-13	T	29-03-2021	-	-
+DS999642_192	371565504a3c3f163d8ddf6d61c09faa	645	Pfam	PF01756	Acyl-CoA oxidase	511	616	2.2E-14	T	29-03-2021	IPR002655	Acyl-CoA oxidase, C-terminal
+DS999642_192	371565504a3c3f163d8ddf6d61c09faa	645	Gene3D	G3DSA:1.20.140.10	-	300	467	7.2E-35	T	29-03-2021	-	-
+DS999642_192	371565504a3c3f163d8ddf6d61c09faa	645	Gene3D	G3DSA:2.40.110.10	-	154	289	1.4E-37	T	29-03-2021	-	-
+DS999642_41	3a887e31f2cad177693fd84be79dd2bd	415	Gene3D	G3DSA:1.10.540.10	-	10	125	1.7E-24	T	29-03-2021	IPR037069	Acyl-CoA dehydrogenase/oxidase, N-terminal domain superfamily
+DS999642_41	3a887e31f2cad177693fd84be79dd2bd	415	Gene3D	G3DSA:1.20.140.10	-	231	411	1.3E-34	T	29-03-2021	-	-
+DS999642_41	3a887e31f2cad177693fd84be79dd2bd	415	Pfam	PF08028	Acyl-CoA dehydrogenase, C-terminal domain	259	389	3.7E-19	T	29-03-2021	IPR013107	Acyl-CoA dehydrogenase, C-terminal domain
+DS999642_41	3a887e31f2cad177693fd84be79dd2bd	415	Gene3D	G3DSA:2.40.110.10	-	129	221	1.4E-22	T	29-03-2021	-	-
+DS999642_156	feea87e7dcaa65564e77fa41976cb5c9	368	Pfam	PF00487	Fatty acid desaturase	81	339	2.3E-43	T	29-03-2021	IPR005804	Fatty acid desaturase domain
+DS999642_135	450838620220afebf368a2c5117d2285	90	Pfam	PF01022	Bacterial regulatory protein, arsR family	7	54	4.1E-17	T	29-03-2021	IPR001845	HTH ArsR-type DNA-binding domain
+DS999642_135	450838620220afebf368a2c5117d2285	90	ProSitePatterns	PS00846	Bacterial regulatory proteins, arsR family signature.	26	44	-	T	29-03-2021	IPR018334	ArsR-type transcription regulator, HTH motif
+DS999642_135	450838620220afebf368a2c5117d2285	90	PRINTS	PR00778	Bacterial regulatory protein ArsR family signature	2	17	3.5E-23	T	29-03-2021	IPR001845	HTH ArsR-type DNA-binding domain
+DS999642_135	450838620220afebf368a2c5117d2285	90	PRINTS	PR00778	Bacterial regulatory protein ArsR family signature	52	67	3.5E-23	T	29-03-2021	IPR001845	HTH ArsR-type DNA-binding domain
+DS999642_135	450838620220afebf368a2c5117d2285	90	PRINTS	PR00778	Bacterial regulatory protein ArsR family signature	24	35	3.5E-23	T	29-03-2021	IPR001845	HTH ArsR-type DNA-binding domain
+DS999642_135	450838620220afebf368a2c5117d2285	90	PRINTS	PR00778	Bacterial regulatory protein ArsR family signature	37	52	3.5E-23	T	29-03-2021	IPR001845	HTH ArsR-type DNA-binding domain
+DS999642_135	450838620220afebf368a2c5117d2285	90	Gene3D	G3DSA:1.10.10.10	""winged helix"" repressor DNA binding domain	1	85	2.2E-28	T	29-03-2021	IPR036388	Winged helix-like DNA-binding domain superfamily
+DS999642_187	6cbd38017bba01d92b1c8cd549e32305	218	PRINTS	PR00455	TetR bacterial regulatory protein HTH signature	14	27	2.8E-9	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_187	6cbd38017bba01d92b1c8cd549e32305	218	PRINTS	PR00455	TetR bacterial regulatory protein HTH signature	35	58	2.8E-9	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_187	6cbd38017bba01d92b1c8cd549e32305	218	ProSitePatterns	PS01081	TetR-type HTH domain signature.	26	56	-	T	29-03-2021	IPR023772	DNA-binding HTH domain, TetR-type, conserved site
+DS999642_187	6cbd38017bba01d92b1c8cd549e32305	218	Gene3D	G3DSA:1.10.357.10	Tetracycline Repressor	1	211	9.0E-43	T	29-03-2021	-	-
+DS999642_187	6cbd38017bba01d92b1c8cd549e32305	218	Pfam	PF00440	Bacterial regulatory proteins, tetR family	14	60	2.9E-12	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_71	b6a0da906e515e71cc0922ce7ec3b1f1	325	Pfam	PF08012	Protein of unknown function (DUF1702)	4	319	6.0E-124	T	29-03-2021	IPR012964	Protein of unknown function DUF1702
+DS999642_188	404aa744b42a21bbd506b1353232966a	530	Pfam	PF01039	Carboxyl transferase domain	43	527	3.3E-196	T	29-03-2021	IPR034733	Acetyl-CoA carboxylase
+DS999642_188	404aa744b42a21bbd506b1353232966a	530	Gene3D	G3DSA:3.90.226.10	-	274	530	9.7E-93	T	29-03-2021	-	-
+DS999642_188	404aa744b42a21bbd506b1353232966a	530	Gene3D	G3DSA:3.90.226.10	-	15	272	4.3E-91	T	29-03-2021	-	-
+DS999642_125	589b2fa307de8c8aa4c697946c458810	371	TIGRFAM	TIGR00180	parB_part: ParB/RepB/Spo0J family partition protein	40	224	2.5E-23	T	29-03-2021	IPR004437	ParB/RepB/Spo0J partition protein
+DS999642_125	589b2fa307de8c8aa4c697946c458810	371	Pfam	PF02195	ParB-like nuclease domain	42	133	6.2E-11	T	29-03-2021	IPR003115	ParB/Sulfiredoxin
+DS999642_125	589b2fa307de8c8aa4c697946c458810	371	Gene3D	G3DSA:1.10.10.2830	-	135	248	2.5E-20	T	29-03-2021	-	-
+DS999642_125	589b2fa307de8c8aa4c697946c458810	371	Gene3D	G3DSA:3.90.1530.30	-	55	130	5.6E-10	T	29-03-2021	-	-
+DS999642_186	747fb2fd1286e1701ee5850ab743786c	290	Gene3D	G3DSA:1.25.40.10	-	111	277	1.4E-43	T	29-03-2021	IPR011990	Tetratricopeptide-like helical domain superfamily
+DS999642_186	747fb2fd1286e1701ee5850ab743786c	290	Gene3D	G3DSA:1.10.10.10	""winged helix"" repressor DNA binding domain	1	105	2.0E-26	T	29-03-2021	IPR036388	Winged helix-like DNA-binding domain superfamily
+DS999642_186	747fb2fd1286e1701ee5850ab743786c	290	Pfam	PF03704	Bacterial transcriptional activator domain	112	256	4.9E-44	T	29-03-2021	IPR005158	Bacterial transcriptional activator domain
+DS999642_186	747fb2fd1286e1701ee5850ab743786c	290	Pfam	PF00486	Transcriptional regulatory protein, C terminal	21	76	1.8E-8	T	29-03-2021	IPR001867	OmpR/PhoB-type DNA-binding domain
+DS999642_124	e172a538717c29aa35c8f113fc2a63d4	642	Pfam	PF00150	Cellulase (glycosyl hydrolase family 5)	106	403	7.2E-28	T	29-03-2021	IPR001547	Glycoside hydrolase, family 5
+DS999642_124	e172a538717c29aa35c8f113fc2a63d4	642	Gene3D	G3DSA:3.20.20.80	Glycosidases	50	445	2.6E-66	T	29-03-2021	-	-
+DS999642_124	e172a538717c29aa35c8f113fc2a63d4	642	ProSitePatterns	PS00659	Glycosyl hydrolases family 5 signature.	221	230	-	T	29-03-2021	IPR018087	Glycoside hydrolase, family 5, conserved site
+DS999642_158	6a10b7931a5aaaaa11636e319d943cfe	342	Pfam	PF09924	Uncharacterised conserved protein (DUF2156)	25	323	1.7E-64	T	29-03-2021	IPR024320	Phosphatidylglycerol lysyltransferase, C-terminal
+DS999642_76	954c201be12802328877826c23c84b70	240	Gene3D	G3DSA:3.40.50.1000	-	71	227	2.9E-9	T	29-03-2021	IPR023214	HAD superfamily
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Gene3D	G3DSA:3.40.50.720	-	1191	1423	1.2E-22	T	29-03-2021	-	-
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Pfam	PF00550	Phosphopantetheine attachment site	1882	1945	2.6E-10	T	29-03-2021	IPR009081	Phosphopantetheine binding ACP domain
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Gene3D	G3DSA:3.40.366.10	-	543	844	3.0E-146	T	29-03-2021	IPR001227	Acyl transferase domain superfamily
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	ProSitePatterns	PS00606	Beta-ketoacyl synthases active site.	182	198	-	T	29-03-2021	IPR018201	Beta-ketoacyl synthase, active site
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Gene3D	G3DSA:3.90.180.10	-	1424	1563	6.4E-12	T	29-03-2021	-	-
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Gene3D	G3DSA:3.40.50.720	-	1579	1834	2.1E-63	T	29-03-2021	-	-
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Pfam	PF00109	Beta-ketoacyl synthase, N-terminal domain	19	269	7.6E-80	T	29-03-2021	IPR014030	Beta-ketoacyl synthase, N-terminal
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Gene3D	G3DSA:3.40.47.10	-	11	464	1.4E-177	T	29-03-2021	IPR016039	Thiolase-like
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Gene3D	G3DSA:3.30.70.3290	-	465	889	3.0E-146	T	29-03-2021	-	-
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Gene3D	G3DSA:3.10.129.110	-	904	1181	5.9E-19	T	29-03-2021	IPR042104	Polyketide synthase, dehydratase domain superfamily
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Pfam	PF02801	Beta-ketoacyl synthase, C-terminal domain	277	394	5.2E-39	T	29-03-2021	IPR014031	Beta-ketoacyl synthase, C-terminal
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Pfam	PF00698	Acyl transferase domain	544	827	1.7E-56	T	29-03-2021	IPR014043	Acyl transferase
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Pfam	PF16197	Ketoacyl-synthetase C-terminal extension	397	509	1.6E-11	T	29-03-2021	IPR032821	Polyketide synthase, C-terminal extension
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Pfam	PF08659	KR domain	1598	1778	7.0E-50	T	29-03-2021	IPR013968	Polyketide synthase, ketoreductase domain
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Pfam	PF14765	Polyketide synthase dehydratase	906	1180	7.1E-13	T	29-03-2021	IPR020807	Polyketide synthase, dehydratase domain
+DS999642_173	fd1c4ed5a84c180bed0fe8d2daa977c2	1954	Gene3D	G3DSA:1.10.1200.10	-	1859	1950	3.2E-16	T	29-03-2021	IPR036736	ACP-like superfamily
+DS999642_60	75f69528972f4654a7508ad9d514ce0c	555	Pfam	PF05199	GMC oxidoreductase	453	511	7.7E-16	T	29-03-2021	IPR007867	Glucose-methanol-choline oxidoreductase, C-terminal
+DS999642_60	75f69528972f4654a7508ad9d514ce0c	555	Pfam	PF00732	GMC oxidoreductase	9	259	4.3E-16	T	29-03-2021	IPR000172	Glucose-methanol-choline oxidoreductase, N-terminal
+DS999642_60	75f69528972f4654a7508ad9d514ce0c	555	Gene3D	G3DSA:3.50.50.60	-	423	519	7.6E-19	T	29-03-2021	IPR036188	FAD/NAD(P)-binding domain superfamily
+DS999642_60	75f69528972f4654a7508ad9d514ce0c	555	Gene3D	G3DSA:3.50.50.60	-	6	51	2.8E-11	T	29-03-2021	IPR036188	FAD/NAD(P)-binding domain superfamily
+DS999642_60	75f69528972f4654a7508ad9d514ce0c	555	Gene3D	G3DSA:3.50.50.60	-	156	317	2.1E-21	T	29-03-2021	IPR036188	FAD/NAD(P)-binding domain superfamily
+DS999642_60	75f69528972f4654a7508ad9d514ce0c	555	Gene3D	G3DSA:3.50.50.60	-	52	155	2.7E-8	T	29-03-2021	IPR036188	FAD/NAD(P)-binding domain superfamily
+DS999642_189	71dd9479e3a7ef4d3de5d0c1b7f4ea97	67	Pfam	PF13822	Acyl-CoA carboxylase epsilon subunit	10	66	5.7E-14	T	29-03-2021	IPR032716	Acyl-CoA carboxylase epsilon subunit
+DS999642_24	e4b7622063f6bf269a9c03a584f34c91	219	Pfam	PF00132	Bacterial transferase hexapeptide (six repeats)	76	112	9.3E-4	T	29-03-2021	IPR001451	Hexapeptide repeat
+DS999642_24	e4b7622063f6bf269a9c03a584f34c91	219	Pfam	PF00132	Bacterial transferase hexapeptide (six repeats)	129	163	7.2E-10	T	29-03-2021	IPR001451	Hexapeptide repeat
+DS999642_24	e4b7622063f6bf269a9c03a584f34c91	219	Gene3D	G3DSA:1.10.3130.10	serine acetyltransferase	1	71	2.0E-15	T	29-03-2021	IPR042122	Serine acetyltransferase, N-terminal domain superfamily
+DS999642_24	e4b7622063f6bf269a9c03a584f34c91	219	ProSitePatterns	PS00101	Hexapeptide-repeat containing-transferases signature.	138	166	-	T	29-03-2021	IPR018357	Hexapeptide transferase, conserved site
+DS999642_24	e4b7622063f6bf269a9c03a584f34c91	219	Gene3D	G3DSA:2.160.10.10	Hexapeptide repeat proteins	72	178	2.7E-30	T	29-03-2021	-	-
+DS999642_44	c4d8aa17df41e3805b7ca5def40eeb32	536	Pfam	PF07690	Major Facilitator Superfamily	28	419	3.1E-41	T	29-03-2021	IPR011701	Major facilitator superfamily
+DS999642_44	c4d8aa17df41e3805b7ca5def40eeb32	536	Gene3D	G3DSA:1.20.1720.10	-	21	226	2.8E-39	T	29-03-2021	-	-
+DS999642_170	62f38e0dc0f7f665b43347c1f50ea6b4	123	Gene3D	G3DSA:3.10.450.50	-	2	119	7.2E-37	T	29-03-2021	-	-
+DS999642_170	62f38e0dc0f7f665b43347c1f50ea6b4	123	Pfam	PF12680	SnoaL-like domain	10	104	6.8E-10	T	29-03-2021	IPR037401	SnoaL-like domain
+DS999642_136	3f6f97c5f72d7e1f6a6a5a6d6fa33b0b	167	Pfam	PF00903	Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily	6	86	2.6E-8	T	29-03-2021	IPR004360	Glyoxalase/fosfomycin resistance/dioxygenase domain
+DS999642_136	3f6f97c5f72d7e1f6a6a5a6d6fa33b0b	167	Gene3D	G3DSA:3.10.180.10	2	1	123	8.2E-54	T	29-03-2021	IPR029068	Glyoxalase/Bleomycin resistance protein/Dihydroxybiphenyl dioxygenase
+DS999642_185	35255ea4e5e32261d0c3e534f264e74d	273	Gene3D	G3DSA:1.25.40.10	-	102	268	1.5E-49	T	29-03-2021	IPR011990	Tetratricopeptide-like helical domain superfamily
+DS999642_185	35255ea4e5e32261d0c3e534f264e74d	273	Gene3D	G3DSA:1.10.10.10	""winged helix"" repressor DNA binding domain	1	101	2.1E-27	T	29-03-2021	IPR036388	Winged helix-like DNA-binding domain superfamily
+DS999642_185	35255ea4e5e32261d0c3e534f264e74d	273	Pfam	PF00486	Transcriptional regulatory protein, C terminal	22	98	1.3E-10	T	29-03-2021	IPR001867	OmpR/PhoB-type DNA-binding domain
+DS999642_185	35255ea4e5e32261d0c3e534f264e74d	273	Pfam	PF03704	Bacterial transcriptional activator domain	105	250	3.1E-46	T	29-03-2021	IPR005158	Bacterial transcriptional activator domain
+DS999642_117	be1e556bde8c6f3108a5700049abc982	291	Pfam	PF02517	CPBP intramembrane metalloprotease	130	221	2.4E-16	T	29-03-2021	IPR003675	Type II CAAX prenyl endopeptidase Rce1-like
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	ProSitePatterns	PS00086	Cytochrome P450 cysteine heme-iron ligand signature.	333	342	-	T	29-03-2021	IPR017972	Cytochrome P450, conserved site
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	Gene3D	G3DSA:1.10.630.10	Cytochrome p450	2	391	3.5E-118	T	29-03-2021	IPR036396	Cytochrome P450 superfamily
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	Pfam	PF00067	Cytochrome P450	177	358	6.2E-26	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00385	P450 superfamily signature	229	246	1.8E-6	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00385	P450 superfamily signature	264	275	1.8E-6	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00385	P450 superfamily signature	331	340	1.8E-6	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00385	P450 superfamily signature	340	351	1.8E-6	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00359	B-class P450 signature	147	162	1.3E-47	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00359	B-class P450 signature	310	325	1.3E-47	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00359	B-class P450 signature	83	94	1.3E-47	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00359	B-class P450 signature	282	309	1.3E-47	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00359	B-class P450 signature	183	205	1.3E-47	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00359	B-class P450 signature	130	146	1.3E-47	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00359	B-class P450 signature	331	340	1.3E-47	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00359	B-class P450 signature	340	351	1.3E-47	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_147	fc4fce15b4913516a6349475db823e6b	391	PRINTS	PR00359	B-class P450 signature	264	275	1.3E-47	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_90	3f64c9b218b0657bc32c2e35811065bb	143	Pfam	PF00583	Acetyltransferase (GNAT) family	57	122	6.1E-5	T	29-03-2021	IPR000182	GNAT domain
+DS999642_90	3f64c9b218b0657bc32c2e35811065bb	143	Gene3D	G3DSA:3.40.630.30	-	25	141	1.2E-10	T	29-03-2021	-	-
+DS999642_127	e672f8114c756dfec011d07d5e2c72a3	115	Pfam	PF03417	Acyl-coenzyme A:6-aminopenicillanic acid acyl-transferase	5	76	1.8E-10	T	29-03-2021	IPR005079	Peptidase C45
+DS999642_127	e672f8114c756dfec011d07d5e2c72a3	115	Gene3D	G3DSA:3.60.60.10	Penicillin V Acylase; Chain A	1	96	6.3E-12	T	29-03-2021	-	-
+DS999642_23	1cb3999a359f43445f889fd385d70442	443	Pfam	PF18130	ATP-grasp N-terminal domain	22	94	1.3E-7	T	29-03-2021	IPR041472	BL00235/CARNS1, N-terminal
+DS999642_23	1cb3999a359f43445f889fd385d70442	443	Gene3D	G3DSA:3.30.470.20	-	101	418	3.5E-78	T	29-03-2021	-	-
+DS999642_23	1cb3999a359f43445f889fd385d70442	443	Pfam	PF18603	L-amino acid ligase C-terminal domain 2	338	410	1.1E-19	T	29-03-2021	IPR040570	L-amino acid ligase, C-terminal domain 2
+DS999642_23	1cb3999a359f43445f889fd385d70442	443	Pfam	PF13535	ATP-grasp domain	143	292	9.8E-22	T	29-03-2021	-	-
+DS999642_89	bfb2a8cfb481d920270f25b3281da2e0	462	Gene3D	G3DSA:1.25.40.10	-	242	443	5.5E-11	T	29-03-2021	IPR011990	Tetratricopeptide-like helical domain superfamily
+DS999642_162	d4106cfa3e700b2e2b8fd7b8df644e98	379	Gene3D	G3DSA:2.40.110.10	-	132	225	1.5E-17	T	29-03-2021	-	-
+DS999642_162	d4106cfa3e700b2e2b8fd7b8df644e98	379	Gene3D	G3DSA:1.10.540.10	-	26	118	2.2E-11	T	29-03-2021	IPR037069	Acyl-CoA dehydrogenase/oxidase, N-terminal domain superfamily
+DS999642_25	2160c09a4e9b52da4917657fd02078a8	320	Pfam	PF00291	Pyridoxal-phosphate dependent enzyme	20	305	5.6E-66	T	29-03-2021	IPR001926	Pyridoxal-phosphate dependent enzyme
+DS999642_25	2160c09a4e9b52da4917657fd02078a8	320	Gene3D	G3DSA:3.40.50.1100	-	56	157	3.3E-110	T	29-03-2021	IPR036052	Tryptophan synthase beta subunit-like PLP-dependent enzyme
+DS999642_25	2160c09a4e9b52da4917657fd02078a8	320	TIGRFAM	TIGR01136	cysKM: cysteine synthase	19	313	4.0E-104	T	29-03-2021	IPR005856	Cysteine synthase
+DS999642_25	2160c09a4e9b52da4917657fd02078a8	320	Gene3D	G3DSA:3.40.50.1100	-	20	311	3.3E-110	T	29-03-2021	IPR036052	Tryptophan synthase beta subunit-like PLP-dependent enzyme
+DS999642_138	24c01db17b67daebde709ceb4b4e488d	148	Pfam	PF08592	Domain of unknown function (DUF1772)	18	146	9.2E-17	T	29-03-2021	-	-
+DS999642_4	a893dac4fb9813b905892c1c3fe1d3bd	180	Pfam	PF02627	Carboxymuconolactone decarboxylase family	21	106	2.1E-7	T	29-03-2021	IPR003779	Carboxymuconolactone decarboxylase-like
+DS999642_4	a893dac4fb9813b905892c1c3fe1d3bd	180	Gene3D	G3DSA:1.20.1290.10	-	42	167	7.6E-29	T	29-03-2021	IPR029032	AhpD-like
+NESXT_4	a893dac4fb9813b905892c1c3fe1d3bd	180	Pfam	PF02627	Carboxymuconolactone decarboxylase family	21	106	2.1E-7	T	29-03-2021	IPR003779	Carboxymuconolactone decarboxylase-like
+NESXT_4	a893dac4fb9813b905892c1c3fe1d3bd	180	Gene3D	G3DSA:1.20.1290.10	-	42	167	7.6E-29	T	29-03-2021	IPR029032	AhpD-like
+DS999642_179	e6045fabfec924b230b3a48db5863814	95	Pfam	PF00550	Phosphopantetheine attachment site	19	76	1.5E-6	T	29-03-2021	IPR009081	Phosphopantetheine binding ACP domain
+DS999642_179	e6045fabfec924b230b3a48db5863814	95	Gene3D	G3DSA:1.10.1200.10	-	3	84	6.3E-7	T	29-03-2021	IPR036736	ACP-like superfamily
+DS999642_179	e6045fabfec924b230b3a48db5863814	95	ProSitePatterns	PS00012	Phosphopantetheine attachment site.	33	48	-	T	29-03-2021	IPR006162	Phosphopantetheine attachment site
+DS999642_167	bc130de55575849f837b82f8ffa08219	335	Pfam	PF08545	3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III	105	184	5.1E-26	T	29-03-2021	IPR013751	3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III
+DS999642_167	bc130de55575849f837b82f8ffa08219	335	TIGRFAM	TIGR00747	fabH: 3-oxoacyl-[acyl-carrier-protein] synthase III	3	329	1.5E-98	T	29-03-2021	IPR004655	3-oxoacyl-[acyl-carrier-protein] synthase 3
+DS999642_167	bc130de55575849f837b82f8ffa08219	335	Gene3D	G3DSA:3.40.47.10	-	1	334	6.5E-113	T	29-03-2021	IPR016039	Thiolase-like
+DS999642_167	bc130de55575849f837b82f8ffa08219	335	Pfam	PF08541	3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III C terminal	241	329	3.6E-31	T	29-03-2021	IPR013747	3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III, C-terminal
+DS999642_57	388b3716e8aa4e5c2efe183604d3734b	288	Gene3D	G3DSA:1.10.3660.10	-	174	278	2.2E-11	T	29-03-2021	-	-
+DS999642_57	388b3716e8aa4e5c2efe183604d3734b	288	Pfam	PF02153	Prephenate dehydrogenase	21	258	1.7E-40	T	29-03-2021	IPR003099	Prephenate dehydrogenase
+DS999642_57	388b3716e8aa4e5c2efe183604d3734b	288	Gene3D	G3DSA:3.40.50.720	-	5	173	8.6E-36	T	29-03-2021	-	-
+DS999642_159	17cc97ea7f77103bc2a98febf4774938	339	Gene3D	G3DSA:3.40.50.10330	-	32	312	1.8E-46	T	29-03-2021	IPR017438	Inorganic polyphosphate/ATP-NAD kinase, N-terminal
+DS999642_159	17cc97ea7f77103bc2a98febf4774938	339	Pfam	PF00781	Diacylglycerol kinase catalytic domain	11	139	2.2E-20	T	29-03-2021	IPR001206	Diacylglycerol kinase, catalytic domain
+DS999642_159	17cc97ea7f77103bc2a98febf4774938	339	Gene3D	G3DSA:2.60.200.40	-	145	309	1.8E-46	T	29-03-2021	-	-
+DS999642_134	8e9c7a66ee0d3a8204fe5741fe70c8a0	311	Pfam	PF00126	Bacterial regulatory helix-turn-helix protein, lysR family	3	62	1.9E-17	T	29-03-2021	IPR000847	Transcription regulator HTH, LysR
+DS999642_134	8e9c7a66ee0d3a8204fe5741fe70c8a0	311	Pfam	PF03466	LysR substrate binding domain	91	293	1.7E-14	T	29-03-2021	IPR005119	LysR, substrate-binding
+DS999642_134	8e9c7a66ee0d3a8204fe5741fe70c8a0	311	Gene3D	G3DSA:1.10.10.10	""winged helix"" repressor DNA binding domain	1	88	1.1E-23	T	29-03-2021	IPR036388	Winged helix-like DNA-binding domain superfamily
+DS999642_134	8e9c7a66ee0d3a8204fe5741fe70c8a0	311	Gene3D	G3DSA:3.40.190.290	-	89	298	4.2E-15	T	29-03-2021	-	-
+DS999642_134	8e9c7a66ee0d3a8204fe5741fe70c8a0	311	PRINTS	PR00039	LysR bacterial regulatory protein HTH signature	29	39	1.4E-6	T	29-03-2021	IPR000847	Transcription regulator HTH, LysR
+DS999642_134	8e9c7a66ee0d3a8204fe5741fe70c8a0	311	PRINTS	PR00039	LysR bacterial regulatory protein HTH signature	39	50	1.4E-6	T	29-03-2021	IPR000847	Transcription regulator HTH, LysR
+DS999642_134	8e9c7a66ee0d3a8204fe5741fe70c8a0	311	PRINTS	PR00039	LysR bacterial regulatory protein HTH signature	18	29	1.4E-6	T	29-03-2021	IPR000847	Transcription regulator HTH, LysR
+DS999642_175	94f05383a1fc977418c862c1f1806f3d	328	Pfam	PF00296	Luciferase-like monooxygenase	10	298	1.6E-62	T	29-03-2021	IPR011251	Luciferase-like domain
+DS999642_175	94f05383a1fc977418c862c1f1806f3d	328	Gene3D	G3DSA:3.20.20.30	FMN dependent fluorescent proteins	22	326	4.2E-71	T	29-03-2021	IPR036661	Luciferase-like domain superfamily
+DS999642_168	2933ff021240e5f45f70035e5fcb184b	77	Pfam	PF00550	Phosphopantetheine attachment site	3	68	4.5E-14	T	29-03-2021	IPR009081	Phosphopantetheine binding ACP domain
+DS999642_168	2933ff021240e5f45f70035e5fcb184b	77	Gene3D	G3DSA:1.10.1200.10	-	1	74	4.0E-17	T	29-03-2021	IPR036736	ACP-like superfamily
+DS999642_15	b8b674c933d5ae91ab575e9db100deea	612	Pfam	PF13537	Glutamine amidotransferase domain	45	165	2.0E-31	T	29-03-2021	IPR017932	Glutamine amidotransferase type 2 domain
+DS999642_15	b8b674c933d5ae91ab575e9db100deea	612	Gene3D	G3DSA:3.60.20.10	Glutamine Phosphoribosylpyrophosphate	3	188	8.9E-42	T	29-03-2021	IPR029055	Nucleophile aminohydrolases, N-terminal
+DS999642_15	b8b674c933d5ae91ab575e9db100deea	612	Pfam	PF00733	Asparagine synthase	238	585	3.8E-69	T	29-03-2021	IPR001962	Asparagine synthase
+DS999642_15	b8b674c933d5ae91ab575e9db100deea	612	TIGRFAM	TIGR01536	asn_synth_AEB: asparagine synthase (glutamine-hydrolyzing)	2	519	3.7E-100	T	29-03-2021	IPR006426	Asparagine synthase, glutamine-hydrolyzing
+DS999642_145	5c2b7af1ee52e0b944e263a6fb68de7e	401	Pfam	PF00067	Cytochrome P450	206	371	5.9E-20	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_145	5c2b7af1ee52e0b944e263a6fb68de7e	401	Gene3D	G3DSA:1.10.630.10	Cytochrome p450	2	401	1.4E-143	T	29-03-2021	IPR036396	Cytochrome P450 superfamily
+DS999642_145	5c2b7af1ee52e0b944e263a6fb68de7e	401	ProSitePatterns	PS00086	Cytochrome P450 cysteine heme-iron ligand signature.	343	352	-	T	29-03-2021	IPR017972	Cytochrome P450, conserved site
+DS999642_145	5c2b7af1ee52e0b944e263a6fb68de7e	401	PRINTS	PR00359	B-class P450 signature	91	102	1.5E-58	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_145	5c2b7af1ee52e0b944e263a6fb68de7e	401	PRINTS	PR00359	B-class P450 signature	139	155	1.5E-58	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_145	5c2b7af1ee52e0b944e263a6fb68de7e	401	PRINTS	PR00359	B-class P450 signature	192	214	1.5E-58	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_145	5c2b7af1ee52e0b944e263a6fb68de7e	401	PRINTS	PR00359	B-class P450 signature	320	335	1.5E-58	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_145	5c2b7af1ee52e0b944e263a6fb68de7e	401	PRINTS	PR00359	B-class P450 signature	350	361	1.5E-58	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_145	5c2b7af1ee52e0b944e263a6fb68de7e	401	PRINTS	PR00359	B-class P450 signature	274	285	1.5E-58	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_145	5c2b7af1ee52e0b944e263a6fb68de7e	401	PRINTS	PR00359	B-class P450 signature	156	171	1.5E-58	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_145	5c2b7af1ee52e0b944e263a6fb68de7e	401	PRINTS	PR00359	B-class P450 signature	292	319	1.5E-58	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_145	5c2b7af1ee52e0b944e263a6fb68de7e	401	PRINTS	PR00359	B-class P450 signature	341	350	1.5E-58	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_119	d67dbb2bb11b4b602b2717fd4858bd58	97	Gene3D	G3DSA:3.30.428.10	HIT family	1	95	1.8E-12	T	29-03-2021	IPR036265	HIT-like superfamily
+DS999642_32	8c9729a14619e9b3954c4add0420d433	277	Pfam	PF08241	Methyltransferase domain	68	165	4.8E-18	T	29-03-2021	IPR013216	Methyltransferase type 11
+DS999642_32	8c9729a14619e9b3954c4add0420d433	277	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	29	275	1.1E-56	T	29-03-2021	-	-
+DS999642_163	082bf25a8b72f50a2fdc345d2b12b8b9	428	Gene3D	G3DSA:3.40.640.10	-	70	315	1.2E-115	T	29-03-2021	IPR015421	Pyridoxal phosphate-dependent transferase, major domain
+DS999642_163	082bf25a8b72f50a2fdc345d2b12b8b9	428	Gene3D	G3DSA:3.90.1150.10	Aspartate Aminotransferase	12	411	1.2E-115	T	29-03-2021	IPR015422	Pyridoxal phosphate-dependent transferase domain 1
+DS999642_163	082bf25a8b72f50a2fdc345d2b12b8b9	428	Pfam	PF00202	Aminotransferase class-III	40	411	2.2E-79	T	29-03-2021	IPR005814	Aminotransferase class-III
+DS999642_163	082bf25a8b72f50a2fdc345d2b12b8b9	428	ProSitePatterns	PS00600	Aminotransferases class-III pyridoxal-phosphate attachment site.	230	267	-	T	29-03-2021	IPR005814	Aminotransferase class-III
+DS999642_174	ca407e2e60c01eea3ee298ba9bfc500a	538	Pfam	PF00501	AMP-binding enzyme	21	436	7.7E-96	T	29-03-2021	IPR000873	AMP-dependent synthetase/ligase
+DS999642_174	ca407e2e60c01eea3ee298ba9bfc500a	538	Gene3D	G3DSA:3.30.300.30	-	430	533	1.1E-32	T	29-03-2021	-	-
+DS999642_174	ca407e2e60c01eea3ee298ba9bfc500a	538	Gene3D	G3DSA:3.40.50.12780	-	5	429	9.4E-117	T	29-03-2021	IPR042099	AMP-dependent synthetase-like superfamily
+DS999642_174	ca407e2e60c01eea3ee298ba9bfc500a	538	Pfam	PF13193	AMP-binding enzyme C-terminal domain	445	520	2.9E-19	T	29-03-2021	IPR025110	AMP-binding enzyme, C-terminal domain
+DS999642_40	f5fedd32267a0175e285f563de677a3e	448	ProSitePatterns	PS00862	Oxygen oxidoreductases covalent FAD-binding site.	38	71	-	T	29-03-2021	IPR006093	Oxygen oxidoreductase covalent FAD-binding site
+DS999642_40	f5fedd32267a0175e285f563de677a3e	448	Pfam	PF08031	Berberine and berberine like	415	442	2.8E-6	T	29-03-2021	IPR012951	Berberine/berberine-like
+DS999642_40	f5fedd32267a0175e285f563de677a3e	448	Gene3D	G3DSA:3.30.465.10	-	105	431	2.3E-96	T	29-03-2021	IPR016169	FAD-binding, type PCMH, subdomain 2
+DS999642_40	f5fedd32267a0175e285f563de677a3e	448	Gene3D	G3DSA:3.30.43.10	-	15	91	1.2E-24	T	29-03-2021	IPR016167	FAD-binding, type PCMH, subdomain 1
+DS999642_40	f5fedd32267a0175e285f563de677a3e	448	Pfam	PF01565	FAD binding domain	38	173	5.6E-33	T	29-03-2021	IPR006094	FAD linked oxidase, N-terminal
+DS999642_40	f5fedd32267a0175e285f563de677a3e	448	Gene3D	G3DSA:3.40.462.20	-	205	403	2.3E-96	T	29-03-2021	-	-
+DS999642_30	ec457f72c8ab69e8c5aac5e3e10525b4	393	Pfam	PF02771	Acyl-CoA dehydrogenase, N-terminal domain	27	88	5.3E-6	T	29-03-2021	IPR013786	Acyl-CoA dehydrogenase/oxidase, N-terminal
+DS999642_30	ec457f72c8ab69e8c5aac5e3e10525b4	393	Gene3D	G3DSA:2.40.110.10	-	115	207	5.2E-28	T	29-03-2021	-	-
+DS999642_30	ec457f72c8ab69e8c5aac5e3e10525b4	393	Gene3D	G3DSA:1.20.140.10	-	214	392	2.1E-39	T	29-03-2021	-	-
+DS999642_30	ec457f72c8ab69e8c5aac5e3e10525b4	393	Gene3D	G3DSA:1.10.540.10	-	1	112	2.9E-32	T	29-03-2021	IPR037069	Acyl-CoA dehydrogenase/oxidase, N-terminal domain superfamily
+DS999642_30	ec457f72c8ab69e8c5aac5e3e10525b4	393	Pfam	PF08028	Acyl-CoA dehydrogenase, C-terminal domain	239	371	5.7E-29	T	29-03-2021	IPR013107	Acyl-CoA dehydrogenase, C-terminal domain
+DS999642_77	da1506690acccbad9eacb06ab01bb5cd	205	ProSitePatterns	PS01081	TetR-type HTH domain signature.	28	58	-	T	29-03-2021	IPR023772	DNA-binding HTH domain, TetR-type, conserved site
+DS999642_77	da1506690acccbad9eacb06ab01bb5cd	205	Gene3D	G3DSA:1.10.357.10	Tetracycline Repressor	4	201	4.0E-54	T	29-03-2021	-	-
+DS999642_77	da1506690acccbad9eacb06ab01bb5cd	205	Pfam	PF00440	Bacterial regulatory proteins, tetR family	16	62	1.2E-16	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_77	da1506690acccbad9eacb06ab01bb5cd	205	PRINTS	PR00455	TetR bacterial regulatory protein HTH signature	16	29	1.5E-11	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_77	da1506690acccbad9eacb06ab01bb5cd	205	PRINTS	PR00455	TetR bacterial regulatory protein HTH signature	37	60	1.5E-11	T	29-03-2021	IPR001647	DNA-binding HTH domain, TetR-type
+DS999642_55	6cf19e644ec2dc44ba7b5ab809787dbd	141	Pfam	PF14534	Domain of unknown function (DUF4440)	20	130	8.9E-12	T	29-03-2021	IPR027843	Domain of unknown function DUF4440
+DS999642_55	6cf19e644ec2dc44ba7b5ab809787dbd	141	TIGRFAM	TIGR02246	TIGR02246: conserved hypothetical protein	14	138	2.7E-42	T	29-03-2021	IPR011944	Steroid delta5-4-isomerase
+DS999642_55	6cf19e644ec2dc44ba7b5ab809787dbd	141	Gene3D	G3DSA:3.10.450.50	-	1	140	3.3E-41	T	29-03-2021	-	-
+DS999642_27	a038b517499cbdee65490c8d2a66499b	878	ProSitePatterns	PS00455	Putative AMP-binding domain signature.	515	526	-	T	29-03-2021	IPR020845	AMP-binding, conserved site
+DS999642_27	a038b517499cbdee65490c8d2a66499b	878	Gene3D	G3DSA:3.30.300.30	-	772	877	3.8E-19	T	29-03-2021	-	-
+DS999642_27	a038b517499cbdee65490c8d2a66499b	878	Pfam	PF00501	AMP-binding enzyme	376	776	8.1E-70	T	29-03-2021	IPR000873	AMP-dependent synthetase/ligase
+DS999642_27	a038b517499cbdee65490c8d2a66499b	878	Gene3D	G3DSA:3.40.50.12780	-	370	768	5.4E-89	T	29-03-2021	IPR042099	AMP-dependent synthetase-like superfamily
+DS999642_27	a038b517499cbdee65490c8d2a66499b	878	Pfam	PF13193	AMP-binding enzyme C-terminal domain	784	865	2.2E-7	T	29-03-2021	IPR025110	AMP-binding enzyme, C-terminal domain
+DS999642_27	a038b517499cbdee65490c8d2a66499b	878	Gene3D	G3DSA:3.30.559.30	-	163	231	2.0E-7	T	29-03-2021	-	-
+DS999642_27	a038b517499cbdee65490c8d2a66499b	878	Gene3D	G3DSA:3.30.559.30	-	232	348	1.3E-7	T	29-03-2021	-	-
+DS999642_42	f18e73602bd598df501b639d88731cf8	460	Gene3D	G3DSA:3.30.43.10	-	11	85	1.2E-11	T	29-03-2021	IPR016167	FAD-binding, type PCMH, subdomain 1
+DS999642_42	f18e73602bd598df501b639d88731cf8	460	Gene3D	G3DSA:3.30.465.10	-	102	442	1.0E-66	T	29-03-2021	IPR016169	FAD-binding, type PCMH, subdomain 2
+DS999642_42	f18e73602bd598df501b639d88731cf8	460	Gene3D	G3DSA:3.40.462.20	-	200	417	1.0E-66	T	29-03-2021	-	-
+DS999642_42	f18e73602bd598df501b639d88731cf8	460	Pfam	PF01565	FAD binding domain	34	168	6.5E-21	T	29-03-2021	IPR006094	FAD linked oxidase, N-terminal
+DS999642_112	35650702e485940afacf2ca4b508562f	336	Gene3D	G3DSA:3.20.20.70	Aldolase class I	2	267	2.5E-77	T	29-03-2021	IPR013785	Aldolase-type TIM barrel
+DS999642_112	35650702e485940afacf2ca4b508562f	336	TIGRFAM	TIGR03217	4OH_2_O_val_ald: 4-hydroxy-2-oxovalerate aldolase	5	335	6.8E-169	T	29-03-2021	IPR017629	4-hydroxy-2-oxovalerate aldolase
+DS999642_112	35650702e485940afacf2ca4b508562f	336	Pfam	PF00682	HMGL-like	8	262	1.2E-55	T	29-03-2021	IPR000891	Pyruvate carboxyltransferase
+DS999642_112	35650702e485940afacf2ca4b508562f	336	Gene3D	G3DSA:1.10.8.60	-	274	336	2.4E-31	T	29-03-2021	-	-
+DS999642_112	35650702e485940afacf2ca4b508562f	336	Pfam	PF07836	DmpG-like communication domain	273	333	6.5E-32	T	29-03-2021	IPR012425	DmpG-like communication
+DS999642_142	d45420b5df7e9c79f49f9f912d6a282a	114	Gene3D	G3DSA:1.10.10.10	""winged helix"" repressor DNA binding domain	4	107	6.4E-9	T	29-03-2021	IPR036388	Winged helix-like DNA-binding domain superfamily
+DS999642_142	d45420b5df7e9c79f49f9f912d6a282a	114	Pfam	PF12802	MarR family	20	70	1.4E-6	T	29-03-2021	IPR000835	MarR-type HTH domain
+DS999642_70	319b774aa506e1222d68b1db7ac97af0	308	Pfam	PF08012	Protein of unknown function (DUF1702)	2	295	3.5E-118	T	29-03-2021	IPR012964	Protein of unknown function DUF1702
+DS999642_171	e6fe5caa8b16fb33dd7fd00f910bcb92	485	Pfam	PF07690	Major Facilitator Superfamily	33	433	1.1E-46	T	29-03-2021	IPR011701	Major facilitator superfamily
+DS999642_171	e6fe5caa8b16fb33dd7fd00f910bcb92	485	Gene3D	G3DSA:1.20.1250.20	MFS general substrate transporter like domains	280	484	7.0E-21	T	29-03-2021	-	-
+DS999642_171	e6fe5caa8b16fb33dd7fd00f910bcb92	485	Gene3D	G3DSA:1.20.1720.10	-	29	239	5.2E-44	T	29-03-2021	-	-
+DS999642_20	08aa5394271160f9c1b08cc73a752c79	146	ProSitePatterns	PS00430	TonB-dependent receptor proteins signature 1.	1	57	-	T	29-03-2021	IPR010916	TonB box, conserved site
+DS999642_20	08aa5394271160f9c1b08cc73a752c79	146	Gene3D	G3DSA:2.60.40.230	-	35	146	9.2E-34	T	29-03-2021	-	-
+DS999642_20	08aa5394271160f9c1b08cc73a752c79	146	Pfam	PF00960	Neocarzinostatin family	38	145	1.0E-25	T	29-03-2021	IPR002186	Neocarzinostatin family
+DS999642_20	08aa5394271160f9c1b08cc73a752c79	146	PRINTS	PR01885	Macromomycin family signature	89	106	1.9E-27	T	29-03-2021	IPR002186	Neocarzinostatin family
+DS999642_20	08aa5394271160f9c1b08cc73a752c79	146	PRINTS	PR01885	Macromomycin family signature	114	130	1.9E-27	T	29-03-2021	IPR002186	Neocarzinostatin family
+DS999642_20	08aa5394271160f9c1b08cc73a752c79	146	PRINTS	PR01885	Macromomycin family signature	58	73	1.9E-27	T	29-03-2021	IPR002186	Neocarzinostatin family
+DS999642_20	08aa5394271160f9c1b08cc73a752c79	146	PRINTS	PR01885	Macromomycin family signature	35	54	1.9E-27	T	29-03-2021	IPR002186	Neocarzinostatin family
+DS999642_56	7b3ac312121ef159bdcf2e235c566c03	500	Gene3D	G3DSA:3.30.465.40	-	9	486	5.6E-201	T	29-03-2021	-	-
+DS999642_56	7b3ac312121ef159bdcf2e235c566c03	500	Pfam	PF08031	Berberine and berberine like	444	496	1.9E-16	T	29-03-2021	IPR012951	Berberine/berberine-like
+DS999642_56	7b3ac312121ef159bdcf2e235c566c03	500	Gene3D	G3DSA:3.40.462.20	-	222	472	5.6E-201	T	29-03-2021	-	-
+DS999642_56	7b3ac312121ef159bdcf2e235c566c03	500	Pfam	PF01565	FAD binding domain	32	164	1.4E-22	T	29-03-2021	IPR006094	FAD linked oxidase, N-terminal
+DS999642_2	0230393f4951d870d6b7d8ffa7f826b1	437	Gene3D	G3DSA:1.20.1250.20	MFS general substrate transporter like domains	10	416	1.3E-52	T	29-03-2021	-	-
+DS999642_2	0230393f4951d870d6b7d8ffa7f826b1	437	Pfam	PF00083	Sugar (and other) transporter	57	220	6.4E-18	T	29-03-2021	IPR005828	Major facilitator,  sugar transporter-like
+NESXT_2	0230393f4951d870d6b7d8ffa7f826b1	437	Gene3D	G3DSA:1.20.1250.20	MFS general substrate transporter like domains	10	416	1.3E-52	T	29-03-2021	-	-
+NESXT_2	0230393f4951d870d6b7d8ffa7f826b1	437	Pfam	PF00083	Sugar (and other) transporter	57	220	6.4E-18	T	29-03-2021	IPR005828	Major facilitator,  sugar transporter-like
+DS999642_29	ddebab5c475a563bda2215554f410634	512	Pfam	PF13649	Methyltransferase domain	353	443	6.3E-14	T	29-03-2021	IPR041698	Methyltransferase domain 25
+DS999642_29	ddebab5c475a563bda2215554f410634	512	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	251	496	8.4E-29	T	29-03-2021	-	-
+DS999642_93	9e761dfd9d88a2e4e8b488b4ff711fcd	1196	Pfam	PF13245	AAA domain	245	561	5.3E-11	T	29-03-2021	-	-
+DS999642_93	9e761dfd9d88a2e4e8b488b4ff711fcd	1196	Gene3D	G3DSA:3.40.50.300	-	401	565	8.2E-7	T	29-03-2021	-	-
+DS999642_93	9e761dfd9d88a2e4e8b488b4ff711fcd	1196	Gene3D	G3DSA:3.40.50.300	-	225	359	2.6E-7	T	29-03-2021	-	-
+DS999642_93	9e761dfd9d88a2e4e8b488b4ff711fcd	1196	Gene3D	G3DSA:3.40.50.300	-	589	757	4.2E-13	T	29-03-2021	-	-
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	Pfam	PF00117	Glutamine amidotransferase class-I	20	203	1.3E-49	T	29-03-2021	IPR017926	Glutamine amidotransferase
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	PRINTS	PR00099	Carbamoyl-phosphate synthase protein GATase domain signature	60	74	4.3E-8	T	29-03-2021	-	-
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	PRINTS	PR00099	Carbamoyl-phosphate synthase protein GATase domain signature	89	105	4.3E-8	T	29-03-2021	-	-
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	Gene3D	G3DSA:3.40.50.880	-	16	205	1.5E-54	T	29-03-2021	IPR029062	Class I glutamine amidotransferase-like
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	TIGRFAM	TIGR00566	trpG_papA: glutamine amidotransferase of anthranilate synthase or aminodeoxychorismate synthase	18	201	5.7E-57	T	29-03-2021	IPR006221	Anthranilate synthase/para-aminobenzoate synthase like domain
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	PRINTS	PR00096	Glutamine amidotransferase superfamily signature	89	100	7.4E-13	T	29-03-2021	-	-
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	PRINTS	PR00096	Glutamine amidotransferase superfamily signature	63	72	7.4E-13	T	29-03-2021	-	-
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	PRINTS	PR00096	Glutamine amidotransferase superfamily signature	180	193	7.4E-13	T	29-03-2021	-	-
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	PRINTS	PR00097	Anthranilate synthase component II signature	180	193	1.4E-27	T	29-03-2021	-	-
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	PRINTS	PR00097	Anthranilate synthase component II signature	18	32	1.4E-27	T	29-03-2021	-	-
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	PRINTS	PR00097	Anthranilate synthase component II signature	89	100	1.4E-27	T	29-03-2021	-	-
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	PRINTS	PR00097	Anthranilate synthase component II signature	134	146	1.4E-27	T	29-03-2021	-	-
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	PRINTS	PR00097	Anthranilate synthase component II signature	63	72	1.4E-27	T	29-03-2021	-	-
+DS999642_47	cc5d41ea13b91dfd0f6f2004d9c90235	217	PRINTS	PR00097	Anthranilate synthase component II signature	114	122	1.4E-27	T	29-03-2021	-	-
+DS999642_148	ddc8119fbc3914b27c56b612ea2a39b1	237	Pfam	PF00486	Transcriptional regulatory protein, C terminal	2	64	1.3E-7	T	29-03-2021	IPR001867	OmpR/PhoB-type DNA-binding domain
+DS999642_148	ddc8119fbc3914b27c56b612ea2a39b1	237	Gene3D	G3DSA:1.10.10.10	""winged helix"" repressor DNA binding domain	1	68	1.5E-15	T	29-03-2021	IPR036388	Winged helix-like DNA-binding domain superfamily
+DS999642_148	ddc8119fbc3914b27c56b612ea2a39b1	237	Gene3D	G3DSA:1.25.40.10	-	70	235	9.9E-38	T	29-03-2021	IPR011990	Tetratricopeptide-like helical domain superfamily
+DS999642_148	ddc8119fbc3914b27c56b612ea2a39b1	237	Pfam	PF03704	Bacterial transcriptional activator domain	72	215	8.5E-32	T	29-03-2021	IPR005158	Bacterial transcriptional activator domain
+DS999642_39	5eacd984b0cd8c526da4c36265173361	260	Pfam	PF13561	Enoyl-(Acyl carrier protein) reductase	14	256	4.8E-53	T	29-03-2021	-	-
+DS999642_39	5eacd984b0cd8c526da4c36265173361	260	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	156	175	2.3E-29	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_39	5eacd984b0cd8c526da4c36265173361	260	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	177	194	2.3E-29	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_39	5eacd984b0cd8c526da4c36265173361	260	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	83	94	2.3E-29	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_39	5eacd984b0cd8c526da4c36265173361	260	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	221	241	2.3E-29	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_39	5eacd984b0cd8c526da4c36265173361	260	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	9	26	2.3E-29	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_39	5eacd984b0cd8c526da4c36265173361	260	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	130	146	2.3E-29	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_39	5eacd984b0cd8c526da4c36265173361	260	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	83	94	6.3E-5	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_39	5eacd984b0cd8c526da4c36265173361	260	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	156	175	6.3E-5	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_39	5eacd984b0cd8c526da4c36265173361	260	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	136	144	6.3E-5	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_39	5eacd984b0cd8c526da4c36265173361	260	Gene3D	G3DSA:3.40.50.720	-	1	260	5.5E-76	T	29-03-2021	-	-
+DS999642_178	a8347e16b3fbd07185ea58c4054ffed9	289	Gene3D	G3DSA:3.90.470.20	-	149	256	2.1E-28	T	29-03-2021	IPR037143	4'-phosphopantetheinyl transferase domain superfamily
+DS999642_178	a8347e16b3fbd07185ea58c4054ffed9	289	Pfam	PF01648	4'-phosphopantetheinyl transferase superfamily	149	243	3.3E-13	T	29-03-2021	IPR008278	4'-phosphopantetheinyl transferase domain
+DS999642_178	a8347e16b3fbd07185ea58c4054ffed9	289	Gene3D	G3DSA:3.90.470.20	-	72	266	2.1E-28	T	29-03-2021	IPR037143	4'-phosphopantetheinyl transferase domain superfamily
+DS999642_28	1f80dfa6f3b72fe8ba9e920cd99e2f1d	537	Pfam	PF00221	Aromatic amino acid lyase	18	497	2.1E-166	T	29-03-2021	IPR001106	Aromatic amino acid lyase
+DS999642_28	1f80dfa6f3b72fe8ba9e920cd99e2f1d	537	Gene3D	G3DSA:1.10.275.10	-	10	204	3.2E-68	T	29-03-2021	IPR024083	Fumarase/histidase, N-terminal
+DS999642_28	1f80dfa6f3b72fe8ba9e920cd99e2f1d	537	Gene3D	G3DSA:1.20.200.10	Fumarase/aspartase (Central domain)	205	537	1.6E-135	T	29-03-2021	-	-
+DS999642_28	1f80dfa6f3b72fe8ba9e920cd99e2f1d	537	ProSitePatterns	PS00488	Phenylalanine and histidine ammonia-lyases signature.	146	162	-	T	29-03-2021	IPR022313	Phenylalanine/histidine ammonia-lyases, active site
+DS999642_28	1f80dfa6f3b72fe8ba9e920cd99e2f1d	537	TIGRFAM	TIGR03832	Tyr_2_3_mutase: tyrosine 2,3-aminomutase	13	519	1.0E-296	T	29-03-2021	IPR022314	Tyrosine 2,3-aminomutase, putative
+DS999642_75	b8d29841a504010e9c9f65171272f66d	263	Pfam	PF13561	Enoyl-(Acyl carrier protein) reductase	24	261	8.9E-63	T	29-03-2021	-	-
+DS999642_75	b8d29841a504010e9c9f65171272f66d	263	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	19	36	7.3E-35	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_75	b8d29841a504010e9c9f65171272f66d	263	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	141	157	7.3E-35	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_75	b8d29841a504010e9c9f65171272f66d	263	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	167	186	7.3E-35	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_75	b8d29841a504010e9c9f65171272f66d	263	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	188	205	7.3E-35	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_75	b8d29841a504010e9c9f65171272f66d	263	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	93	104	7.3E-35	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_75	b8d29841a504010e9c9f65171272f66d	263	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	224	244	7.3E-35	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_75	b8d29841a504010e9c9f65171272f66d	263	Gene3D	G3DSA:3.40.50.720	-	5	263	1.0E-78	T	29-03-2021	-	-
+DS999642_75	b8d29841a504010e9c9f65171272f66d	263	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	147	155	2.9E-8	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_75	b8d29841a504010e9c9f65171272f66d	263	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	167	186	2.9E-8	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_75	b8d29841a504010e9c9f65171272f66d	263	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	93	104	2.9E-8	T	29-03-2021	IPR002347	Short-chain dehydrogenase/reductase SDR
+DS999642_140	dd10fbe2ca9381965678986c67b2dd53	346	TIGRFAM	TIGR03718	R_switched_Alx: integral membrane protein, TerC family	9	308	1.6E-117	T	29-03-2021	IPR022369	Integral membrane protein TerC, riboswitch-linked
+DS999642_140	dd10fbe2ca9381965678986c67b2dd53	346	Pfam	PF03741	Integral membrane protein TerC family	74	276	9.1E-54	T	29-03-2021	IPR005496	Integral membrane protein TerC
+DS999642_150	a5cd57f691a55c7a08082e772db5be2a	419	ProSitePatterns	PS00189	2-oxo acid dehydrogenases acyltransferase component lipoyl binding site.	27	56	-	T	29-03-2021	IPR003016	2-oxo acid dehydrogenase, lipoyl-binding site
+DS999642_150	a5cd57f691a55c7a08082e772db5be2a	419	Gene3D	G3DSA:3.30.559.10	Chloramphenicol Acetyltransferase	172	417	2.8E-75	T	29-03-2021	IPR023213	Chloramphenicol acetyltransferase-like domain superfamily
+DS999642_150	a5cd57f691a55c7a08082e772db5be2a	419	Pfam	PF00364	Biotin-requiring enzyme	3	75	2.3E-21	T	29-03-2021	IPR000089	Biotin/lipoyl attachment
+DS999642_150	a5cd57f691a55c7a08082e772db5be2a	419	Gene3D	G3DSA:2.40.50.100	-	1	91	8.9E-25	T	29-03-2021	-	-
+DS999642_150	a5cd57f691a55c7a08082e772db5be2a	419	Gene3D	G3DSA:4.10.320.10	Dihydrolipoamide Transferase	124	164	7.0E-14	T	29-03-2021	IPR036625	E3-binding domain superfamily
+DS999642_150	a5cd57f691a55c7a08082e772db5be2a	419	Pfam	PF00198	2-oxoacid dehydrogenases acyltransferase (catalytic domain)	185	416	1.1E-72	T	29-03-2021	IPR001078	2-oxoacid dehydrogenase acyltransferase, catalytic domain
+DS999642_150	a5cd57f691a55c7a08082e772db5be2a	419	Pfam	PF02817	e3 binding domain	125	160	1.5E-12	T	29-03-2021	IPR004167	Peripheral subunit-binding domain
+DS999642_69	3390fb0b6080b5ac9fc1d28a013f7f08	636	Pfam	PF13517	Repeat domain in Vibrio, Colwellia, Bradyrhizobium and Shewanella	145	220	4.5E-10	T	29-03-2021	IPR013517	FG-GAP repeat
+DS999642_69	3390fb0b6080b5ac9fc1d28a013f7f08	636	Pfam	PF13517	Repeat domain in Vibrio, Colwellia, Bradyrhizobium and Shewanella	286	360	8.0E-9	T	29-03-2021	IPR013517	FG-GAP repeat
+DS999642_69	3390fb0b6080b5ac9fc1d28a013f7f08	636	Pfam	PF07593	ASPIC and UnbV	556	612	7.6E-8	T	29-03-2021	IPR011519	ASPIC/UnbV
+DS999642_183	18edbc91eb66e0481115b9712f68b8fa	698	Pfam	PF00668	Condensation domain	120	447	1.3E-20	T	29-03-2021	IPR001242	Condensation domain
+DS999642_183	18edbc91eb66e0481115b9712f68b8fa	698	Gene3D	G3DSA:3.30.559.30	-	295	537	3.0E-57	T	29-03-2021	-	-
+DS999642_183	18edbc91eb66e0481115b9712f68b8fa	698	Gene3D	G3DSA:3.30.559.10	Chloramphenicol Acetyltransferase	121	489	3.0E-57	T	29-03-2021	IPR023213	Chloramphenicol acetyltransferase-like domain superfamily
+DS999642_10	038435be32f7046e2ea69fdfd7acd2d9	479	Pfam	PF00501	AMP-binding enzyme	111	312	7.5E-8	T	29-03-2021	IPR000873	AMP-dependent synthetase/ligase
+DS999642_10	038435be32f7046e2ea69fdfd7acd2d9	479	Gene3D	G3DSA:3.30.300.30	-	354	460	3.6E-5	T	29-03-2021	-	-
+DS999642_10	038435be32f7046e2ea69fdfd7acd2d9	479	Gene3D	G3DSA:3.40.50.12780	-	31	353	7.6E-64	T	29-03-2021	IPR042099	AMP-dependent synthetase-like superfamily
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	ProSitePatterns	PS00086	Cytochrome P450 cysteine heme-iron ligand signature.	347	356	-	T	29-03-2021	IPR017972	Cytochrome P450, conserved site
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	PRINTS	PR00385	P450 superfamily signature	354	365	1.1E-5	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	PRINTS	PR00385	P450 superfamily signature	242	259	1.1E-5	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	PRINTS	PR00385	P450 superfamily signature	277	288	1.1E-5	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	PRINTS	PR00385	P450 superfamily signature	345	354	1.1E-5	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	Pfam	PF00067	Cytochrome P450	278	375	5.8E-17	T	29-03-2021	IPR001128	Cytochrome P450
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	Gene3D	G3DSA:1.10.630.10	Cytochrome p450	6	407	1.8E-123	T	29-03-2021	IPR036396	Cytochrome P450 superfamily
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	PRINTS	PR00359	B-class P450 signature	142	158	1.9E-32	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	PRINTS	PR00359	B-class P450 signature	345	354	1.9E-32	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	PRINTS	PR00359	B-class P450 signature	196	218	1.9E-32	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	PRINTS	PR00359	B-class P450 signature	354	365	1.9E-32	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	PRINTS	PR00359	B-class P450 signature	295	322	1.9E-32	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	PRINTS	PR00359	B-class P450 signature	159	174	1.9E-32	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	PRINTS	PR00359	B-class P450 signature	277	288	1.9E-32	T	29-03-2021	IPR002397	Cytochrome P450, B-class
+DS999642_190	4a5b8e856b896f8f4eac53fbe7c2bbd2	410	PRINTS	PR00359	B-class P450 signature	93	104	1.9E-32	T	29-03-2021	IPR002397	Cytochrome P450, B-class

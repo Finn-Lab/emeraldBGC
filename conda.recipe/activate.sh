@@ -1,0 +1,2 @@
+export OLD_PERL5LIB=$PERL5LIB
+export PERL5LIB=${CONDA_PREFIX}/lib/5.26.2/

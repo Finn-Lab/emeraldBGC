@@ -1,0 +1,30 @@
+from Bio import SeqIO
+import tensorflow as tf
+import os
+import sys
+import logging
+log = logging.getLogger(f"EMERALD.{__name__}")
+
+class Loss:
+    """Load loss function used in trainings"""
+
+    def __init__(self, gamma):
+
+        self.gamma = gamma
+
+    @tf.function
+    def robustLoss(self, true, pred, sample_weight=None):
+        import tensorflow.keras.backend as k
+
+        """Akiyama, ., Imoto, K., Tonami, N., Okamoto, Y., Yamanishi, R., Fukumori, T., & Yamashita, Y. (2020).  
+        Sound Event Detection Using Duration Robust Loss Function. arXiv preprint arXiv:2006.15253. 
+        """
+        error = (((2 - k.sigmoid(pred)) ** self.gamma) * k.log(k.sigmoid(pred))) + (
+            (k.sigmoid(pred) ** self.gamma) * (1 - true) * (k.log(1 - k.sigmoid(pred)))
+        )
+
+        if sample_weight == None:
+            return -k.sum(error, axis=0)
+        else:
+            return -k.sum(error * sample_weight, axis=0)
+    

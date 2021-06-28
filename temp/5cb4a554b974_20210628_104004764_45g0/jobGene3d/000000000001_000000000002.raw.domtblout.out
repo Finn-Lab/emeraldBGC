@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      data/gene3d/4.3.0/gene3d_main.hmm
+# Target file:     /home/module/temp/5cb4a554b974_20210628_104004764_45g0//jobGene3d/000000000001_000000000002.fasta
+# Option settings: bin/hmmer/hmmer3/3.3/hmmsearch -o /home/module/temp/5cb4a554b974_20210628_104004764_45g0//jobGene3d/000000000001_000000000002.raw.out --domtblout /home/module/temp/5cb4a554b974_20210628_104004764_45g0//jobGene3d/000000000001_000000000002.raw.domtblout.out -E 0.001 -Z 65245 --cpu 1 data/gene3d/4.3.0/gene3d_main.hmm /home/module/temp/5cb4a554b974_20210628_104004764_45g0//jobGene3d/000000000001_000000000002.fasta 
+# Current dir:     /home/module/interproscan-5.52-86.0
+# Date:            Mon Jun 28 10:49:24 2021
+# [ok]

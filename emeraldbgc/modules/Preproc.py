@@ -46,7 +46,7 @@ class Preprocess:
             self.outdir, "{}.prodigal.faa".format(os.path.basename(self.seq_file))
         )
         cmd = ["prodigal", "-i", self.seq_file, "-a", outFaa] + (
-            ["-p", "meta"] if self.meta else []
+            ["-p", "meta"] if self.meta == "True" else []
         )
 
         outs, errs = subprocess.Popen(
@@ -59,7 +59,7 @@ class Preprocess:
                 "Sequence must be 20000 characters when running Prodigal in normal mode. Trying -p meta"
             )
 
-            cmd = ["prodigal", "-i", self.seq_file, "-a", outFaa] + (["-p", "meta"])
+            cmd = ["prodigal", "-i", self.seq_file, "-a", outFaa, "-m"] + (["-p", "meta"])
 
             outs, errs = subprocess.Popen(
                 cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE

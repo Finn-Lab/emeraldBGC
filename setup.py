@@ -11,7 +11,7 @@ from setuptools.command.install import install
 with open('emeraldbgc/pkg_info.json') as h:
     _info = json.load(h)
 
-with open('README.rst') as h:
+with open('README.txt') as h:
     readme = h.read()
 
 setup(

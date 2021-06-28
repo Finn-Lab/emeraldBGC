@@ -3,7 +3,8 @@
 package:
   
   name: emeraldbgc
-  version: {{ data['version'] }}
+  #version: {{ data['version'] }}
+  version: 0.9.0
 
 source:
   #git_url: https://gitlab.ebi.ac.uk/fragoso/emeraldbgc.git
@@ -13,10 +14,10 @@ build:
     #script: {{ PYTHON }} -m pip install --no-deps --ignore-installed -vv . 
   noarch: python
 
-  entry_points:
-    {% for entry in data['entry_points']['console_scripts'] %}
-      - {{ entry.split('=')[0].strip() }} = {{ entry.split('=')[1].strip() }}
-    {% endfor %}
+  #  entry_points:
+  #  {% for entry in data['entry_points']['console_scripts'] %}
+  #    - {{ entry.split('=')[0].strip() }} = {{ entry.split('=')[1].strip() }}
+  #  {% endfor %}
 requirements:
   build:
     - python >=3.7
@@ -24,6 +25,7 @@ requirements:
   host:
     - python >=3.7
     - perl >=5
+      #    - pcre >=8.44
       #    - numpy >=1.8
       #    - openjdk >=11.0
       #    - tensorflow >=2.4.1
@@ -34,21 +36,21 @@ requirements:
   run:
     - python >=3.7
     - perl >=5
-    - numpy >=1.8
+      #- pcre >=8.44
+    - numpy >=1.16,<1.20
+    - numpy <1.20
     - openjdk >=11.0
     - tensorflow =2.4
     - hmmer
     - joblib >=1.0.1
     - scikit-learn >=0.24.1
+    - prodigal
 
 test:
-  #source_files:
-    #  - tests/files/DS.fna
+  source_files:
+     - tests/files/DS.fna
   commands:
-    - echo $PWD >> ~/res.txt
-      #- ls >> ~/res.txt
-      #- cat DS.fna >> ~/res.txt
-      #    - emeraldbgc -h
+     - emeraldbgc tests/files/DS.fna
 
 about:
   home: data['url']

@@ -56,7 +56,7 @@ class Outputs:
 
         for contig in self.annotation.looseClst:
 
-            if not self.minimal:
+            if self.minimal != "True":
                 for ix, f in enumerate(self.annotation.contigsDct[contig]):
 
                     ID, (start, end) = f
@@ -99,7 +99,7 @@ class Outputs:
                     f"{contig}\tEMERALDv{__version__}\tCLUSTER\t{start}\t{end}\t.\t.\t.\tID={ID};{typs};partial={edge}"
                 )
 
-                if self.ref_b:
+                if self.ref_b == "True":
 
                     ct2 = 1
                     for k2, g2 in groupby(

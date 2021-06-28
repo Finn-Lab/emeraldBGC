@@ -8,10 +8,11 @@ emeraldBGC - SMBGC detection tool -
 How to install emeraldBGC?
 
     requires: 
-        conda: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
-        macOS or Linux
+        Linux OS
+        Bioconda : https://bioconda.github.io/user/install.html
+
     installation:
-        conda create -n emeraldbgc emeraldbgc -c anaconda
+        conda create -n emeraldbgc emeraldbgc -c santiagosanchezf
 
     Basic use:
         conda activate emeraldbgc

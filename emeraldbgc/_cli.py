@@ -42,7 +42,7 @@ def main(args=None):
         "--version",
         action="version",
         help="Show the version number and exit.",
-        version="EMERALD {__version}",
+        version=f"EMERALD {__version__}",
     )
     parser.add_argument(
         "--greed",
@@ -63,10 +63,10 @@ def main(args=None):
     parser.add_argument(
         "--meta",
         dest="meta",
-        default=True,
-        type=bool,
+        default="True",
+        type=str,
         help="prodigal option meta [default True]",
-        metavar="BOOL",
+        metavar="True|False",
     )
     parser.add_argument(
         "--outdir",
@@ -86,18 +86,18 @@ def main(args=None):
     parser.add_argument(
         "--minimal",
         dest="minimal_out",
-        default=True,
-        type=bool,
+        default="True",
+        type=str,
         help="minimal output in a gff3 file [default True]",
-        metavar="BOOL",
+        metavar="True|False",
     )
     parser.add_argument(
         "--refined",
         dest="ref_b",
-        default=True,
-        type=bool,
+        default="True",
+        type=str,
         help="annotate high probability borders [default True]",
-        metavar="BOOL",
+        metavar="True|False",
     )
     parser.add_argument(
         "--cpu",

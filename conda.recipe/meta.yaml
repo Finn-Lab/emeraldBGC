@@ -3,8 +3,8 @@
 package:
   
   name: emeraldbgc
-  #version: {{ data['version'] }}
-  version: 0.9.0
+  version: {{ data['version'] }}
+  #  version: 0.9.0
 
 source:
   #git_url: https://gitlab.ebi.ac.uk/fragoso/emeraldbgc.git

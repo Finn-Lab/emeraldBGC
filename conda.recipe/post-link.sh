@@ -1,14 +1,19 @@
 #!/usr/bin/env bash
 
-cd ${SP_DIR}/${PKG_NAME}
+env > ~/env.test.txt
 wget ftp://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/5.52-86.0/interproscan-5.52-86.0-64-bit.tar.gz
 wget ftp://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/5.52-86.0/interproscan-5.52-86.0-64-bit.tar.gz.md5
 md5sum -c interproscan-5.52-86.0-64-bit.tar.gz.md5
-tar --exclude-from=${RECIPE_DIR}/exclude.txt -pxvzf interproscan-5.52-86.0-*-bit.tar.gz
+PY=$CONDA_PREFIX/bin/python
+PKG_FILE=$($PY -c "import ${PKG_NAME};print(${PKG_NAME}.__file__)")
+PKG_DIR=$(dirname $PKG_FILE)
+echo $PKG_DIR >> ~/env.test.txt
+tar --exclude-from=${PKG_DIR}/exclude.txt -pxvzf interproscan-5.52-86.0-*-bit.tar.gz -C ${PKG_DIR}
 rm interproscan-5.52-86.0-*-bit.tar.gz
-ln -s ${PREFIX}/bin ${SP_DIR}/${PKG_NAME}/interproscan-5.52-86.0/interproscan.sh
+ln -s ${PKG_DIR}/interproscan-5.52-86.0/interproscan.sh ${CONDA_PREFIX}/bin
 
-$PYTHON ${SP_DIR}/${PKG_NAME}/interproscan-5.52-86.0/initial_setup.py 
+cd ${PKG_DIR}/interproscan-5.52-86.0/
+$PY initial_setup.py 
 
 
 

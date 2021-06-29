@@ -29,7 +29,8 @@ setup(
                             'models/hmm_lib/*',
                             'models/*',
                             'modules/*',
-                            '*json'
+                            '*json',
+                            'exclude.txt',
                             ]
     },
     entry_points = {

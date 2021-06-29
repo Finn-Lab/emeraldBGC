@@ -1,7 +1,8 @@
 emeraldBGC Repository
 ========================
 
----------------
+------------------------
+
 
 emeraldBGC - SMBGC detection tool -
 
@@ -14,7 +15,7 @@ How to install emeraldBGC?
     installation:
         conda create -n emeraldbgc emeraldbgc -c santiagosanchezf
 
-    Basic use:
+    basic use:
         conda activate emeraldbgc
         emeraldbgc <nucleotide fasta file>
         conda deactivate emerald

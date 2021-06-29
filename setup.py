@@ -36,7 +36,7 @@ setup(
     entry_points = {
             'console_scripts': [
                                 'emeraldbgc = emeraldbgc._cli:main',
-                                'emerald_download_data = emeraldbgc.download_data:main',
+#                                'emerald_download_data = emeraldbgc.download_data:main',
                                 ]
     },
     packages = find_packages(exclude=('tests', 'docs')),

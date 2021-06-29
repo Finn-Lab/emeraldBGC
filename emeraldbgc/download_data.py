@@ -23,10 +23,8 @@ import requests
 
 PKG_DIRECTORY = os.path.abspath( os.path.dirname(__file__) )
 BIN_DIRECTORY = os.path.abspath( os.path.dirname(sys.argv[0]) )
-#INTERPROSCAN_URL = "http://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/5.52-86.0/interproscan-5.52-86.0-64-bit.tar.gz"
-#INTERPROSCAN_MD5_URL = "http://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/5.52-86.0/interproscan-5.52-86.0-64-bit.tar.gz.md5"
-INTERPROSCAN_URL = "https://anaconda.org/bioconda/perl-digest-md5/2.55/download/osx-64/perl-digest-md5-2.55-pl526_0.tar.bz2"
-INTERPROSCAN_MD5 = "aed54ddce47782a8e0ab06b078ee67a9"
+INTERPROSCAN_URL = "http://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/5.52-86.0/interproscan-5.52-86.0-64-bit.tar.gz"
+INTERPROSCAN_MD5_URL = "http://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/5.52-86.0/interproscan-5.52-86.0-64-bit.tar.gz.md5"
 
 INTERPROSCAN_TAR_DEST = os.path.join(PKG_DIRECTORY, os.path.basename(INTERPROSCAN_URL))
 INTERPROSCAN_DEST = os.path.join(PKG_DIRECTORY, "interproscan-5.52-86.0")

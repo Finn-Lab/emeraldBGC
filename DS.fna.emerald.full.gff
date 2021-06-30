@@ -1,0 +1,10 @@
+##gff-version 3
+DS999642	EMERALDv0.9.0	CLUSTER	1	136970	.	.	.	ID=DS999642_emrld_1;nearest_MiBIG=BGC0001397;nearest_MiBIG_class=NRP Polyketide;nearest_MiBIG_jaccardDistance=0.561;partial=10
+DS999642	EMERALDv0.9.0	CLUSTER_border	8473	84229	.	.	.	ID=DS999642_emrld_1_1;nearest_MiBIG=BGC0001397;nearest_MiBIG_class=NRP Polyketide;nearest_MiBIG_jaccardDistance=0.561;partial=10
+DS999642	EMERALDv0.9.0	CLUSTER_border	88297	90016	.	.	.	ID=DS999642_emrld_1_2;nearest_MiBIG=BGC0001397;nearest_MiBIG_class=NRP Polyketide;nearest_MiBIG_jaccardDistance=0.561;partial=10
+DS999642	EMERALDv0.9.0	CLUSTER_border	92789	93406	.	.	.	ID=DS999642_emrld_1_3;nearest_MiBIG=BGC0001397;nearest_MiBIG_class=NRP Polyketide;nearest_MiBIG_jaccardDistance=0.561;partial=10
+DS999642	EMERALDv0.9.0	CLUSTER_border	108037	131626	.	.	.	ID=DS999642_emrld_1_4;nearest_MiBIG=BGC0001397;nearest_MiBIG_class=NRP Polyketide;nearest_MiBIG_jaccardDistance=0.561;partial=10
+DS999642	EMERALDv0.9.0	CLUSTER	156830	231068	.	.	.	ID=DS999642_emrld_2;nearest_MiBIG=BGC0000459;nearest_MiBIG_class=NRP Polyketide;nearest_MiBIG_jaccardDistance=0.671;partial=01
+DS999642	EMERALDv0.9.0	CLUSTER_border	158064	170789	.	.	.	ID=DS999642_emrld_2_1;nearest_MiBIG=BGC0000459;nearest_MiBIG_class=NRP Polyketide;nearest_MiBIG_jaccardDistance=0.671;partial=01
+DS999642	EMERALDv0.9.0	CLUSTER_border	174745	178605	.	.	.	ID=DS999642_emrld_2_2;nearest_MiBIG=BGC0000459;nearest_MiBIG_class=NRP Polyketide;nearest_MiBIG_jaccardDistance=0.671;partial=01
+DS999642	EMERALDv0.9.0	CLUSTER_border	184675	229464	.	.	.	ID=DS999642_emrld_2_3;nearest_MiBIG=BGC0000459;nearest_MiBIG_class=NRP Polyketide;nearest_MiBIG_jaccardDistance=0.671;partial=01

@@ -87,14 +87,19 @@ class Preprocess:
 
         base = os.path.basename(self.seq_file)
 
-        with open(f"{base}.faa", "w") as h:
+        outFaa = os.path.join(
+            self.outdir, "{}.prodigal.faa".format(os.path.basename(self.seq_file))
+        )
+
+        with open(outFaa, "w") as h:
 
             for rec in recs:
-
+                ct = 0
                 for f in rec.features:
 
+                    
                     if f.type == "CDS" and "translation" in f.qualifiers:
-
+                        ct += 1
                         pid = (
                             f.qualifiers["protein_id"]
                             if "protein_id" in f.qualifiers
@@ -102,8 +107,11 @@ class Preprocess:
                         )
                         seq = f.qualifiers["translation"][0]
                         h.write(f">{pid}\n{seq}\n")
+                        
+                if ct == 0:
+                    log.info("{} CDS found with translation in {}".format(ct, rec.name) )
 
-        return os.path.abspath(f"{base}.emerald.faa")
+        return os.path.abspath(outFaa)
 
     def check_fmt(self):
         """ Evaluate if input format is FNA or GBK"""

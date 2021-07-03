@@ -36,7 +36,7 @@ requirements:
   run:
     - python >=3.7
     - perl >=5
-      #- pcre >=8.44
+    - biopython
     - numpy >=1.16,<1.20
     - numpy <1.20
     - openjdk >=11.0

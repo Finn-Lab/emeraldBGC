@@ -34,7 +34,7 @@ def main(args=None):
     parser.add_argument(
         "seq_file",
         type=str,
-        help="nucleotide sequence file. FASTA or GBK. mandatory",
+        help="input nucleotide sequence file. FASTA or GBK. mandatory",
         metavar="SEQUENCE_FILE",
     )
     parser.add_argument(
@@ -43,6 +43,14 @@ def main(args=None):
         action="version",
         help="Show the version number and exit.",
         version=f"EMERALD {__version__}",
+    )
+    parser.add_argument(
+        "--ip-file",
+        dest="ip_file",
+        default=None,
+        type=str,
+        help="Optional, preprocessed InterProScan GFF3 output file. Requires a GBK file as SEQUENCE_FILE. The GBK must have CDS as features, and \"protein_id\" matching the ids in the InterProScan file",
+        metavar="FILE",
     )
     parser.add_argument(
         "--greed",
@@ -94,9 +102,9 @@ def main(args=None):
     parser.add_argument(
         "--refined",
         dest="ref_b",
-        default="True",
+        default="False",
         type=str,
-        help="annotate high probability borders [default True]",
+        help="annotate high probability borders [default False]",
         metavar="True|False",
     )
     parser.add_argument(
@@ -133,7 +141,15 @@ def main(args=None):
     log.info(f"outdir: {outdir}")
 
     log.info("preprocessing files")
-    preprocess = Preprocess(os.path.abspath(args.seq_file), args.meta, args.cpu, outdir)
+    preprocess = Preprocess(
+            os.path.abspath(args.seq_file), 
+            args.ip_file, 
+            args.meta, 
+            args.cpu, 
+            outdir
+    )
+   
+
     prodigal_file, ips_file, hmm_file = preprocess.process_sequence()
 
     log.info("EMERALD process")
@@ -145,9 +161,11 @@ def main(args=None):
     log.info("transform inhouse hmm file")
     annotate.transformEmeraldHmm(hmm_file)
 
-    log.info("transform cds file")
-    annotate.transformCDSpredToCDScontigs(prodigal_file, preprocess.fmt)
-
+    log.info("transform proteins file")
+    annotate.transformCDSpredToCDScontigs(
+            prodigal_file if preprocess.fmt == "fna" else args.seq_file,
+            preprocess.fmt)
+    
     log.info("transform dicts to np matrices")
     annotate.buildMatrices()
 

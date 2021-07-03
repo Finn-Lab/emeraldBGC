@@ -13,10 +13,10 @@
 
 import logging
 import os
+import sys
 import subprocess
 
 from emeraldbgc import _params
-
 log = logging.getLogger(f"EMERALD.{__name__}")
 
 from distutils.spawn import find_executable
@@ -25,9 +25,10 @@ from distutils.spawn import find_executable
 class Preprocess:
     """External tools needed for emerald bgc detection"""
 
-    def __init__(self, seq_file, meta, cpus, outdir):
+    def __init__(self, seq_file, ip_file, meta, cpus, outdir):
 
         self.seq_file = seq_file
+        self.ip_file = ip_file
         self.meta = meta
         self.cpus = int(cpus)
         self.outdir = outdir if outdir else "temp"
@@ -101,9 +102,9 @@ class Preprocess:
                     if f.type == "CDS" and "translation" in f.qualifiers:
                         ct += 1
                         pid = (
-                            f.qualifiers["protein_id"]
+                            f.qualifiers["protein_id"][0]
                             if "protein_id" in f.qualifiers
-                            else f.qualifiers["locus_tag"]
+                            else f.qualifiers["locus_tag"][0]
                         )
                         seq = f.qualifiers["translation"][0]
                         h.write(f">{pid}\n{seq}\n")
@@ -121,10 +122,14 @@ class Preprocess:
                 log.info("FASTA sequence file detected")
             else:
                 self.fmt = "gbk"
-                log.info(f"FASTA sequence file NOT detected; trying {self.fmt}")
+                log.info(f"FASTA sequence file NOT detected; trying GBK")
 
     def process_sequence(self):
         """ CDS prediction on sequence file"""
+        if 'linux' not in sys.platform and self.ip_file == None:
+            log.info("internal run of InterProScan only available for Linux OS. Make sure to use --ip-file option")
+            raise ValueError('Non Linux OS must be run with --ip-file option')
+
         self.check_fmt()
         if self.fmt == "fna":
             self.outFaa = self.runProdigal()
@@ -134,7 +139,7 @@ class Preprocess:
             log.info("missing sequence file format")
 
         ih_f = self.runHmmScan()
-        ip_f = self.runInterproscan()
+        ip_f = self.runInterproscan() if self.ip_file == None else self.ip_file
         return self.outFaa, ip_f, ih_f
 
     def runHmmScan(self):
@@ -166,7 +171,7 @@ class Preprocess:
             + (["--cpu", str(self.cpus)] if self.cpus else [])
             + ([hmmLib, self.outFaa])
         )
-        log.info(cmd)
+        log.info(" ".join(cmd))
         try:
             outs, errs = subprocess.Popen(
                 cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE
@@ -181,24 +186,17 @@ class Preprocess:
         """annotate functionally with InterproScan"""
         log.info("InterProScan")
 
-        ip_exec = os.path.join(
-            os.path.dirname(os.path.abspath(__file__)),
-            "..",
-            "interproscan-5.52-86.0",
-            "interproscan.sh",
-        )
-
-        if not find_executable(ip_exec):
-            log.exception(f"{ip_exec} not found, run emrald_download_data")
+        if not find_executable('interproscan.sh'):
+            log.exception(f"interproscan.sh not found, only available for Linux OS")
 
         if not os.path.isfile(self.outFaa):
-            log.exception(f"{self.outFaa} file not found")
+            log.exception(f"self.outFaa file not found")
 
         outGff = os.path.join(
             self.outdir, "{}.ip.tsv".format(os.path.basename(self.outFaa))
         )
         cmd = (
-            [ip_exec, "-i", self.outFaa, "-o", outGff, "-f", "TSV"]
+            ["interproscan.sh", "-i", self.outFaa, "-o", outGff, "-f", "TSV"]
             + (["-appl", ",".join(_params["ip_an"])] if _params["ip_an"] else [])
             + (["-cpu", str(self.cpus)] if self.cpus else [])
         )

@@ -14,6 +14,7 @@
 import json
 import logging
 import os
+import re
 import pickle
 from itertools import groupby
 
@@ -51,11 +52,24 @@ class AnnotationFilesToEmerald:
             log.exception(f"{ipsFile} file not found")
 
         with open(ipsFile, "r") as h:
-            for l in h:
-                spl = l.split("\t")
-                self.entriesDct.setdefault(spl[0], []).append(
-                    spl[11] if (len(spl) > 11 and spl[11][:2] == "IP") else spl[4]
-                )
+
+            lines = h.readlines()
+            fmt = "gff" if lines[0][:5] == "##gff" else "tsv"
+
+            for l in lines:
+        
+                if fmt == "tsv":
+
+                    spl = l.split("\t")
+                    self.entriesDct.setdefault(spl[0], []).append(
+                        spl[-2] if spl[-2] != '-' else spl[4]
+                    )
+                if fmt == "gff":
+                    spl = l.split("\t")
+                    if len(spl) > 3 and spl[2]=='protein_match':
+                        self.entriesDct.setdefault(spl[0],[]).append(
+                                re.split("InterPro:|\"",spl[-1])[-2] if 'InterPro' in spl[-1]     else re.split("Name=|;",spl[-1])[-2]
+                        )
 
     def transformEmeraldHmm(self, hmmFile):
 
@@ -104,20 +118,19 @@ class AnnotationFilesToEmerald:
                     for f in rec.features:
                         if f.type == "CDS":
 
+
                             start, end = int(f.location.start) + 1, int(f.location.end)
 
                             self.contigsDct.setdefault(rec.id, []).append(
                                 (
-                                    f.qualifiers["protein_id"]
+                                    f.qualifiers["protein_id"][0]
                                     if "protein_id" in f.qualifiers
-                                    else f.qualifiers["locus_tag"],
+                                    else f.qualifiers["locus_tag"][0],
                                     (start, end),
                                 )
                             )
 
     def buildMatrices(self):
-
-        log.info("Building matrices")
 
         for contig in self.contigsDct:
 
@@ -141,6 +154,7 @@ class AnnotationFilesToEmerald:
                     self.vocab[x] for x in self.entriesDct[name] if x in self.vocab
                 ]
                 self.annDct[contig][ix][modiAnn] = 1
+
 
     def predictAnn(self, colapseFunc=max):
 
@@ -264,7 +278,7 @@ class AnnotationFilesToEmerald:
         log.info("Predict BGC classes")
 
         score = _params["greed"][str(g)] if score == None else score
-        log.info(f"Pos_class model Thres {score}")
+        log.info(f"Positive class model threshold: {score}")
         locations, matrix, typeLi = [], [], []
         claa = [
             "Alkaloid",
@@ -301,7 +315,6 @@ class AnnotationFilesToEmerald:
                 self.borderClst[contig][gg] = 0
 
             else:
-                log.info(str(p))
                 nearest_ = self.near_classifer(set(np.where(matrix[ix] == 1)[0]))
                 nearest = "nearest_MiBIG={};nearest_MiBIG_class={};nearest_MiBIG_jaccardDistance={:.3f}".format(
                     nearest_[0], nearest_[1], nearest_[2]

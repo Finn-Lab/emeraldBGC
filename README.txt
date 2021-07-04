@@ -6,21 +6,47 @@ emeraldBGC Repository
 
 emeraldBGC - SMBGC detection tool -
 
-How to install emeraldBGC?
+How to use emeraldBGC?
 
-  requires: 
-    Linux OS
-    Bioconda : https://bioconda.github.io/user/install.html
+  GET EMERALDBGC:
 
-  installation:
-    conda create -n emeraldbgc emeraldbgc -c santiagosanchezf
+    Docker:
 
-  basic use:
-    conda activate emeraldbgc
-    emeraldbgc <nucleotide fasta file>
-    conda deactivate emerald
+      requires:
+        Docker
+        Python
 
-  output:
+      install:
+        mkdir ~/emeraldbgc/
+        curl -o ~/emeraldbgc/emeraldbgc_container.py https://gitlab.ebi.ac.uk/fragoso/emeraldbgc/-/raw/master/docker/emeraldbgc_container.py?inline=false 
+
+      basic run:
+        ~/emeraldbgc/emeraldbgc_container.py <nucleotide fasta file>
+
+      help:
+        ~/emeraldbgc/emeraldbgc_container.py -h
+        
+    Conda:
+
+      requires: 
+        Linux OS/Unix-like (Non Linux OS can't run InterProScan. InterProScan output must be provided in TSV or GFF3 format sing "--ip-file" and a GBK as SEQUENCE)
+        Bioconda : https://bioconda.github.io/user/install.html
+
+      install:
+        conda create -n emeraldbgc emeraldbgc -c santiagosanchezf
+
+      basic run:
+        conda activate emeraldbgc
+        emeraldbgc <nucleotide fasta file>
+        conda deactivate emerald
+
+      help:
+        conda activate emeraldbgc
+        emeraldbgc -h
+        conda deactivate emerald
+
+  OUTPUT:
+
     GFF3 format file
 
     The fields in this header are as follows:

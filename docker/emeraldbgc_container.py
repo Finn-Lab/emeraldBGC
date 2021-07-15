@@ -108,6 +108,17 @@ def main(args=None):
         od_ix = args_.index(args.outdir)
         del args_[od_ix:od_ix+2]
 
+    if args.ip_file != None:
+        ip_file_cmd = [
+                "-v",
+                 "{}:/home/inp/ips_file.f:ro".format( os.path.abspath( args.ip_file ) )
+                ]
+        od_ix = args_.index(args.ip_file)
+        args_[od_ix] = "/home/inp/ips_file.f"
+    else:
+        ip_file_cmd = []
+
+
     os.makedirs( os.path.abspath( args.outdir ), exist_ok=True )
 
     cmd = ["docker",
@@ -117,8 +128,9 @@ def main(args=None):
             "{}:/home/in/:ro".format( os.path.abspath( os.path.dirname(args.seq_file) ) ),
             "-v",
             "{}:/home/out/:rw".format( os.path.abspath( args.outdir ) ),
+    ] + ip_file_cmd + [
             "santiagosanchezf/emeraldbgc:latest",
-    ] + args_ + [ "--outdir", "/home/out/" ,"/home/in/{}".format( os.path.basename(args.seq_file) ) ]
+    ] + args_ + [ "--outdir", "/home/out/" ,"/home/in/{}".format( os.path.basename(args.seq_file) ) ]  
 
     if not find_executable("docker"):
         raise ValueError("docker is not installed or in PATH")

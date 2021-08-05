@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PF19450              PF19450       70 GG657752_151         -             74   5.9e-22   73.6   0.1   1   1   5.5e-25   6.5e-22   73.5   0.1     3    70     4    74     2    74 0.95 Family of unknown function (DUF5988)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      /Users/fragoso/Downloads/ws/bench/files/comp/GG657752.fna.prodigal.faa
+# Target file:     /Users/fragoso/modules/old_emerald/models/emerald.hmm
+# Option settings: hmmscan --domtblout GG657752.fna.prodigal.faa.emerald.tsv --cut_ga --cpu 1 /Users/fragoso/modules/old_emerald/models/emerald.hmm /Users/fragoso/Downloads/ws/bench/files/comp/GG657752.fna.prodigal.faa 
+# Current dir:     /Users/fragoso/modules/emeraldbgc/emeraldbgc/modules/GG657752.fna.prodigal.faa.emrld
+# Date:            Mon Jul 19 07:22:49 2021
+# [ok]

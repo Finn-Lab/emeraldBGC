@@ -1,0 +1,92 @@
+2021-07-19 07:22:40,167 ************     *******************
+   EMRELAD...
+  ************
+2021-07-19 07:22:40,168 outdir: /Users/fragoso/modules/emeraldbgc/emeraldbgc/modules/GG657752.fna.prodigal.faa.emrld
+2021-07-19 07:22:40,168 loading models
+2021-07-19 07:22:40,168 model file: /Users/fragoso/modules/old_emerald/models/emerald.h5
+2021-07-19 07:22:41,397 preprocessing files
+2021-07-19 07:22:41,397 asses input format
+2021-07-19 07:22:41,397 get prodigal file
+2021-07-19 07:22:41,397 get inhouse hmm file
+2021-07-19 07:22:41,397 emerald functional annotation...
+2021-07-19 07:22:41,397 ['hmmscan', '--domtblout', 'GG657752.fna.prodigal.faa.emerald.tsv', '--cut_ga', '--cpu', '1', '/Users/fragoso/modules/old_emerald/models/emerald.hmm', '/Users/fragoso/Downloads/ws/bench/files/comp/GG657752.fna.prodigal.faa']
+2021-07-19 07:22:49,358 
+2021-07-19 07:22:49,359 get interproscan file
+2021-07-19 07:22:49,359 EMERALD process
+2021-07-19 07:22:49,359 transform interpro file
+2021-07-19 07:22:49,361 transform inhouse hmm file
+2021-07-19 07:22:49,361 processing /Users/fragoso/modules/emeraldbgc/emeraldbgc/modules/GG657752.fna.prodigal.faa.emrld/GG657752.fna.prodigal.faa.emerald.tsv
+2021-07-19 07:22:49,362 transform cds file
+2021-07-19 07:22:49,363 transform dicts to np matrices
+2021-07-19 07:22:49,363 Building matrices
+2021-07-19 07:22:49,363 self.samps 400
+2021-07-19 07:22:49,366 predict bgc regions
+2021-07-19 07:22:49,366 Predict BGC probability w/ TensorFlow
+2021-07-19 07:22:50,051 define clusters
+2021-07-19 07:22:50,052 Define Clusters
+2021-07-19 07:22:50,052 post-processing filters and type classification
+2021-07-19 07:22:50,052 Predict BGC classes
+2021-07-19 07:22:50,052 Pos_class model Thres 0.345
+2021-07-19 07:22:50,130 [0.43 0.86 0.72 0.79 0.08 0.66 0.3  0.59]
+2021-07-19 07:22:50,130 [0.5  0.92 0.82 0.97 0.18 0.71 0.45 0.73]
+2021-07-19 07:27:46,098 ************     *******************
+   EMRELAD...
+  ************
+2021-07-19 07:27:46,099 outdir: /Users/fragoso/modules/emeraldbgc/emeraldbgc/modules/CM000950.fna.prodigal.faa.emrld
+2021-07-19 07:27:46,099 loading models
+2021-07-19 07:27:46,099 model file: /Users/fragoso/modules/old_emerald/models/emerald.h5
+2021-07-19 07:27:46,792 preprocessing files
+2021-07-19 07:27:46,793 asses input format
+2021-07-19 07:27:46,793 get prodigal file
+2021-07-19 07:27:46,793 get inhouse hmm file
+2021-07-19 07:27:46,793 emerald functional annotation...
+2021-07-19 07:27:46,793 ['hmmscan', '--domtblout', 'CM000950.fna.prodigal.faa.emerald.tsv', '--cut_ga', '--cpu', '1', '/Users/fragoso/modules/old_emerald/models/emerald.hmm', '/Users/fragoso/Downloads/ws/bench/files/comp/CM000950.fna.prodigal.faa']
+2021-07-19 07:31:25,431 
+2021-07-19 07:31:25,432 get interproscan file
+2021-07-19 07:31:25,432 EMERALD process
+2021-07-19 07:31:25,436 transform interpro file
+2021-07-19 07:31:25,467 transform inhouse hmm file
+2021-07-19 07:31:25,467 processing /Users/fragoso/modules/emeraldbgc/emeraldbgc/modules/CM000950.fna.prodigal.faa.emrld/CM000950.fna.prodigal.faa.emerald.tsv
+2021-07-19 07:31:25,468 transform cds file
+2021-07-19 07:31:25,489 transform dicts to np matrices
+2021-07-19 07:31:25,489 Building matrices
+2021-07-19 07:31:25,489 self.samps 7200
+2021-07-19 07:31:25,538 predict bgc regions
+2021-07-19 07:31:25,538 Predict BGC probability w/ TensorFlow
+2021-07-19 07:31:26,531 define clusters
+2021-07-19 07:31:26,531 Define Clusters
+2021-07-19 07:31:26,533 post-processing filters and type classification
+2021-07-19 07:31:26,533 Predict BGC classes
+2021-07-19 07:31:26,533 Pos_class model Thres 0.345
+2021-07-19 07:31:26,901 [0.02 0.38 0.08 0.4  0.07 0.12 0.21 0.24]
+2021-07-19 07:31:26,902 [0.41 0.85 0.88 0.72 0.49 0.45 0.27 0.57]
+2021-07-19 07:31:26,902 [0.03 0.52 0.05 0.05 0.03 0.26 0.44 0.12]
+2021-07-19 07:31:26,902 [0.07 0.48 0.11 0.2  0.42 0.05 0.02 0.17]
+2021-07-19 07:31:26,902 [0.   0.45 0.01 0.   0.4  0.   0.   0.02]
+2021-07-19 07:31:26,903 [0.19 0.83 0.51 0.84 0.5  0.47 0.16 0.5 ]
+2021-07-19 07:31:26,903 [0.06 0.48 0.04 0.07 0.04 0.41 0.43 0.16]
+2021-07-19 07:31:26,903 [0.   0.55 0.2  0.06 0.04 0.01 0.   0.49]
+2021-07-19 07:31:26,904 [0.   0.56 0.01 0.01 0.74 0.01 0.08 0.03]
+2021-07-19 07:31:26,904 [0.11 0.59 0.02 0.09 0.04 0.06 0.28 0.61]
+2021-07-19 07:31:26,904 [0.12 0.9  0.63 0.84 0.02 0.3  0.32 0.64]
+2021-07-19 07:31:26,904 [0.   0.26 0.11 0.05 0.03 0.02 0.   0.38]
+2021-07-19 07:31:26,905 [0.05 0.68 0.06 0.07 0.65 0.03 0.   0.09]
+2021-07-19 07:31:26,905 [0.09 0.65 0.25 0.36 0.04 0.08 0.18 0.4 ]
+2021-07-19 07:31:26,905 [0.1  0.53 0.01 0.09 0.07 0.07 0.2  0.36]
+2021-07-19 07:31:26,906 [0.05 0.71 0.32 0.08 0.11 0.   0.   0.66]
+2021-07-19 07:31:26,906 [0.         1.         0.         0.01       0.16501869 0.
+ 0.97       0.13      ]
+2021-07-19 07:31:26,906 [0.03 0.66 0.02 0.14 0.   0.58 0.   0.01]
+2021-07-19 07:31:26,906 [0.         0.59587136 0.         0.         0.55113073 0.
+ 0.         0.        ]
+2021-07-19 07:31:26,906 [0.      0.82    0.46    0.73    0.00175 0.12    0.24    0.42   ]
+2021-07-19 07:31:26,907 [0.27 0.73 0.7  0.47 0.01 0.2  0.22 0.71]
+2021-07-19 07:31:26,907 [0.06 0.63 0.01 0.1  0.03 0.09 0.01 0.45]
+2021-07-19 07:31:26,907 [0.13 0.43 0.04 0.21 0.14 0.06 0.15 0.37]
+2021-07-19 07:31:26,908 [0.14 0.43 0.11 0.09 0.08 0.02 0.32 0.47]
+2021-07-19 07:31:26,908 [0.48 0.93 0.84 0.96 0.14 0.81 0.34 0.64]
+2021-07-19 07:31:26,908 [0.46 0.94 0.92 0.88 0.11 0.66 0.41 0.65]
+2021-07-19 07:48:24,064 write gff file
+2021-07-19 07:48:24,065 build GFF3
+2021-07-19 07:48:24,065 /Users/fragoso/modules/emeraldbgc/emeraldbgc/modules/CM000950.fna.prodigal.faa.emrld/CM000950.fna.prodigal.faa.emerald.full.gff2
+2021-07-19 07:48:24,080 Writing output to file /Users/fragoso/modules/emeraldbgc/emeraldbgc/modules/CM000950.fna.prodigal.faa.emrld/CM000950.fna.prodigal.faa.emerald.full.gff2

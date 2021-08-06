@@ -34,7 +34,7 @@ def main(args=None):
     parser.add_argument(
         "seq_file",
         type=str,
-        help="nucleotide sequence file. FASTA or GBK. mandatory",
+        help="input nucleotide sequence file. FASTA or GBK. mandatory",
         metavar="SEQUENCE_FILE",
     )
     parser.add_argument(
@@ -42,38 +42,46 @@ def main(args=None):
         "--version",
         action="version",
         help="Show the version number and exit.",
-        version="EMERALD {__version}",
+        version=f"EMERALD {__version__}",
+    )
+    parser.add_argument(
+        "--ip-file",
+        dest="ip_file",
+        default=None,
+        type=str,
+        help="Optional, preprocessed InterProScan GFF3 output file. Requires a GBK file as SEQUENCE_FILE. The GBK must have CDS as features, and \"protein_id\" matching the ids in the InterProScan file",
+        metavar="FILE",
+    )
+    parser.add_argument(
+        "--greed",
+        dest="greed",
+        default=1,
+        type=int,
+        help="Level of greediness. 0,1,2 [default 1]",
+        metavar="INT",
     )
     parser.add_argument(
         "--score",
         dest="score",
         default=None,
         type=float,
-        help="validation filter threshold. Over-rides --greed",
+        help="validation filter threshold. overrides --greed",
         metavar="FLOAT",
-    )
-    parser.add_argument(
-        "--greed",
-        dest="greed",
-        default=2,
-        type=int,
-        help="Level of greediness. 0,1,2,3 [default 2]",
-        metavar="INT",
     )
     parser.add_argument(
         "--meta",
         dest="meta",
-        default=True,
-        type=bool,
+        default="True",
+        type=str,
         help="prodigal option meta [default True]",
-        metavar="BOOL",
+        metavar="True|False",
     )
     parser.add_argument(
         "--outdir",
         default=os.getcwd(),
         dest="outdir",
         type=str,
-        help="output directory [default $PWD]",
+        help="output directory [default $PWD/SEQUENCE_FILE.emerald]",
         metavar="DIRECTORY",
     )
     parser.add_argument(
@@ -86,18 +94,18 @@ def main(args=None):
     parser.add_argument(
         "--minimal",
         dest="minimal_out",
-        default=True,
-        type=bool,
+        default="True",
+        type=str,
         help="minimal output in a gff3 file [default True]",
-        metavar="FILE",
+        metavar="True|False",
     )
     parser.add_argument(
         "--refined",
         dest="ref_b",
-        default=True,
-        type=bool,
-        help="annotate high probability borders [default True]",
-        metavar="FILE",
+        default="False",
+        type=str,
+        help="annotate high probability borders [default False]",
+        metavar="True|False",
     )
     parser.add_argument(
         "--cpu",
@@ -113,7 +121,7 @@ def main(args=None):
     basef = args.seq_file
     base = os.path.basename(basef)
 
-    outdir = os.path.join(args.outdir, f"{base}.emrld")
+    outdir = os.path.join(args.outdir, f"{base}.emerald")
 
     os.makedirs(outdir, exist_ok=True)
 
@@ -133,7 +141,15 @@ def main(args=None):
     log.info(f"outdir: {outdir}")
 
     log.info("preprocessing files")
-    preprocess = Preprocess(os.path.abspath(args.seq_file), args.meta, args.cpu, outdir)
+    preprocess = Preprocess(
+            os.path.abspath(args.seq_file), 
+            args.ip_file, 
+            args.meta, 
+            args.cpu, 
+            outdir
+    )
+   
+
     prodigal_file, ips_file, hmm_file = preprocess.process_sequence()
 
     log.info("EMERALD process")
@@ -145,9 +161,11 @@ def main(args=None):
     log.info("transform inhouse hmm file")
     annotate.transformEmeraldHmm(hmm_file)
 
-    log.info("transform cds file")
-    annotate.transformCDSpredToCDScontigs(prodigal_file, preprocess.fmt)
-
+    log.info("transform proteins file")
+    annotate.transformCDSpredToCDScontigs(
+            prodigal_file if preprocess.fmt == "fna" else args.seq_file,
+            preprocess.fmt)
+    
     log.info("transform dicts to np matrices")
     annotate.buildMatrices()
 
@@ -155,10 +173,11 @@ def main(args=None):
     annotate.predictAnn()
 
     log.info("define clusters")
-    annotate.defineLooseClusters()
+    log.info(f"score: {args.score} greed: {args.greed}")
+    annotate.defineLooseClusters(score=args.score, g=args.greed)
 
     log.info("post-processing filters and type classification")
-    annotate.predictType(score=args.score, g=args.greed)
+    annotate.predictType()
 
     log.info("write output file file")
     outp = Outputs(

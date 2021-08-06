@@ -228,16 +228,17 @@ class AnnotationFilesToEmerald:
             nres.append(func(gg))
         return np.array(nres), np.array(nix)
 
-    def defineLooseClusters(self):
-
+    def defineLooseClusters(self, score, g):
+        
         log.info("Define Clusters")
         self.bridged, self.looseClst, self.borderClst, self.typesClst = {}, {}, {}, {}
+        self.score = _params["greed"][str(g)] if score == None else score
 
         for contig in self.annResults:
             self.looseClst[contig] = np.array(
                 self.rmLessThan(
                     self.fillGap(
-                        np.where(self.annResults[contig] < _params["thBase"], 0, 1),
+                        np.where(self.annResults[contig] < self.score, 0, 1),
                         _params["fill"],
                     ),
                     _params["rmless"],
@@ -273,12 +274,17 @@ class AnnotationFilesToEmerald:
                 newContig.extend(gg)
         return newContig
 
-    def predictType(self, score=None, g=None):
+    def scoreFunc(self, x, b, m):
+        y = b+(m*x)
+        return 0 if y<0 else 1 if y>1 else y
+    
+    def predictType(self):
 
         log.info("Predict BGC classes")
 
-        score = _params["greed"][str(g)] if score == None else score
-        log.info(f"Positive class model threshold: {score}")
+        type_score = self.scoreFunc(self.score, _params["score_b"], _params["score_m"])
+        log.info(f"Positive class model threshold: {type_score}")
+        log.info(f"type:{type_score} score {self.score}")
         locations, matrix, typeLi = [], [], []
         claa = [
             "Alkaloid",
@@ -310,7 +316,7 @@ class AnnotationFilesToEmerald:
 
             contig, gg = locations[ix]
 
-            if not (np.max(p[[0, 1, 2, 3, 4, 5, 6]]) >= score):
+            if not (np.max(p[[0, 1, 2, 3, 4, 5, 6]]) >= type_score):
                 self.looseClst[contig][gg] = 0
                 self.borderClst[contig][gg] = 0
 

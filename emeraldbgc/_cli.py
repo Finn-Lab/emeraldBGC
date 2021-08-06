@@ -55,9 +55,9 @@ def main(args=None):
     parser.add_argument(
         "--greed",
         dest="greed",
-        default=2,
+        default=1,
         type=int,
-        help="Level of greediness. 0,1,2,3 [default 2]",
+        help="Level of greediness. 0,1,2 [default 1]",
         metavar="INT",
     )
     parser.add_argument(
@@ -173,10 +173,11 @@ def main(args=None):
     annotate.predictAnn()
 
     log.info("define clusters")
-    annotate.defineLooseClusters()
+    log.info(f"score: {args.score} greed: {args.greed}")
+    annotate.defineLooseClusters(score=args.score, g=args.greed)
 
     log.info("post-processing filters and type classification")
-    annotate.predictType(score=args.score, g=args.greed)
+    annotate.predictType()
 
     log.info("write output file file")
     outp = Outputs(

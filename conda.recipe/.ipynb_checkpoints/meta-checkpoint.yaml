@@ -43,7 +43,7 @@ requirements:
     - tensorflow =2.4.1
     - hmmer
     - joblib >=1.0.1
-    - scikit-learn =0.24.1
+    - scikit-learn >=0.24.1
     - prodigal
 
 # test:

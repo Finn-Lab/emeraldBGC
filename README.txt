@@ -18,8 +18,8 @@ How to use emeraldBGC?
       install:
         mkdir ~/emeraldbgc/
         curl -o ~/emeraldbgc/emeraldbgc_container.py https://gitlab.ebi.ac.uk/fragoso/emeraldbgc/-/raw/master/docker/emeraldbgc_container.py?inline=false 
-      basic run:
-        ~/emeraldbgc/emeraldbgc_container.py <nucleotide fasta file>
+      basic test:
+        ~/emeraldbgc/emeraldbgc_container.py tests/files/BGC0001472.fna file>
         
 
     Conda:
@@ -31,7 +31,7 @@ How to use emeraldBGC?
         conda create -n emeraldbgc emeraldbgc -c santiagosanchezf
       basic run:
         conda activate emeraldbgc
-        emeraldbgc <nucleotide fasta file>
+        emeraldbgc tests/files/BGC0001472.fna file>
         conda deactivate emerald
 
   OUTPUT:

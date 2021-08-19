@@ -21,6 +21,7 @@ log = logging.getLogger(f"EMERALD.{__name__}")
 
 from distutils.spawn import find_executable
 
+
 class Preprocess:
     """External tools needed for emerald bgc detection"""
 

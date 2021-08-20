@@ -19,7 +19,9 @@ How to use emeraldBGC?
         mkdir ~/emeraldbgc/
         curl -o ~/emeraldbgc/emeraldbgc_container.py https://gitlab.ebi.ac.uk/fragoso/emeraldbgc/-/raw/master/docker/emeraldbgc_container.py?inline=false 
       basic test:
-        ~/emeraldbgc/emeraldbgc_container.py tests/files/BGC0001472.fna file>
+        ~/emeraldbgc/emeraldbgc_container.py test/files/BGC0001472.fna
+      run with interproscan file:
+        ~/emeraldbgc/emeraldbgc_container.py --ip-file test/files/BGC0001472.fna.prodigal.faa.gff3 test/files/BGC0001472.fna.prodigal.faa.gb
         
 
     Conda:
@@ -31,7 +33,11 @@ How to use emeraldBGC?
         conda create -n emeraldbgc emeraldbgc -c santiagosanchezf
       basic run:
         conda activate emeraldbgc
-        emeraldbgc tests/files/BGC0001472.fna file>
+        emeraldbgc test/files/BGC0001472.fna file>
+        conda deactivate emerald
+      run with interproscan file:
+        conda activate emeraldbgc
+        emeraldbgc --ip-file test/files/BGC0001472.fna.prodigal.faa.gff3 test/files/BGC0001472.fna.prodigal.faa.gb
         conda deactivate emerald
 
   OUTPUT:

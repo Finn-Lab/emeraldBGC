@@ -12,9 +12,6 @@ sys.path.append(modules_dir)
 
 from BGCdetection import AnnotationFilesToEmerald
 
-
-
-
 def test_bgc_prediction():
     
     prodigal_file = os.path.join(test_files_dir, "BGC0001472.fna.prodigal.faa")

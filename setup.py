@@ -36,9 +36,8 @@ setup(
     entry_points = {
             'console_scripts': [
                                 'emeraldbgc = emeraldbgc._cli:main',
-#                                'emerald_download_data = emeraldbgc.download_data:main',
+                                'emerald_build_gb = emeraldbgc.build_gb:main',
                                 ]
     },
     packages = find_packages(exclude=('tests', 'docs')),
-#    exclude_package_data={"emeraldbgc": ["interproscan"]},
 )

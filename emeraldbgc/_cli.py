@@ -49,7 +49,7 @@ def main(args=None):
         dest="ip_file",
         default=None,
         type=str,
-        help="Optional, preprocessed InterProScan GFF3 output file. Requires a GBK file as SEQUENCE_FILE. The GBK must have CDS as features, and \"protein_id\" matching the ids in the InterProScan file",
+        help="Optional, preprocessed InterProScan GFF3 output file. Requires a GBK file as SEQUENCE_FILE. The GBK must have CDS as features, and \"protein_id\" matching the ids in the InterProScan file. The GBK file can be build with emerald_build_gb tool",
         metavar="FILE",
     )
     parser.add_argument(

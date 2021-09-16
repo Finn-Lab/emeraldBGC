@@ -17,12 +17,11 @@ How to use emeraldBGC?
         Python
       get a copy:
         mkdir ~/emeraldbgc/
-        curl -o ~/emeraldbgc/emeraldbgc_container.py https://gitlab.ebi.ac.uk/fragoso/emeraldbgc/-/raw/master/docker/emeraldbgc_container.py?inline=false 
+        curl -o ~/emeraldbgc/emeraldbgc_container.py https://github.com/Finn-Lab/emeraldBGC/-/raw/master/docker/emeraldbgc_container.py?inline=false 
       basic test:
         ~/emeraldbgc/emeraldbgc_container.py test/files/BGC0001472.fna
       run with interproscan file:
         ~/emeraldbgc/emeraldbgc_container.py --ip-file test/files/BGC0001472.fna.prodigal.faa.gff3 test/files/BGC0001472.fna.prodigal.faa.gb
-        
 
     Conda:
 

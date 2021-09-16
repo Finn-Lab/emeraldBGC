@@ -15,12 +15,12 @@ import logging
 import os
 import sys
 import subprocess
+from Bio import SeqIO
 
 from emeraldbgc import _params
 log = logging.getLogger(f"EMERALD.{__name__}")
 
 from distutils.spawn import find_executable
-
 
 class Preprocess:
     """External tools needed for emerald bgc detection"""
@@ -116,30 +116,29 @@ class Preprocess:
 
     def check_fmt(self):
         """ Evaluate if input format is FNA or GBK"""
-        with open(self.seq_file) as h:
-            if h.readline()[0] == ">":
-                self.fmt = "fna"
-                log.info("FASTA sequence file detected")
-            else:
-                self.fmt = "gbk"
-                log.info(f"FASTA sequence file NOT detected; trying GBK")
+        for fmt in ["fasta","genbank"]:
+            seqFile = SeqIO.parse(open(self.seq_file),fmt)
+            if any(seqFile):
+                self.fmt = fmt
+                log.info(f"{fmt} sequence file detected")
+                return
+        log.exception(f"sequence file {self.seq_file} not in fasta or genbank format")
+        raise SystemExit(f"sequence file {self.seq_file} not in fasta or genbank format")
+
 
     def process_sequence(self):
         """ CDS prediction on sequence file"""
-        if 'linux' not in sys.platform and self.ip_file == None:
-            log.info("internal run of InterProScan only available for Linux OS. Make sure to use --ip-file option")
-            raise ValueError('Non Linux OS must be run with --ip-file option')
 
         self.check_fmt()
-        if self.fmt == "fna":
+        if self.fmt == "fasta":
             self.outFaa = self.runProdigal()
-        elif self.fmt == "gbk":
+        elif self.fmt == "genbank":
             self.outFaa = self.gbkToProdigal()
         else:
             log.info("missing sequence file format")
 
-        ih_f = self.runHmmScan()
         ip_f = self.runInterproscan() if self.ip_file == None else self.ip_file
+        ih_f = self.runHmmScan()
         return self.outFaa, ip_f, ih_f
 
     def runHmmScan(self):
@@ -187,7 +186,14 @@ class Preprocess:
         log.info("InterProScan")
 
         if not find_executable('interproscan.sh'):
+            print("\nInterProScan (IPS) executable interproscan.sh could not be found\n")
+            print("If IPS is not installed. Make sure to run emeraldbgc with --ip-file option\n")
+            print("Alternatively:")
+            print("    Activate emeraldbgc environment")
+            print("    get a full copy of IPS https://interproscan-docs.readthedocs.io/en/latest/InstallationRequirements.html and be sure to have interproscan.sh in PATH\n")
+            print("    Or use the docker script found in the emeraldbgc repository\t")
             log.exception(f"interproscan.sh not found, only available for Linux OS")
+            raise SystemExit('interproscan.sh not found')
 
         if not os.path.isfile(self.outFaa):
             log.exception(f"self.outFaa file not found")
@@ -195,6 +201,8 @@ class Preprocess:
         outGff = os.path.join(
             self.outdir, "{}.ip.tsv".format(os.path.basename(self.outFaa))
         )
+        os.environ['LD_LIBRARY_PATH'] = os.path.join(os.environ["CONDA_PREFIX"], "lib")
+        os.environ["PERL5LIB"] = ""
         cmd = (
             ["interproscan.sh", "-i", self.outFaa, "-o", outGff, "-f", "TSV"]
             + (["-appl", ",".join(_params["ip_an"])] if _params["ip_an"] else [])

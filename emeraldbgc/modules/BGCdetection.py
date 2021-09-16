@@ -94,7 +94,7 @@ class AnnotationFilesToEmerald:
 
         with open(cdsPredFile, "r") as h:
 
-            if f == "fna":
+            if f == "fasta":
 
                 for l in h:
 
@@ -108,7 +108,7 @@ class AnnotationFilesToEmerald:
                         "_".join(spl[0].split("_")[:-1])[1:], []
                     ).append((spl[0][1:], (start, end)))
 
-            elif f == "gbk":
+            elif f == "genbank":
 
                 from Bio import SeqIO
 
@@ -129,6 +129,8 @@ class AnnotationFilesToEmerald:
                                     (start, end),
                                 )
                             )
+        print("TESTT")
+        print(self.contigsDct)
 
     def buildMatrices(self):
 

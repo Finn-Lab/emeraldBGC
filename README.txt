@@ -15,7 +15,7 @@ How to use emeraldBGC?
       requires:
         Docker
         Python
-      install:
+      get a copy:
         mkdir ~/emeraldbgc/
         curl -o ~/emeraldbgc/emeraldbgc_container.py https://gitlab.ebi.ac.uk/fragoso/emeraldbgc/-/raw/master/docker/emeraldbgc_container.py?inline=false 
       basic test:
@@ -27,13 +27,16 @@ How to use emeraldBGC?
     Conda:
 
       requires: 
-        Linux OS/Unix-like (Non Linux OS can't run InterProScan. InterProScan output must be provided in TSV or GFF3 format sing "--ip-file" and a GBK as SEQUENCE)
+        Linux OS/Unix-like
+        InterProScan : 
+            https://interproscan-docs.readthedocs.io/en/latest/InstallationRequirements.html 
+            Non Linux OS can't run InterProScan. InterProScan output must be provided in TSV or GFF3 format sing "--ip-file" and a GBK as SEQUENCE
         Bioconda : https://bioconda.github.io/user/install.html
       install:
         conda create -n emeraldbgc emeraldbgc -c santiagosanchezf
       basic run:
         conda activate emeraldbgc
-        emeraldbgc test/files/BGC0001472.fna file>
+        emeraldbgc test/files/BGC0001472.fna
         conda deactivate emerald
       run with interproscan file:
         conda activate emeraldbgc

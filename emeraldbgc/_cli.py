@@ -163,7 +163,7 @@ def main(args=None):
 
     log.info("transform proteins file")
     annotate.transformCDSpredToCDScontigs(
-            prodigal_file if preprocess.fmt == "fna" else args.seq_file,
+            prodigal_file if preprocess.fmt == "fasta" else args.seq_file,
             preprocess.fmt)
     
     log.info("transform dicts to np matrices")

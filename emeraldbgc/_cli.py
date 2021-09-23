@@ -18,6 +18,7 @@ import glob
 import logging
 import os
 import sys
+import warnings
 
 from emeraldbgc import __version__
 
@@ -130,6 +131,7 @@ def main(args=None):
         level=logging.DEBUG,
         format="%(asctime)s %(levelname)s %(name)s %(message)s",
     )
+    logging.captureWarnings(True)
     print(f"LOG_FILE: {outdir}/emerald.log")
     log = logging.getLogger("EMERALD")
     log.info(

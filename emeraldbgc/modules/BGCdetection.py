@@ -19,6 +19,8 @@ import pickle
 from itertools import groupby
 
 import numpy as np
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 import tensorflow as tf
 from joblib import load
 
@@ -129,8 +131,6 @@ class AnnotationFilesToEmerald:
                                     (start, end),
                                 )
                             )
-        print("TESTT")
-        print(self.contigsDct)
 
     def buildMatrices(self):
 

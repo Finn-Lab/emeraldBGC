@@ -32,7 +32,7 @@ How to use emeraldBGC?
             Non Linux OS can't run InterProScan. InterProScan output must be provided in TSV or GFF3 format sing "--ip-file" and a GBK as SEQUENCE
         Bioconda : https://bioconda.github.io/user/install.html
       install:
-        conda create -n emeraldbgc emeraldbgc -c santiagosanchezf
+        conda create -n emeraldbgc emeraldbgc
       basic run:
         conda activate emeraldbgc
         emeraldbgc test/files/BGC0001472.fna

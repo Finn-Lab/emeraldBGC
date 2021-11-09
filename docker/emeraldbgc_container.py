@@ -125,11 +125,13 @@ def main(args=None):
             "run",
             "--rm",
             "-v",
+            "{}/data:/opt/interproscan/:ro".format( os.path.abspath( os.path.dirname(sys.argv[0]) ) ),
+            "-v",
             "{}:/home/in/:ro".format( os.path.abspath( os.path.dirname(args.seq_file) ) ),
             "-v",
             "{}:/home/out/:rw".format( os.path.abspath( args.outdir ) ),
     ] + ip_file_cmd + [
-            "santiagosanchezf/emeraldbgc:latest",
+            "santiagosanchezf/emeraldbgc:ips_nodata",
     ] + args_ + [ "--outdir", "/home/out/" ,"/home/in/{}".format( os.path.basename(args.seq_file) ) ]  
 
     if not find_executable("docker"):

@@ -1,7 +1,7 @@
 # emeraldBGC container
 
 #### Get InterProsScan data:
-##### The size of download file is ~ 24G, the final directory is 12G. Be sure to have enough space
+##### The size of download file is ~ 24G, the final directory is 16G. Be sure to have enough space
 ```bash
 $ bash ./get_ips_slim.sh
 ```

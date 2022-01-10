@@ -27,11 +27,12 @@ $ singularity build emeraldbgc.sif docker://santiagosanchezf/emeraldbgc:ips_noda
 ```
 ##### Start container shell
 ```bash
-$ singularity exec --bind $PWD:/home:rw --bind <path to emeraldBGC/docker>/data:/opt/interproscan/data emeraldbgc.sif 
+$ singularity shell --bind $PWD:/home:rw --bind <path to emeraldBGC/docker>/data:/opt/interproscan/data emeraldbgc.sif 
 ```
 ##### Inside container shell
 ```bash
 $ source ~/.bashrc
+$ export CONDA_EXE=/opt/conda/bin/conda
 $ conda activate bgc
 $ export PATH=/opt/interproscan/:$PATH
 $ emeraldbgc --help

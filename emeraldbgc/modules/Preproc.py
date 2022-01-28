@@ -102,7 +102,7 @@ class Preprocess:
                     if f.type == "CDS" and "translation" in f.qualifiers:
                         ct += 1
                         pid = (
-                            f.qualifiers["protein_id"][0]
+                            f.qualifiers["protein_id"][0].replace(" ","")
                             if "protein_id" in f.qualifiers
                             else f.qualifiers["locus_tag"][0]
                         )

@@ -15,26 +15,7 @@ $ emeraldbgc_container.py [OPTIONS] ARGUMENTS
 
 #### Docker image shell:
 ```bash
-$ docker -it --entrypoint bash -v <path to emeraldBGC/docker>/data/:/opt/interproscan docker://santiagosanchezf/emeraldbgc:ips_nodata
-$ emeraldbgc --help
-$ emeraldbgc [OPTIONS] ARGUMENTS
-```
-
-#### Singularity image shell:
-##### Get a copy of emeraldbgc container:
-```bash
-$ singularity build emeraldbgc.sif docker://santiagosanchezf/emeraldbgc:ips_nodata
-```
-##### Start container shell
-```bash
-$ singularity shell --bind $PWD:/home:rw --bind <path to emeraldBGC/docker>/data:/opt/interproscan/data emeraldbgc.sif 
-```
-##### Inside container shell
-```bash
-$ source ~/.bashrc
-$ export CONDA_EXE=/opt/conda/bin/conda
-$ conda activate bgc
-$ export PATH=/opt/interproscan/:$PATH
+$ docker -it --entrypoint bash -v <path to emeraldBGC/docker>/data/:/opt/interproscan quay.io/repository/microbiome-informatics/emerald-bgc
 $ emeraldbgc --help
 $ emeraldbgc [OPTIONS] ARGUMENTS
 ```

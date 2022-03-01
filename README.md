@@ -6,29 +6,6 @@ emeraldBGC - SMBGC detection tool -
 
 ## How to use emeraldBGC?
 
-###  Docker:
-
-Requires:
-* Docker
-* Python 3
-
-#### Get a copy:
-```bash
-$ mkdir ~/emeraldbgc/
-$ curl -o ~/emeraldbgc/emeraldbgc_container.py https://github.com/Finn-Lab/emeraldBGC/-/raw/master/docker/emeraldbgc_container.py?inline=false 
-```
-
-#### Basic tests
-
-```bash
-$ python ~/emeraldbgc/emeraldbgc_container.py test/files/BGC0001472.fna
-```
-
-Run with an interproscan file:
-```bash
-$ ~/emeraldbgc/emeraldbgc_container.py --ip-file test/files/BGC0001472.fna.prodigal.faa.gff3 test/files/BGC0001472.fna.prodigal.faa.gb
-```
-
 ### Conda
 
 Requires:
@@ -59,6 +36,29 @@ $ conda activate emeraldbgc
 $ emeraldbgc --ip-file test/files/BGC0001472.fna.prodigal.faa.$ gff3 test/files/BGC0001472.fna.prodigal.faa.gb
 $ conda deactivate emerald
 ```
+
+###  Docker:
+
+#### Get InterProsScan data:
+##### The size of download file is ~ 24G, the final directory is 16G. Be sure to have enough space
+```bash
+$ bash ./get_ips_slim.sh
+```
+
+#### Docker ready to use script:
+##### Only works if "data/" and emeraldbgc_container.py are in the same directory
+```bash
+$ emeraldbgc_container.py --help
+$ emeraldbgc_container.py [OPTIONS] ARGUMENTS
+```
+
+#### Docker image shell:
+```bash
+$ docker -it --entrypoint bash -v <path to emeraldBGC/docker>/data/:/opt/interproscan quay.io/repository/microbiome-informatics/emerald-bgc
+$ emeraldbgc --help
+$ emeraldbgc [OPTIONS] ARGUMENTS
+```
+
 
 ## Ouput
 

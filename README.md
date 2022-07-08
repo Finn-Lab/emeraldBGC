@@ -10,7 +10,7 @@ emeraldBGC - SMBGC detection tool -
 
 Requires:
 * Linux OS/Unix-like
-* InterProScan : 
+* InterProScan > 5.52-86.0: 
   - https://interproscan-docs.readthedocs.io/en/latest/InstallationRequirements.html 
       Non Linux OS can't run InterProScan. InterProScan output must be provided in TSV or GFF3 format sing "--ip-file" and a GBK as SEQUENCE
 * Bioconda: https://bioconda.github.io/user/install.html

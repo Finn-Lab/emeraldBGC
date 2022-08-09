@@ -64,7 +64,7 @@ class AnnotationFilesToEmerald:
 
                     spl = l.split("\t")
                     self.entriesDct.setdefault(spl[0], []).append(
-                        spl[-2] if spl[-2] != '-' else spl[4]
+                        spl[11] if spl[11] != '-' else spl[4]
                     )
                 if fmt == "gff":
                     spl = l.split("\t")

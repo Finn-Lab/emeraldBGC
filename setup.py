@@ -23,7 +23,7 @@ setup(
     licence = _info.get('licence'),
     url = _info['url'],
     long_description = readme,
-    python_requires = ">=3.7",
+    python_requires = ">=3.9",
     include_package_data = True,
     package_data={'emeraldbgc': [
                             'models/hmm_lib/*',

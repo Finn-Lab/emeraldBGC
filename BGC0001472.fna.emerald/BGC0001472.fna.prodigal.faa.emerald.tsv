@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /Users/fragoso/Work/emeraldBGC/BGC0001472.fna.emerald/BGC0001472.fna.prodigal.faa
+# Target file:     /Users/fragoso/Work/emeraldBGC/emeraldbgc/modules/../models/hmm_lib/emerald.hmm
+# Option settings: hmmscan --domtblout /Users/fragoso/Work/emeraldBGC/BGC0001472.fna.emerald/BGC0001472.fna.prodigal.faa.emerald.tsv --cut_ga --cpu 1 /Users/fragoso/Work/emeraldBGC/emeraldbgc/modules/../models/hmm_lib/emerald.hmm /Users/fragoso/Work/emeraldBGC/BGC0001472.fna.emerald/BGC0001472.fna.prodigal.faa 
+# Current dir:     /Users/fragoso/Work/emeraldBGC
+# Date:            Fri Aug 12 09:30:50 2022
+# [ok]

@@ -1,0 +1,1 @@
+{"tool": {"name": "EMERALD", "version": "0.2.4", "description": "SMBGC detection tool: https://github.com/Finn-Lab/emeraldBGC", "configuration": {"greediness": 1, "meta": "True"}}, "records": [{"name": "BGC0001472", "subregions": [{"start": 312, "end": 19485, "label": "BGC0001472_emrld_1", "deteils": {"score": "0.900", "class": "RiPP"}}]}]}

@@ -1,6 +1,6 @@
 {
     "name": "emeraldbgc",
-    "version": "0.2.4",
+    "version": "0.2.4.1",
     "description": "SMBGC detection tool",
     "author": "Santiago Sanchez Fragoso",
     "author_email": "fragoso@ebi.ac.uk",

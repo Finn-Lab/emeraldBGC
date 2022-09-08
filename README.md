@@ -67,7 +67,7 @@ $ emeraldbgc [OPTIONS] ARGUMENTS
 
   The fields in this header are as follows:
 
-    seqname: SeqID for sequence, as in prodigal output.
+    seqname: SeqID of contig, as in prodigal output.
     source: emeraldbgc version.
     feature: Feature type name, i.e. CLUSTER, CLUSTER_border, CDS.
     start: Start position of feature

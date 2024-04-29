@@ -1,6 +1,8 @@
 [![Docker Repository on Quay](https://quay.io/repository/microbiome-informatics/emerald-bgc/status "Docker Repository on Quay")](https://quay.io/repository/microbiome-informatics/emerald-bgc)
 
-# emeraldBGC
+# emeraldBGC (Deprecated)
+
+**Notice: This project has been deprecated and is no longer being maintained. All ongoing and future development has been moved to [SanntiS](https://github.com/Finn-Lab/SanntiS).**
 
 emeraldBGC - SMBGC detection tool -
 
